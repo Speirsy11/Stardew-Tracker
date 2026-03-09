@@ -61,7 +61,7 @@ export function CalendarView({ events }: CalendarViewProps) {
       : upcoming
 
     return wrapped.slice(0, 3)
-  }, [events, currentSeason, currentDay, filter, seasonIndex])
+  }, [events, currentDay, filter, seasonIndex])
 
   const colors = SEASON_COLORS[currentSeason]
 

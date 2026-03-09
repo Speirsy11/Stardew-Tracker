@@ -1,8 +1,7 @@
 import { NextAuthOptions } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import GithubProvider from 'next-auth/providers/github'
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const bcrypt = require('bcryptjs')
+import bcrypt from 'bcryptjs'
 import { prisma } from '@stardew/db'
 
 export const authOptions: NextAuthOptions = {

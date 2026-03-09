@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server'
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const bcrypt = require('bcryptjs')
+import bcrypt from 'bcryptjs'
 import { prisma } from '@stardew/db'
 
 export async function POST(req: Request) {

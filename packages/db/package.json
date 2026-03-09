@@ -4,6 +4,8 @@
   "private": true,
   "main": "./src/index.ts",
   "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src prisma/seed.ts",
     "db:migrate": "prisma migrate dev",
     "db:seed": "tsx prisma/seed.ts",
     "db:reset": "prisma migrate reset --force && tsx prisma/seed.ts",
@@ -16,6 +18,10 @@
     "@prisma/client": "^6.2.1"
   },
   "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "eslint": "^9.17.0",
     "prisma": "^6.2.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
