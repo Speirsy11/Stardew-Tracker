@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Abigail",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 13,
+    "isRomanceable": true,
+    "description": "A rebellious girl who loves adventure and the supernatural.",
+    "imageSlug": "abigail",
+    "lovedGifts": ["Amethyst", "Blackberry Cobbler", "Chocolate Cake", "Pufferfish", "Pumpkin", "Spicy Eel"],
+    "likedGifts": ["Quartz", "Wild Plum"],
+    "neutralGifts": ["Salmonberry"],
+    "dislikedGifts": ["Holly"],
+    "hatedGifts": ["Sugar", "Wheat Flour", "Pickle"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Chocolate Cake recipe" },
+      { "hearts": 4, "reward": "Fried Calamari recipe" },
+      { "hearts": 6, "reward": "Cutlass (sword) gifted" },
+      { "hearts": 8, "reward": "Two-course meal of rice" },
+      { "hearts": 10, "reward": "Magic Rock Candy" }
+    ]
+  },
+  {
+    "name": "Alex",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 13,
+    "isRomanceable": true,
+    "description": "A jock-type who dreams of becoming a professional athlete.",
+    "imageSlug": "alex",
+    "lovedGifts": ["Complete Breakfast", "Salmon Dinner"],
+    "likedGifts": ["Egg", "Fiddlehead Fern", "Fried Egg"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": ["Duck Mayonnaise", "Rabbit's Foot", "Strange Bun"],
+    "hatedGifts": ["Quiche"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Fried Egg recipe" },
+      { "hearts": 4, "reward": "Recipe: Omelet" },
+      { "hearts": 6, "reward": "Workout clothes to wear" },
+      { "hearts": 8, "reward": "Griddle (recipe)" },
+      { "hearts": 10, "reward": "Complete Breakfast recipe" }
+    ]
+  },
+  {
+    "name": "Caroline",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 7,
+    "isRomanceable": false,
+    "description": "Pierre's wife, who tends the town's flower garden.",
+    "imageSlug": "caroline",
+    "lovedGifts": ["Summer Spangle", "Fish Taco", "Green Tea"],
+    "likedGifts": ["Daffodil", "Sugar", "Cranberry Sauce", "Parsnip"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Eggplant Parmesan recipe" },
+      { "hearts": 4, "reward": "Tea Sapling (recipe) via special event" },
+      { "hearts": 6, "reward": "Recipe: Green Tea" },
+      { "hearts": 8, "reward": "Vegetable Medley recipe" },
+      { "hearts": 10, "reward": "Cranberry Candy recipe" }
+    ]
+  },
+  {
+    "name": "Clint",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 26,
+    "isRomanceable": false,
+    "description": "The town's blacksmith, a shy and awkward man.",
+    "imageSlug": "clint",
+    "lovedGifts": ["Amethyst", "Aquamarine", "Artichoke Dip", "Emerald", "Fiddlehead Risotto", "Gold Bar", "Iridium Bar", "Jade", "Omni Geode", "Ruby", "Topaz"],
+    "likedGifts": ["Copper Bar", "Earth Crystal", "Frozen Tear", "Gold Bar", "Iron Bar"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Holly"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Omelet recipe" },
+      { "hearts": 4, "reward": "Copper Pan (special event)" },
+      { "hearts": 6, "reward": "Gold Bar x5" },
+      { "hearts": 8, "reward": "Artichoke Dip recipe" },
+      { "hearts": 10, "reward": "Fiddlehead Risotto recipe" }
+    ]
+  },
+  {
+    "name": "Demetrius",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 19,
+    "isRomanceable": false,
+    "description": "The town scientist and Robin's husband.",
+    "imageSlug": "demetrius",
+    "lovedGifts": ["Bean Hotpot", "Ice Cream", "Rice Pudding", "Strawberry"],
+    "likedGifts": ["Blueberry", "Egg", "Melon", "Tomato", "Wheat Flour"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Ice Cream recipe" },
+      { "hearts": 4, "reward": "Greenhouse mushroom farm (cave choice event)" },
+      { "hearts": 6, "reward": "Bean Hotpot recipe" },
+      { "hearts": 8, "reward": "Research upgrade" },
+      { "hearts": 10, "reward": "Rice Pudding recipe" }
+    ]
+  },
+  {
+    "name": "Elliott",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 5,
+    "isRomanceable": true,
+    "description": "A romantic author who lives alone on the beach.",
+    "imageSlug": "elliott",
+    "lovedGifts": ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Tom Kha Soup"],
+    "likedGifts": ["Artichoke Dip", "Coral", "Dried Sunflowers", "Squid Ink"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Tom Kha Soup recipe" },
+      { "hearts": 4, "reward": "Letter and book reading event" },
+      { "hearts": 6, "reward": "Crab Cakes recipe" },
+      { "hearts": 8, "reward": "Special gift" },
+      { "hearts": 10, "reward": "Duck Feather gift" }
+    ]
+  },
+  {
+    "name": "Emily",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 27,
+    "isRomanceable": true,
+    "description": "A free-spirited tailor who works at the saloon.",
+    "imageSlug": "emily",
+    "lovedGifts": ["Amethyst", "Aquamarine", "Cloth", "Emerald", "Jade", "Ruby", "Survival Burger", "Topaz", "Wool"],
+    "likedGifts": ["Daffodil", "Duck Feather", "Leek", "Quartz", "Sugar", "Wool"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Survival Burger recipe" },
+      { "hearts": 4, "reward": "Cloth (dream sewing event)" },
+      { "hearts": 6, "reward": "Custom shirt tailoring" },
+      { "hearts": 8, "reward": "Marnie's recipe shared" },
+      { "hearts": 10, "reward": "Enchanted Book" }
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 20,
+    "isRomanceable": false,
+    "description": "George's wife; a kind, elderly woman who loves baking.",
+    "imageSlug": "evelyn",
+    "lovedGifts": ["Beet", "Chocolate Cake", "Diamond", "Fairy Rose", "Stuffing", "Tulip"],
+    "likedGifts": ["Amaranth", "Artichoke", "Bok Choy", "Cauliflower", "Daffodil", "Pumpkin", "Salmonberry"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Cookie recipe" },
+      { "hearts": 4, "reward": "Cookies (baked together event)" },
+      { "hearts": 6, "reward": "Grange Display tip" },
+      { "hearts": 8, "reward": "Special garden event" },
+      { "hearts": 10, "reward": "Beet seeds gift" }
+    ]
+  },
+  {
+    "name": "George",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 24,
+    "isRomanceable": false,
+    "description": "A grumpy elderly man bound to a wheelchair.",
+    "imageSlug": "george",
+    "lovedGifts": ["Fried Mushroom", "Leek"],
+    "likedGifts": ["Daffodil", "Dandelion", "Earth Crystal", "Gold Bar", "Holly"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Fried Mushroom recipe" },
+      { "hearts": 4, "reward": "TV show watch event" },
+      { "hearts": 6, "reward": "Hashbrowns recipe" },
+      { "hearts": 8, "reward": "Special care event" },
+      { "hearts": 10, "reward": "Extra large lunch box" }
+    ]
+  },
+  {
+    "name": "Gus",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 8,
+    "isRomanceable": false,
+    "description": "The jolly owner of the Stardrop Saloon.",
+    "imageSlug": "gus",
+    "lovedGifts": ["Diamond", "Escargot", "Fish Taco", "Orange", "Tropical Curry"],
+    "likedGifts": ["Daffodil", "Leek", "Mushroom", "Parsnip", "Truffle"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Spaghetti recipe" },
+      { "hearts": 4, "reward": "Saloon discount (special event)" },
+      { "hearts": 6, "reward": "Escargot recipe" },
+      { "hearts": 8, "reward": "Tropical Curry recipe" },
+      { "hearts": 10, "reward": "Diamond" }
+    ]
+  },
+  {
+    "name": "Haley",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 14,
+    "isRomanceable": true,
+    "description": "A popular, fashionable girl who can seem shallow at first.",
+    "imageSlug": "haley",
+    "lovedGifts": ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
+    "likedGifts": ["Daffodil"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": ["Leek", "Dandelion"],
+    "hatedGifts": ["Onion"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Pink Cake recipe" },
+      { "hearts": 4, "reward": "Fruit Salad recipe" },
+      { "hearts": 6, "reward": "Photo album event" },
+      { "hearts": 8, "reward": "Haley's gift" },
+      { "hearts": 10, "reward": "Coconut basket" }
+    ]
+  },
+  {
+    "name": "Harvey",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 14,
+    "isRomanceable": true,
+    "description": "The town's doctor; kind and a bit anxious.",
+    "imageSlug": "harvey",
+    "lovedGifts": ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
+    "likedGifts": ["Daffodil", "Duck Feather", "Leek", "Maple Syrup", "Radish", "Truffle"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Stuffing recipe" },
+      { "hearts": 4, "reward": "Super Meal recipe" },
+      { "hearts": 6, "reward": "Plane event (helicopter ride)" },
+      { "hearts": 8, "reward": "Truffle Oil recipe" },
+      { "hearts": 10, "reward": "Pickles gift" }
+    ]
+  },
+  {
+    "name": "Jas",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 4,
+    "isRomanceable": false,
+    "description": "A quiet, curious little girl who lives with Shane and Marnie.",
+    "imageSlug": "jas",
+    "lovedGifts": ["Ancient Doll", "Fairy Rose", "Pink Cake", "Plum Pudding"],
+    "likedGifts": ["Blueberry", "Coconut", "Fruit Salad", "Grape", "Salmonberry"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Plum Pudding recipe" },
+      { "hearts": 4, "reward": "Special childhood story" },
+      { "hearts": 6, "reward": "Ancient Doll" },
+      { "hearts": 8, "reward": "Fairy Rose seeds" },
+      { "hearts": 10, "reward": "Pink Cake" }
+    ]
+  },
+  {
+    "name": "Jodi",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 11,
+    "isRomanceable": false,
+    "description": "Sam and Vincent's mother; a devoted homemaker.",
+    "imageSlug": "jodi",
+    "lovedGifts": ["Chocolate Cake", "Crispy Bass", "Diamond", "Eggplant Parmesan", "Fried Eel", "Pancakes", "Rhubarb Pie", "Vegetable Medley"],
+    "likedGifts": ["Daffodil", "Dandelion", "Leek", "Parsnip"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Holly"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Crispy Bass recipe" },
+      { "hearts": 4, "reward": "Pancakes recipe" },
+      { "hearts": 6, "reward": "Eggplant Parmesan recipe" },
+      { "hearts": 8, "reward": "Family dinner event" },
+      { "hearts": 10, "reward": "Rhubarb Pie recipe" }
+    ]
+  },
+  {
+    "name": "Kent",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 4,
+    "isRomanceable": false,
+    "description": "Jodi's husband and Sam's dad, a veteran soldier.",
+    "imageSlug": "kent",
+    "lovedGifts": ["Fiddlehead Risotto", "Roasted Hazelnuts"],
+    "likedGifts": ["Artichoke Dip", "Bean Hotpot", "Daffodil", "Salmonberry"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Strange Bun"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Fiddlehead Risotto recipe" },
+      { "hearts": 4, "reward": "Stir Fry recipe" },
+      { "hearts": 6, "reward": "War story event" },
+      { "hearts": 8, "reward": "Roasted Hazelnuts" },
+      { "hearts": 10, "reward": "Survival Burger recipe" }
+    ]
+  },
+  {
+    "name": "Leah",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 23,
+    "isRomanceable": true,
+    "description": "An artist living alone in a small cabin near town.",
+    "imageSlug": "leah",
+    "lovedGifts": ["Goat Cheese", "Poppyseed Muffin", "Salad", "Stir Fry", "Truffle", "Vegetable Medley", "Wine"],
+    "likedGifts": ["Daffodil", "Dandelion", "Leek", "Parsley", "Yam"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Salad recipe" },
+      { "hearts": 4, "reward": "Art show event" },
+      { "hearts": 6, "reward": "Stir Fry recipe" },
+      { "hearts": 8, "reward": "Poppyseed Muffin recipe" },
+      { "hearts": 10, "reward": "Vegetable Medley recipe" }
+    ]
+  },
+  {
+    "name": "Linus",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 3,
+    "isRomanceable": false,
+    "description": "A peaceful man who lives alone in a tent on the mountain.",
+    "imageSlug": "linus",
+    "lovedGifts": ["Blueberry Tart", "Cactus Fruit", "Coconut", "Dish O' The Sea", "Yam"],
+    "likedGifts": ["Chanterelle", "Common Mushroom", "Daffodil", "Hazelnut", "Holly", "Leek", "Morel", "Purple Mushroom", "Red Mushroom", "Salmonberry", "Winter Root"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Bait (fishing recipe)" },
+      { "hearts": 4, "reward": "Backpack upgrade (special event)" },
+      { "hearts": 6, "reward": "Dish O' The Sea recipe" },
+      { "hearts": 8, "reward": "Blueberry Tart recipe" },
+      { "hearts": 10, "reward": "Survival Guide book" }
+    ]
+  },
+  {
+    "name": "Marnie",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 18,
+    "isRomanceable": false,
+    "description": "The kind-hearted owner of Marnie's Ranch.",
+    "imageSlug": "marnie",
+    "lovedGifts": ["Diamond", "Farmer's Lunch", "Gift Basket", "Pink Cake", "Pumpkin Pie"],
+    "likedGifts": ["Daffodil", "Gold Bar"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Farmer's Lunch recipe" },
+      { "hearts": 4, "reward": "Pumpkin Pie recipe" },
+      { "hearts": 6, "reward": "Wallpaper gift" },
+      { "hearts": 8, "reward": "Coopmaster profession offer" },
+      { "hearts": 10, "reward": "Diamond" }
+    ]
+  },
+  {
+    "name": "Maru",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 10,
+    "isRomanceable": true,
+    "description": "A brilliant young inventor and scientist.",
+    "imageSlug": "maru",
+    "lovedGifts": ["Battery Pack", "Cauliflower", "Cheese Cauliflower", "Diamond", "Gold Bar", "Iridium Bar", "Miner's Treat", "Pepper Poppers", "Radioactive Bar", "Strawberry"],
+    "likedGifts": ["Daffodil", "Duck Feather", "Fire Quartz", "Frozen Tear"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Holly"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Cauliflower recipe" },
+      { "hearts": 4, "reward": "Maru's invention event" },
+      { "hearts": 6, "reward": "Pepper Poppers recipe" },
+      { "hearts": 8, "reward": "Cheese Cauliflower recipe" },
+      { "hearts": 10, "reward": "Iridium Bar" }
+    ]
+  },
+  {
+    "name": "Pam",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 18,
+    "isRomanceable": false,
+    "description": "Penny's mother; a rough-around-the-edges bus driver.",
+    "imageSlug": "pam",
+    "lovedGifts": ["Beer", "Cactus Fruit", "Glazed Yams", "Mead", "Pale Ale", "Parsnip", "Parsnip Soup"],
+    "likedGifts": ["Daffodil", "Dandelion", "Salmonberry"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Holly"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Parsnip Soup recipe" },
+      { "hearts": 4, "reward": "Bus service restored (special event)" },
+      { "hearts": 6, "reward": "Glazed Yams recipe" },
+      { "hearts": 8, "reward": "Cactus Fruit" },
+      { "hearts": 10, "reward": "Pale Ale" }
+    ]
+  },
+  {
+    "name": "Penny",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 2,
+    "isRomanceable": true,
+    "description": "A kind and studious girl who homeschools the village children.",
+    "imageSlug": "penny",
+    "lovedGifts": ["Diamond", "Emerald", "Melon", "Poppy", "Poppyseed Muffin", "Red Plate", "Roots Platter", "Sandfish", "Tom Kha Soup"],
+    "likedGifts": ["Daffodil", "Dandelion", "Leek"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Beer", "Mead", "Pale Ale", "Wine"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Tom Kha Soup recipe" },
+      { "hearts": 4, "reward": "Roots Platter recipe" },
+      { "hearts": 6, "reward": "Red Plate recipe" },
+      { "hearts": 8, "reward": "Poppyseed Muffin recipe" },
+      { "hearts": 10, "reward": "Emerald" }
+    ]
+  },
+  {
+    "name": "Pierre",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 26,
+    "isRomanceable": false,
+    "description": "The friendly local shopkeeper who sells seeds.",
+    "imageSlug": "pierre",
+    "lovedGifts": ["Fried Calamari"],
+    "likedGifts": ["Daffodil", "Dandelion", "Leek"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Holly"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Fried Calamari recipe" },
+      { "hearts": 4, "reward": "Store closed day off (special)" },
+      { "hearts": 6, "reward": "Banner decoration" },
+      { "hearts": 8, "reward": "Seasonal recipe" },
+      { "hearts": 10, "reward": "Artisan bundle reward" }
+    ]
+  },
+  {
+    "name": "Robin",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 21,
+    "isRomanceable": false,
+    "description": "The town carpenter; energetic and hardworking.",
+    "imageSlug": "robin",
+    "lovedGifts": ["Goat Cheese", "Peach", "Spaghetti"],
+    "likedGifts": ["Daffodil", "Egg", "Holly", "Leek", "Salmonberry"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Spaghetti recipe" },
+      { "hearts": 4, "reward": "Woodcutter's Belt (special event)" },
+      { "hearts": 6, "reward": "Special furniture plan" },
+      { "hearts": 8, "reward": "Goat Cheese gift" },
+      { "hearts": 10, "reward": "Peach basket" }
+    ]
+  },
+  {
+    "name": "Sam",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 17,
+    "isRomanceable": true,
+    "description": "An upbeat, music-loving kid who wants to be a rock star.",
+    "imageSlug": "sam",
+    "lovedGifts": ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
+    "likedGifts": ["Daffodil", "Dandelion", "Egg"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Durian"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Bread recipe" },
+      { "hearts": 4, "reward": "Band practice event" },
+      { "hearts": 6, "reward": "Pizza recipe" },
+      { "hearts": 8, "reward": "Maple Bar recipe" },
+      { "hearts": 10, "reward": "Tigerseye" }
+    ]
+  },
+  {
+    "name": "Sandy",
+    "birthdaySeason": "Fall",
+    "birthdayDay": 15,
+    "isRomanceable": false,
+    "description": "The cheerful owner of the Oasis store in the desert.",
+    "imageSlug": "sandy",
+    "lovedGifts": ["Crocus", "Daffodil", "Mango Sticky Rice", "Sweet Pea"],
+    "likedGifts": ["Coconut", "Fruit Salad", "Rainbow Shell", "Sugar"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Maki Roll recipe" },
+      { "hearts": 4, "reward": "Crocus gift" },
+      { "hearts": 6, "reward": "Special Oasis discount" },
+      { "hearts": 8, "reward": "Mango Sticky Rice recipe" },
+      { "hearts": 10, "reward": "Fruit Salad recipe" }
+    ]
+  },
+  {
+    "name": "Sebastian",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 10,
+    "isRomanceable": true,
+    "description": "A brooding programmer and motorcycle enthusiast.",
+    "imageSlug": "sebastian",
+    "lovedGifts": ["Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
+    "likedGifts": ["Cauliflower", "Diamond", "Duck Feather", "Pumpkin"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Pumpkin Soup recipe" },
+      { "hearts": 4, "reward": "Frog event in sewer" },
+      { "hearts": 6, "reward": "Sashimi recipe" },
+      { "hearts": 8, "reward": "Motorcycle ride event" },
+      { "hearts": 10, "reward": "Void Egg" }
+    ]
+  },
+  {
+    "name": "Shane",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 20,
+    "isRomanceable": true,
+    "description": "A rough, depressed farmhand with a soft side for chickens.",
+    "imageSlug": "shane",
+    "lovedGifts": ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
+    "likedGifts": ["Daffodil", "Egg", "Hashbrowns", "Omelet"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Pepper Poppers recipe" },
+      { "hearts": 4, "reward": "Egg basket event" },
+      { "hearts": 6, "reward": "Blue Chickens (special breed)" },
+      { "hearts": 8, "reward": "Fried Egg recipe" },
+      { "hearts": 10, "reward": "Hot Pepper seeds" }
+    ]
+  },
+  {
+    "name": "Vincent",
+    "birthdaySeason": "Spring",
+    "birthdayDay": 10,
+    "isRomanceable": false,
+    "description": "Jodi and Kent's young son, Sam's little brother.",
+    "imageSlug": "vincent",
+    "lovedGifts": ["Cranberry Candy", "Ginger Ale", "Grape", "Pink Cake", "Snail"],
+    "likedGifts": ["Blueberry", "Daffodil", "Dandelion", "Salmonberry", "Strawberry"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Ginger Ale recipe" },
+      { "hearts": 4, "reward": "Cranberry Candy recipe" },
+      { "hearts": 6, "reward": "Snail gift" },
+      { "hearts": 8, "reward": "Toy story event" },
+      { "hearts": 10, "reward": "Pink Cake" }
+    ]
+  },
+  {
+    "name": "Willy",
+    "birthdaySeason": "Summer",
+    "birthdayDay": 24,
+    "isRomanceable": false,
+    "description": "The town's weathered fisherman who runs the fish shop.",
+    "imageSlug": "willy",
+    "lovedGifts": ["Catfish", "Diamond", "Iridium Bar", "Mead", "Octopus", "Pumpkin"],
+    "likedGifts": ["Carp", "Eel", "Gold Bar", "Largemouth Bass", "Lingcod", "Sardine"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": ["Holly"],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Dish O' The Sea recipe" },
+      { "hearts": 4, "reward": "Bait recipe (fishing upgrade)" },
+      { "hearts": 6, "reward": "Octopus recipe" },
+      { "hearts": 8, "reward": "Boat repair (opens Ginger Island)" },
+      { "hearts": 10, "reward": "Iridium Rod gift" }
+    ]
+  },
+  {
+    "name": "Wizard",
+    "birthdaySeason": "Winter",
+    "birthdayDay": 17,
+    "isRomanceable": false,
+    "description": "A mysterious and reclusive wizard who lives in the forest.",
+    "imageSlug": "wizard",
+    "lovedGifts": ["Purple Mushroom", "Solar Essence", "Super Cucumber", "Void Essence", "Void Mayonnaise"],
+    "likedGifts": ["Bat Wing", "Holly"],
+    "neutralGifts": ["All Universal Likes"],
+    "dislikedGifts": [],
+    "hatedGifts": [],
+    "friendshipRewards": [
+      { "hearts": 2, "reward": "Stardrop Tea recipe" },
+      { "hearts": 4, "reward": "Animal translation ability (special event)" },
+      { "hearts": 6, "reward": "Magic building blueprints" },
+      { "hearts": 8, "reward": "Wizard Pants" },
+      { "hearts": 10, "reward": "Purple Mushroom basket" }
+    ]
+  }
+]

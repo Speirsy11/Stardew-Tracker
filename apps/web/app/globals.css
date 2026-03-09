@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 60% 96%;
+    --foreground: 20 30% 20%;
+    --card: 36 40% 93%;
+    --card-foreground: 20 30% 20%;
+    --popover: 36 40% 93%;
+    --popover-foreground: 20 30% 20%;
+    --primary: 25 50% 35%;
+    --primary-foreground: 36 60% 96%;
+    --secondary: 36 30% 85%;
+    --secondary-foreground: 20 30% 25%;
+    --muted: 36 25% 88%;
+    --muted-foreground: 20 20% 45%;
+    --accent: 100 45% 42%;
+    --accent-foreground: 36 60% 96%;
+    --border: 30 25% 78%;
+    --input: 30 25% 82%;
+    --ring: 25 50% 35%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-stardew-cream text-stardew-brown-dark font-body antialiased;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.025'/%3E%3C/svg%3E");
+  }
+
+  h1, h2, h3 {
+    @apply font-pixel tracking-tight;
+  }
+}
+
+@layer components {
+  .card-stardew {
+    @apply bg-stardew-cream-dark border-2 border-stardew-brown/30 rounded-xl shadow-md;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.02'/%3E%3C/svg%3E");
+  }
+
+  .season-spring { @apply bg-spring/20 text-green-800 border-spring/40; }
+  .season-summer { @apply bg-summer/20 text-yellow-800 border-summer/40; }
+  .season-fall { @apply bg-fall/20 text-orange-800 border-fall/40; }
+  .season-winter { @apply bg-winter/20 text-blue-800 border-winter/40; }
+
+  .progress-bar {
+    @apply h-3 rounded-full bg-stardew-brown/10 overflow-hidden;
+  }
+
+  .progress-fill {
+    @apply h-full rounded-full transition-all duration-500;
+  }
+
+  .stardew-checkbox {
+    @apply w-5 h-5 rounded border-2 border-stardew-brown/50 bg-white/70 flex items-center justify-center cursor-pointer transition-all duration-150;
+  }
+
+  .stardew-checkbox.checked {
+    @apply bg-stardew-green border-stardew-green animate-check-pop;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-xl text-stardew-brown hover:bg-stardew-brown/10 transition-all duration-150 font-semibold text-sm;
+  }
+
+  .nav-link.active {
+    @apply bg-stardew-brown/15 text-stardew-brown-dark;
+  }
+
+  .page-header {
+    @apply font-pixel text-stardew-brown-dark text-lg md:text-xl leading-relaxed mb-6;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-stardew-cream-dark rounded-full;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-stardew-brown/40 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-stardew-brown/60;
+}

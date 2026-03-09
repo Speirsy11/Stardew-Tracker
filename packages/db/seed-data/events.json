@@ -1,0 +1,319 @@
+[
+  {
+    "name": "Egg Festival",
+    "type": "festival",
+    "season": "Spring",
+    "day": 13,
+    "description": "The Egg Festival is held in the town square. Residents gather to hunt for painted eggs. The egg hunt starts at 9am — find the most eggs to win the Straw Hat!"
+  },
+  {
+    "name": "Flower Dance",
+    "type": "festival",
+    "season": "Spring",
+    "day": 24,
+    "description": "A traditional spring festival held in Cindersap Forest. Villagers dance together to celebrate the season. You can ask a villager with 4+ friendship hearts to dance with you."
+  },
+  {
+    "name": "Luau",
+    "type": "festival",
+    "season": "Summer",
+    "day": 11,
+    "description": "The Luau is held at the beach. Bring a high-quality item to add to the communal soup pot — the Governor will rate it. Gold/Iridium quality or artisan goods earn the best reaction."
+  },
+  {
+    "name": "Dance of the Moonlight Jellies",
+    "type": "festival",
+    "season": "Summer",
+    "day": 28,
+    "description": "A serene night festival on the beach where the villagers watch luminous jellyfish drift through the water. No gameplay significance — just a beautiful spectacle."
+  },
+  {
+    "name": "Stardew Valley Fair",
+    "type": "festival",
+    "season": "Fall",
+    "day": 16,
+    "description": "An autumn fair held in the town square with minigames and a Grange Display competition. Gather 9 high-quality items of different categories to win Star Tokens, which you can spend on prizes including the Stardrop."
+  },
+  {
+    "name": "Spirit's Eve",
+    "type": "festival",
+    "season": "Fall",
+    "day": 27,
+    "description": "A Halloween-themed festival held in the town at night. Navigate a maze to find the Golden Pumpkin, a rare gift. The maze is found east of the main square."
+  },
+  {
+    "name": "Festival of Ice",
+    "type": "festival",
+    "season": "Winter",
+    "day": 8,
+    "description": "A winter festival at the forest with ice sculptures. Participate in the ice fishing competition — catch the most fish in the time limit to win a Glacierfish Jr. (in later years) or a Barbed Hook."
+  },
+  {
+    "name": "Night Market",
+    "type": "festival",
+    "season": "Winter",
+    "day": 15,
+    "description": "The Night Market runs from Winter 15–17 on the beach at night. Browse rare items from visiting merchants, including the Mermaid Show and the Museum boat (rare artifacts)."
+  },
+  {
+    "name": "Night Market (Day 2)",
+    "type": "festival",
+    "season": "Winter",
+    "day": 16,
+    "description": "Second night of the Night Market. The submarine ride allows fishing for deep-sea fish including the Midnight Carp and Spook Fish."
+  },
+  {
+    "name": "Night Market (Day 3)",
+    "type": "festival",
+    "season": "Winter",
+    "day": 17,
+    "description": "Final night of the Night Market. Last chance to purchase rare items and participate in events."
+  },
+  {
+    "name": "Feast of the Winter Star",
+    "type": "festival",
+    "season": "Winter",
+    "day": 25,
+    "description": "A gift-giving festival held in the town square. Early in Winter you are assigned a secret gift recipient; give them a liked or loved gift to maximise friendship. You also receive a gift from your own secret admirer."
+  },
+  {
+    "name": "Kent",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 4,
+    "description": "Kent's birthday. He loves Fiddlehead Risotto and Roasted Hazelnuts. Returns from war at the start of Year 2.",
+    "npcName": "Kent"
+  },
+  {
+    "name": "Vincent",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 10,
+    "description": "Vincent's birthday. He loves Cranberry Candy, Ginger Ale, Grape, Pink Cake, and Snail.",
+    "npcName": "Vincent"
+  },
+  {
+    "name": "Haley",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 14,
+    "description": "Haley's birthday. She loves Coconut, Fruit Salad, Pink Cake, and Sunflower.",
+    "npcName": "Haley"
+  },
+  {
+    "name": "Pam",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 18,
+    "description": "Pam's birthday. She loves Beer, Cactus Fruit, Glazed Yams, Mead, Pale Ale, Parsnip, and Parsnip Soup.",
+    "npcName": "Pam"
+  },
+  {
+    "name": "Shane",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 20,
+    "description": "Shane's birthday. He loves Beer, Hot Pepper, Pepper Poppers, and Pizza.",
+    "npcName": "Shane"
+  },
+  {
+    "name": "Pierre",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 26,
+    "description": "Pierre's birthday. He loves Fried Calamari.",
+    "npcName": "Pierre"
+  },
+  {
+    "name": "Emily",
+    "type": "birthday",
+    "season": "Spring",
+    "day": 27,
+    "description": "Emily's birthday. She loves Amethyst, Aquamarine, Cloth, Emerald, Jade, Ruby, Survival Burger, Topaz, and Wool.",
+    "npcName": "Emily"
+  },
+  {
+    "name": "Jas",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 4,
+    "description": "Jas's birthday. She loves Ancient Doll, Fairy Rose, Pink Cake, and Plum Pudding.",
+    "npcName": "Jas"
+  },
+  {
+    "name": "Gus",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 8,
+    "description": "Gus's birthday. He loves Diamond, Escargot, Fish Taco, Orange, and Tropical Curry.",
+    "npcName": "Gus"
+  },
+  {
+    "name": "Maru",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 10,
+    "description": "Maru's birthday. She loves Battery Pack, Cauliflower, Diamond, Gold Bar, Iridium Bar, and Strawberry.",
+    "npcName": "Maru"
+  },
+  {
+    "name": "Alex",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 13,
+    "description": "Alex's birthday. He loves Complete Breakfast and Salmon Dinner.",
+    "npcName": "Alex"
+  },
+  {
+    "name": "Sam",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 17,
+    "description": "Sam's birthday. He loves Cactus Fruit, Maple Bar, Pizza, and Tigerseye.",
+    "npcName": "Sam"
+  },
+  {
+    "name": "Demetrius",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 19,
+    "description": "Demetrius's birthday. He loves Bean Hotpot, Ice Cream, Rice Pudding, and Strawberry.",
+    "npcName": "Demetrius"
+  },
+  {
+    "name": "Willy",
+    "type": "birthday",
+    "season": "Summer",
+    "day": 24,
+    "description": "Willy's birthday. He loves Catfish, Diamond, Iridium Bar, Mead, Octopus, and Pumpkin.",
+    "npcName": "Willy"
+  },
+  {
+    "name": "Penny",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 2,
+    "description": "Penny's birthday. She loves Diamond, Emerald, Melon, Poppy, Poppyseed Muffin, Red Plate, Roots Platter, Sandfish, and Tom Kha Soup.",
+    "npcName": "Penny"
+  },
+  {
+    "name": "Elliott",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 5,
+    "description": "Elliott's birthday. He loves Crab Cakes, Duck Feather, Lobster, Pomegranate, and Tom Kha Soup.",
+    "npcName": "Elliott"
+  },
+  {
+    "name": "Jodi",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 11,
+    "description": "Jodi's birthday. She loves Chocolate Cake, Crispy Bass, Diamond, Eggplant Parmesan, Fried Eel, Pancakes, Rhubarb Pie, and Vegetable Medley.",
+    "npcName": "Jodi"
+  },
+  {
+    "name": "Abigail",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 13,
+    "description": "Abigail's birthday. She loves Amethyst, Blackberry Cobbler, Chocolate Cake, Pufferfish, Pumpkin, and Spicy Eel.",
+    "npcName": "Abigail"
+  },
+  {
+    "name": "Marnie",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 18,
+    "description": "Marnie's birthday. She loves Diamond, Farmer's Lunch, Gift Basket, Pink Cake, and Pumpkin Pie.",
+    "npcName": "Marnie"
+  },
+  {
+    "name": "Robin",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 21,
+    "description": "Robin's birthday. She loves Goat Cheese, Peach, and Spaghetti.",
+    "npcName": "Robin"
+  },
+  {
+    "name": "George",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 24,
+    "description": "George's birthday. He loves Fried Mushroom and Leek.",
+    "npcName": "George"
+  },
+  {
+    "name": "Sandy",
+    "type": "birthday",
+    "season": "Fall",
+    "day": 15,
+    "description": "Sandy's birthday. She loves Crocus, Daffodil, Mango Sticky Rice, and Sweet Pea.",
+    "npcName": "Sandy"
+  },
+  {
+    "name": "Linus",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 3,
+    "description": "Linus's birthday. He loves Blueberry Tart, Cactus Fruit, Coconut, Dish O' The Sea, and Yam.",
+    "npcName": "Linus"
+  },
+  {
+    "name": "Harvey",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 14,
+    "description": "Harvey's birthday. He loves Coffee, Pickles, Super Meal, Truffle Oil, and Wine.",
+    "npcName": "Harvey"
+  },
+  {
+    "name": "Wizard",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 17,
+    "description": "The Wizard's birthday. He loves Purple Mushroom, Solar Essence, Super Cucumber, Void Essence, and Void Mayonnaise.",
+    "npcName": "Wizard"
+  },
+  {
+    "name": "Evelyn",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 20,
+    "description": "Evelyn's birthday. She loves Beet, Chocolate Cake, Diamond, Fairy Rose, Stuffing, and Tulip.",
+    "npcName": "Evelyn"
+  },
+  {
+    "name": "Leah",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 23,
+    "description": "Leah's birthday. She loves Goat Cheese, Poppyseed Muffin, Salad, Stir Fry, Truffle, Vegetable Medley, and Wine.",
+    "npcName": "Leah"
+  },
+  {
+    "name": "Clint",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 26,
+    "description": "Clint's birthday. He loves gems and minerals: Amethyst, Aquamarine, Artichoke Dip, Emerald, Fiddlehead Risotto, Gold Bar, Iridium Bar, Jade, Omni Geode, Ruby, and Topaz.",
+    "npcName": "Clint"
+  },
+  {
+    "name": "Caroline",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 7,
+    "description": "Caroline's birthday. She loves Summer Spangle, Fish Taco, and Green Tea.",
+    "npcName": "Caroline"
+  },
+  {
+    "name": "Sebastian",
+    "type": "birthday",
+    "season": "Winter",
+    "day": 10,
+    "description": "Sebastian's birthday. He loves Frozen Tear, Obsidian, Pumpkin Soup, Sashimi, and Void Egg.",
+    "npcName": "Sebastian"
+  }
+]

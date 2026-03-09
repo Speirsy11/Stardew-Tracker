@@ -1,0 +1,214 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Enums ───────────────────────────────────────────────────────────────────
+
+enum Season {
+  Spring
+  Summer
+  Fall
+  Winter
+}
+
+// ─── Static Game Data ─────────────────────────────────────────────────────────
+
+model Crop {
+  id             Int      @id @default(autoincrement())
+  name           String   @unique
+  seasons        Season[]
+  category       String
+  buyPrice       Int
+  sellPrice      Int
+  growDays       Int
+  regrowDays     Int?
+  artisanProduct String?
+  artisanPrice   Int?
+  description    String?
+  isForage       Boolean  @default(false)
+  imageSlug      String?
+}
+
+model Npc {
+  id              Int                @id @default(autoincrement())
+  name            String             @unique
+  birthdaySeason  Season
+  birthdayDay     Int
+  lovedGifts      String[]
+  likedGifts      String[]
+  neutralGifts    String[]
+  dislikedGifts   String[]
+  hatedGifts      String[]
+  isRomanceable   Boolean            @default(false)
+  description     String?
+  imageSlug       String?
+  friendshipRewards FriendshipReward[]
+  userFriendships   UserFriendship[]
+}
+
+model FriendshipReward {
+  id      Int    @id @default(autoincrement())
+  npcId   Int
+  npc     Npc    @relation(fields: [npcId], references: [id], onDelete: Cascade)
+  hearts  Int
+  reward  String
+}
+
+model Bundle {
+  id       Int          @id @default(autoincrement())
+  room     String
+  name     String
+  reward   String
+  color    String?
+  items    BundleItem[]
+  UserBundle UserBundle[]
+}
+
+model BundleItem {
+  id         Int          @id @default(autoincrement())
+  bundleId   Int
+  bundle     Bundle       @relation(fields: [bundleId], references: [id], onDelete: Cascade)
+  itemName   String
+  quantity   Int          @default(1)
+  quality    String       @default("Normal")
+  userProgress UserBundle[]
+}
+
+model CalendarEvent {
+  id          Int    @id @default(autoincrement())
+  name        String
+  type        String
+  season      Season
+  day         Int
+  description String?
+  npcName     String?
+}
+
+model ShippingItem {
+  id           Int            @id @default(autoincrement())
+  name         String         @unique
+  category     String
+  basePrice    Int
+  silverPrice  Int?
+  goldPrice    Int?
+  iridiumPrice Int?
+  season       String?
+  imageSlug    String?
+  userProgress UserShipping[]
+}
+
+// ─── User / Progress Data ─────────────────────────────────────────────────────
+
+model User {
+  id               String            @id @default(cuid())
+  email            String            @unique
+  name             String?
+  password         String?
+  image            String?
+  emailVerified    DateTime?
+  createdAt        DateTime          @default(now())
+  shippingProgress UserShipping[]
+  bundleProgress   UserBundle[]
+  friendships      UserFriendship[]
+  checklists       CustomChecklist[]
+  accounts         Account[]
+  sessions         Session[]
+}
+
+model UserShipping {
+  id       Int          @id @default(autoincrement())
+  userId   String
+  user     User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  itemId   Int
+  item     ShippingItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  shipped  Boolean      @default(false)
+
+  @@unique([userId, itemId])
+}
+
+model UserBundle {
+  id           Int        @id @default(autoincrement())
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  bundleItemId Int
+  bundleItem   BundleItem @relation(fields: [bundleItemId], references: [id], onDelete: Cascade)
+  bundleId     Int
+  bundle       Bundle     @relation(fields: [bundleId], references: [id], onDelete: Cascade)
+  completed    Boolean    @default(false)
+
+  @@unique([userId, bundleItemId])
+}
+
+model UserFriendship {
+  id     Int  @id @default(autoincrement())
+  userId String
+  user   User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  npcId  Int
+  npc    Npc  @relation(fields: [npcId], references: [id], onDelete: Cascade)
+  hearts Int  @default(0)
+
+  @@unique([userId, npcId])
+}
+
+model CustomChecklist {
+  id          String          @id @default(cuid())
+  userId      String
+  user        User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title       String
+  rawMarkdown String          @db.Text
+  items       ChecklistItem[]
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+}
+
+model ChecklistItem {
+  id          String          @id @default(cuid())
+  checklistId String
+  checklist   CustomChecklist @relation(fields: [checklistId], references: [id], onDelete: Cascade)
+  text        String
+  depth       Int             @default(0)
+  checked     Boolean         @default(false)
+  sortOrder   Int
+  parentId    String?
+}
+
+// ─── NextAuth Tables ──────────────────────────────────────────────────────────
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
