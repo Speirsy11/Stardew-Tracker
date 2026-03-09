@@ -1,10 +1,19 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import Link from 'next/link'
 import { Bundle, BundleItem } from '@prisma/client'
 import { cn, formatGold } from '@/lib/utils'
 import { Progress } from '@/components/ui/progress'
-import { Check, ChevronDown, ChevronUp, Trophy, Star } from 'lucide-react'
+import { Check, ChevronDown, ChevronUp, Trophy, Star, ExternalLink } from 'lucide-react'
+
+function toItemSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/'/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+}
 
 type BundleWithItems = Bundle & { items: BundleItem[] }
 
@@ -162,28 +171,37 @@ export function BundleTracker({ bundles, initialChecked }: BundleTrackerProps) {
                       {/* Bundle items */}
                       <div className="divide-y divide-stardew-brown/5">
                         {bundle.items.map((item) => (
-                          <button
+                          <div
                             key={item.id}
-                            onClick={() => toggleItem(item.id, bundle.id)}
                             className={cn(
-                              'w-full px-3 py-2 flex items-center gap-2 text-left hover:bg-stardew-brown/5 transition-colors',
+                              'px-3 py-2 flex items-center gap-2 group hover:bg-stardew-brown/5 transition-colors',
                               checked[item.id] && 'bg-stardew-green/10'
                             )}
                           >
-                            <div className={cn('stardew-checkbox flex-shrink-0', checked[item.id] && 'checked')}>
-                              {checked[item.id] && <Check size={10} className="text-white" strokeWidth={3} />}
-                            </div>
-                            <span className={cn(
-                              'text-sm font-semibold flex-1',
-                              checked[item.id] ? 'line-through text-stardew-brown/40' : 'text-stardew-brown-dark'
-                            )}>
+                            <button
+                              onClick={() => toggleItem(item.id, bundle.id)}
+                              className="flex-shrink-0"
+                              aria-label={checked[item.id] ? 'Uncheck' : 'Check'}
+                            >
+                              <div className={cn('stardew-checkbox', checked[item.id] && 'checked')}>
+                                {checked[item.id] && <Check size={10} className="text-white" strokeWidth={3} />}
+                              </div>
+                            </button>
+                            <Link
+                              href={`/items/${toItemSlug(item.itemName)}`}
+                              className={cn(
+                                'text-sm font-semibold flex-1 flex items-center gap-1 min-w-0 hover:underline',
+                                checked[item.id] ? 'line-through text-stardew-brown/40' : 'text-stardew-brown-dark'
+                              )}
+                            >
                               {item.quantity > 1 && <span className="text-stardew-brown/60 mr-1">×{item.quantity}</span>}
-                              {item.itemName}
+                              <span className="truncate">{item.itemName}</span>
                               {QUALITY_STARS[item.quality] && (
                                 <span className="ml-1">{QUALITY_STARS[item.quality]}</span>
                               )}
-                            </span>
-                          </button>
+                              <ExternalLink size={10} className="flex-shrink-0 opacity-0 group-hover:opacity-40 transition-opacity" />
+                            </Link>
+                          </div>
                         ))}
                       </div>
                     </div>

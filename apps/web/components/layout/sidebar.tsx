@@ -16,36 +16,95 @@ import {
   X,
   LogIn,
   LogOut,
+  Fish,
+  Landmark,
+  UtensilsCrossed,
+  Hammer,
+  ChevronDown,
+  ChevronRight,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useState } from 'react'
 
-const navItems = [
-  { href: '/', label: 'Dashboard', icon: Home, emoji: '🏠' },
-  { href: '/items', label: 'Items', icon: Package, emoji: '📦' },
+type NavItem = {
+  href: string
+  label: string
+  icon: typeof Home
+  emoji: string
+}
+
+const checklistItems: NavItem[] = [
   { href: '/shipping', label: 'Shipping', icon: ShoppingBasket, emoji: '🚚' },
   { href: '/community-centre', label: 'Community Centre', icon: Building2, emoji: '🏛️' },
-  { href: '/checklists', label: 'Checklists', icon: ListChecks, emoji: '📋' },
+  { href: '/fishing', label: 'Fishing', icon: Fish, emoji: '🎣' },
+  { href: '/museum', label: 'Museum', icon: Landmark, emoji: '🏺' },
+  { href: '/cooking', label: 'Cooking', icon: UtensilsCrossed, emoji: '🍳' },
+  { href: '/crafting', label: 'Crafting', icon: Hammer, emoji: '🔨' },
+  { href: '/checklists', label: 'Custom', icon: ListChecks, emoji: '📋' },
+]
+
+const referenceItems: NavItem[] = [
+  { href: '/items', label: 'Items', icon: Package, emoji: '📦' },
   { href: '/calendar', label: 'Calendar', icon: CalendarDays, emoji: '📅' },
   { href: '/friendship', label: 'Friendship', icon: Heart, emoji: '💝' },
   { href: '/crops', label: 'Best Crops', icon: Sprout, emoji: '🌱' },
 ]
 
-function NavLink({ href, label, icon: Icon, emoji, active }: { href: string; label: string; icon: typeof Home; emoji: string; active: boolean }) {
+function NavLink({ href, label, emoji, active }: { href: string; label: string; emoji: string; active: boolean }) {
   return (
     <Link
       href={href}
-      className={cn(
-        'nav-link group',
-        active && 'active'
-      )}
+      className={cn('nav-link group', active && 'active')}
     >
-      <span className="text-lg leading-none">{emoji}</span>
+      <span className="text-base leading-none">{emoji}</span>
       <span className="font-semibold">{label}</span>
-      {active && (
-        <span className="ml-auto w-2 h-2 rounded-full bg-stardew-green" />
-      )}
+      {active && <span className="ml-auto w-2 h-2 rounded-full bg-stardew-green" />}
     </Link>
+  )
+}
+
+function NavGroup({
+  label,
+  emoji,
+  items,
+  pathname,
+  defaultOpen,
+}: {
+  label: string
+  emoji: string
+  items: NavItem[]
+  pathname: string
+  defaultOpen: boolean
+}) {
+  const [open, setOpen] = useState(defaultOpen)
+
+  return (
+    <div>
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="w-full flex items-center gap-2 px-2 py-1.5 rounded-lg text-stardew-brown hover:bg-stardew-brown/5 transition-colors mb-0.5"
+      >
+        <span className="text-sm leading-none">{emoji}</span>
+        <span className="text-xs font-pixel text-stardew-brown/70 uppercase tracking-wide flex-1 text-left">
+          {label}
+        </span>
+        {open
+          ? <ChevronDown size={12} className="text-stardew-brown/50" />
+          : <ChevronRight size={12} className="text-stardew-brown/50" />}
+      </button>
+
+      {open && (
+        <div className="pl-2 space-y-0.5">
+          {items.map((item) => (
+            <NavLink
+              key={item.href}
+              {...item}
+              active={pathname.startsWith(item.href)}
+            />
+          ))}
+        </div>
+      )}
+    </div>
   )
 }
 
@@ -53,6 +112,9 @@ export function Sidebar() {
   const pathname = usePathname()
   const { data: session, status } = useSession()
   const [mobileOpen, setMobileOpen] = useState(false)
+
+  const checklistActive = checklistItems.some((i) => pathname.startsWith(i.href))
+  const referenceActive = referenceItems.some((i) => pathname.startsWith(i.href))
 
   const sidebarContent = (
     <div className="flex flex-col h-full">
@@ -68,14 +130,27 @@ export function Sidebar() {
       </div>
 
       {/* Nav */}
-      <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
-        {navItems.map((item) => (
-          <NavLink
-            key={item.href}
-            {...item}
-            active={item.href === '/' ? pathname === '/' : pathname.startsWith(item.href)}
-          />
-        ))}
+      <nav className="flex-1 px-3 py-4 space-y-3 overflow-y-auto">
+        {/* Dashboard — standalone */}
+        <NavLink href="/" label="Dashboard" emoji="🏠" active={pathname === '/'} />
+
+        {/* Checklists group */}
+        <NavGroup
+          label="Checklists"
+          emoji="✅"
+          items={checklistItems}
+          pathname={pathname}
+          defaultOpen={checklistActive || pathname === '/'}
+        />
+
+        {/* Reference group */}
+        <NavGroup
+          label="Reference"
+          emoji="📖"
+          items={referenceItems}
+          pathname={pathname}
+          defaultOpen={referenceActive}
+        />
       </nav>
 
       {/* Auth */}

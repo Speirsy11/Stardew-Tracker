@@ -120,19 +120,31 @@ model GameItem {
 // ─── User / Progress Data ─────────────────────────────────────────────────────
 
 model User {
-  id               String            @id @default(cuid())
-  email            String            @unique
+  id               String              @id @default(cuid())
+  email            String              @unique
   name             String?
   password         String?
   image            String?
   emailVerified    DateTime?
-  createdAt        DateTime          @default(now())
+  createdAt        DateTime            @default(now())
   shippingProgress UserShipping[]
   bundleProgress   UserBundle[]
   friendships      UserFriendship[]
   checklists       CustomChecklist[]
+  gameProgress     UserGameProgress[]
   accounts         Account[]
   sessions         Session[]
+}
+
+model UserGameProgress {
+  id        Int     @id @default(autoincrement())
+  userId    String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  itemSlug  String
+  listType  String
+  completed Boolean @default(false)
+
+  @@unique([userId, itemSlug, listType])
 }
 
 model UserShipping {

@@ -1,12 +1,21 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import Link from 'next/link'
 import { ShippingItem } from '@prisma/client'
 import { cn, formatGold, SEASON_ICONS } from '@/lib/utils'
 import { Progress } from '@/components/ui/progress'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
-import { Check, Search } from 'lucide-react'
+import { Check, Search, ExternalLink } from 'lucide-react'
+
+function toItemSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/'/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+}
 
 type ShippingItemWithProgress = ShippingItem & { shipped?: boolean }
 
@@ -204,28 +213,31 @@ function ShippingItemCard({
   onToggle: () => void
 }) {
   return (
-    <button
-      onClick={onToggle}
+    <div
       className={cn(
-        'bg-white/40 p-3 text-left flex items-start gap-3 hover:bg-stardew-brown/5 transition-all duration-100 group',
+        'bg-white/40 p-3 flex items-start gap-3 hover:bg-stardew-brown/5 transition-all duration-100 group',
         isChecked && 'bg-stardew-green/10'
       )}
     >
       {/* Checkbox */}
-      <div
-        className={cn(
-          'stardew-checkbox mt-0.5 flex-shrink-0',
-          isChecked && 'checked'
-        )}
-      >
-        {isChecked && <Check size={12} className="text-white" strokeWidth={3} />}
-      </div>
+      <button onClick={onToggle} className="flex-shrink-0 mt-0.5" aria-label={isChecked ? 'Uncheck' : 'Check'}>
+        <div className={cn('stardew-checkbox', isChecked && 'checked')}>
+          {isChecked && <Check size={12} className="text-white" strokeWidth={3} />}
+        </div>
+      </button>
 
       {/* Info */}
       <div className="flex-1 min-w-0">
-        <p className={cn('font-semibold text-sm truncate', isChecked ? 'line-through text-stardew-brown/50' : 'text-stardew-brown-dark')}>
-          {item.name}
-        </p>
+        <Link
+          href={`/items/${toItemSlug(item.name)}`}
+          className={cn(
+            'font-semibold text-sm flex items-center gap-1 hover:underline',
+            isChecked ? 'line-through text-stardew-brown/50' : 'text-stardew-brown-dark'
+          )}
+        >
+          <span className="truncate">{item.name}</span>
+          <ExternalLink size={10} className="flex-shrink-0 opacity-0 group-hover:opacity-40 transition-opacity" />
+        </Link>
         <div className="flex flex-wrap gap-1 mt-1">
           <span className="text-xs text-stardew-brown font-semibold">{formatGold(item.basePrice)}</span>
           {item.silverPrice && (
@@ -244,6 +256,6 @@ function ShippingItemCard({
           </span>
         )}
       </div>
-    </button>
+    </div>
   )
 }
