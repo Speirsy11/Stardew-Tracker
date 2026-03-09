@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "basilisk-paw",
+    "name": "Basilisk Paw",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "You are immune to debuffs.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "fairy-box",
+    "name": "Fairy Box",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Summons a fairy companion that heals you in combat. Rolls with a fairy level stat.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "frog-egg",
+    "name": "Frog Egg",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Summons a hungry frog companion. The egg can roll different colors.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "golden-spur",
+    "name": "Golden Spur",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Critical strikes give you a temporary speed boost.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "ice-rod",
+    "name": "Ice Rod",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Shoots an orb of ice that freezes enemies for a short duration.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "magic-hair-gel",
+    "name": "Magic Hair Gel",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Your hair shimmers with all the colors of a prismatic shard.",
+    "obtainMethod": "Purchased from Alex's shop during the Desert Festival",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "magic-quiver",
+    "name": "Magic Quiver",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Shoots a magic arrow at nearby enemies. It can roll different arrow types and values.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  },
+  {
+    "slug": "parrot-egg",
+    "name": "Parrot Egg",
+    "category": "Trinket",
+    "subcategory": "Combat Trinket",
+    "sellPrice": 1000,
+    "description": "Summons a parrot companion that can cause enemies to drop gold coins. Rolls with a parrot level stat.",
+    "obtainMethod": "Monster drops, crates and barrels, or Skull Cavern treasure rooms",
+    "season": "All",
+    "location": "Combat Mastery loot pools, Skull Cavern, Desert Festival"
+  }
+]

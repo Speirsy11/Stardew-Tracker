@@ -1,0 +1,189 @@
+[
+  {
+    "slug": "cinderclown-shoes",
+    "name": "Cinderclown Shoes",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 550,
+    "description": "These magic shoes belonged to a famous Dwarvish jester. Defense +6, Immunity +5.",
+    "obtainMethod": "Volcano Dungeon shop for 100 Cinder Shards",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "combat-boots",
+    "name": "Combat Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 150,
+    "description": "Reinforced with iron mesh. Defense +3.",
+    "obtainMethod": "Adventurer's Guild after floor 40, possible remixed floor 50 chest, special drops on floors 61-79, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "crystal-shoes",
+    "name": "Crystal Shoes",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 400,
+    "description": "These sparkling shoes will keep your feet very safe. Defense +3, Immunity +5.",
+    "obtainMethod": "Possible remixed floor 110 chest, Skull Cavern drops, or Quarry Mine drops",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "dark-boots",
+    "name": "Dark Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 300,
+    "description": "Made from thick black leather. Defense +4, Immunity +2.",
+    "obtainMethod": "Adventurer's Guild after floor 80, possible remixed floor 80 chest, late Mines or Skull Cavern drops, Quarry Mine drops, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "dragonscale-boots",
+    "name": "Dragonscale Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 350,
+    "description": "These shimmering boots are extremely tough. Defense +7.",
+    "obtainMethod": "Rare chest in the Volcano Dungeon",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "emilys-magic-boots",
+    "name": "Emily's Magic Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 400,
+    "description": "Made with love by Emily. 100% compostable! Defense +4, Immunity +4.",
+    "obtainMethod": "Emily's 14-heart event",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "firewalker-boots",
+    "name": "Firewalker Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 300,
+    "description": "It's said these can withstand the hottest magma. Defense +3, Immunity +3.",
+    "obtainMethod": "Floor 80 Mines chest reward, Adventurer's Guild after floor 80, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "genie-shoes",
+    "name": "Genie Shoes",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 350,
+    "description": "A curious energy permeates the fabric. Defense +1, Immunity +6.",
+    "obtainMethod": "Special item drops on Mines floors 81-119, Skull Cavern, Quarry Mine, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "leather-boots",
+    "name": "Leather Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 100,
+    "description": "The leather is very supple. Defense +1, Immunity +1.",
+    "obtainMethod": "Floor 10 Mines chest reward, Adventurer's Guild after floor 10, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "leprechaun-shoes",
+    "name": "Leprechaun Shoes",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 150,
+    "description": "The buckle's made of solid gold. Defense +2, Immunity +1.",
+    "obtainMethod": "Train drops",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "mermaid-boots",
+    "name": "Mermaid Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 650,
+    "description": "Mermaid scales give these boots a protective aura. Defense +5, Immunity +8.",
+    "obtainMethod": "Rare chest in the Volcano Dungeon",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "rubber-boots",
+    "name": "Rubber Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 50,
+    "description": "Protection from the elements. Immunity +1.",
+    "obtainMethod": "Special item drops on The Mines floors 1-39 or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "sneakers",
+    "name": "Sneakers",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 50,
+    "description": "A little flimsy... but fashionable! Defense +1.",
+    "obtainMethod": "Purchased from the Adventurer's Guild after Initiation, special item drops on The Mines floors 1-39, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "space-boots",
+    "name": "Space Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 400,
+    "description": "An iridium weave gives them a purple sheen. Defense +4, Immunity +4.",
+    "obtainMethod": "Floor 110 Mines chest reward or Adventurer's Guild after floor 110",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "thermal-boots",
+    "name": "Thermal Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 150,
+    "description": "Designed with extreme weather in mind. Defense +1, Immunity +2.",
+    "obtainMethod": "Possible remixed floor 50 chest, special item drops on floors 41-79, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "tundra-boots",
+    "name": "Tundra Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 150,
+    "description": "The fuzzy lining keeps your ankles so warm. Defense +2, Immunity +1.",
+    "obtainMethod": "Floor 50 Mines chest reward, Adventurer's Guild after floor 50, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "work-boots",
+    "name": "Work Boots",
+    "category": "Footwear",
+    "subcategory": "Boots",
+    "sellPrice": 100,
+    "description": "Steel-toed for extra protection. Defense +2.",
+    "obtainMethod": "Adventurer's Guild after floor 10, possible remixed chest reward, or fishing treasure chests",
+    "season": "All",
+    "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  }
+]

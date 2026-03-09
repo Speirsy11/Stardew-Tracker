@@ -1,0 +1,2106 @@
+[
+  {
+    "name": "Algae Soup",
+    "slug": "algae-soup",
+    "category": "Cooked Food",
+    "subcategory": "Soup",
+    "sellPrice": 100,
+    "obtainMethod": "Cook using Green Algae × 4 (recipe from Clint at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's a little slimy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Green Algae",
+          "quantity": 4
+        }
+      ],
+      "source": "Clint (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Artichoke Dip",
+    "slug": "artichoke-dip",
+    "category": "Cooked Food",
+    "subcategory": "Snack",
+    "sellPrice": 210,
+    "obtainMethod": "Cook using Artichoke + Milk (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's cool and refreshing.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Artichoke",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 28, Year 1)"
+    }
+  },
+  {
+    "name": "Autumn's Bounty",
+    "slug": "autumns-bounty",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 350,
+    "obtainMethod": "Cook using Yam + Pumpkin (recipe from Demetrius at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A seasonal dish celebrating the best of Fall produce.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Yam",
+          "quantity": 1
+        },
+        {
+          "item": "Pumpkin",
+          "quantity": 1
+        }
+      ],
+      "source": "Demetrius (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Baked Fish",
+    "slug": "baked-fish",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 100,
+    "obtainMethod": "Cook using Sunfish + Bream + Wheat Flour (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A simple but satisfying baked fish dish.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Sunfish",
+          "quantity": 1
+        },
+        {
+          "item": "Bream",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 7, Year 1)"
+    }
+  },
+  {
+    "name": "Banana Pudding",
+    "slug": "banana-pudding",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 260,
+    "obtainMethod": "Cook using Banana + Milk + Sugar (recipe from Island Trader for 30 Bone Fragments)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A creamy dessert with a wonderful tropical flavor.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Banana",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "Island Trader for Bone Fragment (30)"
+    }
+  },
+  {
+    "name": "Bean Hotpot",
+    "slug": "bean-hotpot",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 100,
+    "obtainMethod": "Cook using Green Bean × 2 (recipe from Clint at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A simple bean stew. Increases farming luck.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Green Bean",
+          "quantity": 2
+        }
+      ],
+      "source": "Clint (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Blackberry Cobbler",
+    "slug": "blackberry-cobbler",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 260,
+    "obtainMethod": "Cook using Blackberry × 2 + Sugar + Wheat Flour (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "There's nothing quite like it.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Blackberry",
+          "quantity": 2
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 14, Year 2)"
+    }
+  },
+  {
+    "name": "Blueberry Tart",
+    "slug": "blueberry-tart",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using Blueberry + Wheat Flour + Sugar + Egg (recipe from Pierre at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's subtle and refreshing.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Blueberry",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Egg",
+          "quantity": 1
+        }
+      ],
+      "source": "Pierre (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Bread",
+    "slug": "bread",
+    "category": "Cooked Food",
+    "subcategory": "Baked Good",
+    "sellPrice": 60,
+    "obtainMethod": "Cook using Wheat Flour (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A simple loaf of freshly baked bread.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 28, Year 1)"
+    }
+  },
+  {
+    "name": "Bruschetta",
+    "slug": "bruschetta",
+    "category": "Cooked Food",
+    "subcategory": "Snack",
+    "sellPrice": 210,
+    "obtainMethod": "Cook using Bread + Oil + Tomato (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Roasted tomatoes on a crisp white bread.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Bread",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        },
+        {
+          "item": "Tomato",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 21, Year 2)"
+    }
+  },
+  {
+    "name": "Carp Surprise",
+    "slug": "carp-surprise",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using Carp × 4 (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's bland and oily.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Carp",
+          "quantity": 4
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 7, Year 2)"
+    }
+  },
+  {
+    "name": "Cheese Cauliflower",
+    "slug": "cheese-cauliflower",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Cauliflower + Cheese (recipe from Pam at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A comforting cheese-topped cauliflower dish.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Cauliflower",
+          "quantity": 1
+        },
+        {
+          "item": "Cheese",
+          "quantity": 1
+        }
+      ],
+      "source": "Pam (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Chocolate Cake",
+    "slug": "chocolate-cake",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Wheat Flour + Sugar + Egg (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Rich and moist with a thick fudge icing.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Egg",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 14, Year 1)"
+    }
+  },
+  {
+    "name": "Chowder",
+    "slug": "chowder",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 135,
+    "obtainMethod": "Cook using Clam + Milk (recipe from Willy at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A thick, creamy seafood chowder.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Clam",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        }
+      ],
+      "source": "Willy (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Coleslaw",
+    "slug": "coleslaw",
+    "category": "Cooked Food",
+    "subcategory": "Side Dish",
+    "sellPrice": 345,
+    "obtainMethod": "Cook using Red Cabbage + Vinegar + Mayonnaise (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's light, fresh and very healthy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Red Cabbage",
+          "quantity": 1
+        },
+        {
+          "item": "Vinegar",
+          "quantity": 1
+        },
+        {
+          "item": "Mayonnaise",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 14, Year 1)"
+    }
+  },
+  {
+    "name": "Complete Breakfast",
+    "slug": "complete-breakfast",
+    "category": "Cooked Food",
+    "subcategory": "Breakfast",
+    "sellPrice": 350,
+    "obtainMethod": "Cook using Fried Egg + Milk + Hashbrowns + Pancakes (recipe from Shane at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "The farmer's favorite morning meal. Boosts max energy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Fried Egg",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        },
+        {
+          "item": "Hashbrowns",
+          "quantity": 1
+        },
+        {
+          "item": "Pancakes",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 21, Year 2)"
+    }
+  },
+  {
+    "name": "Cookie",
+    "slug": "cookie",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 140,
+    "obtainMethod": "Cook using Wheat Flour + Sugar + Egg (recipe from Evelyn 4-heart event)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Very chewy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Egg",
+          "quantity": 1
+        }
+      ],
+      "source": "Evelyn (4-heart event)"
+    }
+  },
+  {
+    "name": "Crab Cakes",
+    "slug": "crab-cakes",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 275,
+    "obtainMethod": "Cook using Crab + Wheat Flour + Egg + Oil (recipe from Willy at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Golden fried crab cakes. A seaside delicacy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Crab",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Egg",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 21, Year 2)"
+    }
+  },
+  {
+    "name": "Cranberry Candy",
+    "slug": "cranberry-candy",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 175,
+    "obtainMethod": "Cook using Cranberries + Apple + Sugar (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's sweet enough to mask the bitter fruit.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Cranberries",
+          "quantity": 1
+        },
+        {
+          "item": "Apple",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 28, Year 1)"
+    }
+  },
+  {
+    "name": "Cranberry Sauce",
+    "slug": "cranberry-sauce",
+    "category": "Cooked Food",
+    "subcategory": "Side Dish",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Cranberry + Sugar (recipe from Gus at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A tart cranberry sauce. A holiday staple.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Cranberries",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "Gus (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Crispy Bass",
+    "slug": "crispy-bass",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using Largemouth Bass + Wheat Flour + Oil (recipe from Kent at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A golden pan-fried bass with a crunchy coating.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Largemouth Bass",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "Kent (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Dish O' The Sea",
+    "slug": "dish-o-the-sea",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 220,
+    "obtainMethod": "Cook using Sardine × 2 + Hashbrowns (recipe from Fishing Level 3)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "This'll keep you warm in the cold sea air.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Sardine",
+          "quantity": 2
+        },
+        {
+          "item": "Hashbrowns",
+          "quantity": 1
+        }
+      ],
+      "source": "Fishing Level 3"
+    }
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "slug": "eggplant-parmesan",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Eggplant + Tomato (recipe from Lewis at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Tangy, cheesy, and wonderful.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Eggplant",
+          "quantity": 1
+        },
+        {
+          "item": "Tomato",
+          "quantity": 1
+        }
+      ],
+      "source": "Lewis (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Escargot",
+    "slug": "escargot",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 125,
+    "obtainMethod": "Cook using Snail + Garlic (recipe from Willy at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A classic French dish of snails baked in garlic butter.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Snail",
+          "quantity": 1
+        },
+        {
+          "item": "Garlic",
+          "quantity": 1
+        }
+      ],
+      "source": "Willy (Mail - 5+ hearts)"
+    }
+  },
+  {
+    "name": "Farmer's Lunch",
+    "slug": "farmers-lunch",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using Omelet + Parsnip (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A hearty lunch for a busy farmer. Increases farming skill.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Omelet",
+          "quantity": 1
+        },
+        {
+          "item": "Parsnip",
+          "quantity": 1
+        }
+      ],
+      "source": "Farming Level 3"
+    }
+  },
+  {
+    "name": "Fiddlehead Risotto",
+    "slug": "fiddlehead-risotto",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 350,
+    "obtainMethod": "Cook using Oil + Fiddlehead Fern + Garlic (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A creamy rice dish served with sauteed fern heads. It's a little bland.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Oil",
+          "quantity": 1
+        },
+        {
+          "item": "Fiddlehead Fern",
+          "quantity": 1
+        },
+        {
+          "item": "Garlic",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 28, Year 2)"
+    }
+  },
+  {
+    "name": "Fish Stew",
+    "slug": "fish-stew",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 175,
+    "obtainMethod": "Cook using Crayfish + Mussel + Periwinkle + Tomato (recipe from Willy at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A hearty stew filled with freshwater creatures.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Crayfish",
+          "quantity": 1
+        },
+        {
+          "item": "Mussel",
+          "quantity": 1
+        },
+        {
+          "item": "Periwinkle",
+          "quantity": 1
+        },
+        {
+          "item": "Tomato",
+          "quantity": 1
+        }
+      ],
+      "source": "Willy (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Fish Taco",
+    "slug": "fish-taco",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 500,
+    "obtainMethod": "Cook using Tuna + Tortilla + Red Cabbage + Mayonnaise (recipe from Linus at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A delicious taco loaded with fish. Increases luck.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Tuna",
+          "quantity": 1
+        },
+        {
+          "item": "Tortilla",
+          "quantity": 1
+        },
+        {
+          "item": "Red Cabbage",
+          "quantity": 1
+        },
+        {
+          "item": "Mayonnaise",
+          "quantity": 1
+        }
+      ],
+      "source": "Linus (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Fried Calamari",
+    "slug": "fried-calamari",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using Squid + Wheat Flour + Oil (recipe from Jodi at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Tender rings of squid fried in crispy batter.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Squid",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "Jodi (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Fried Eel",
+    "slug": "fried-eel",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Eel + Oil (recipe from George at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Eel fried to a crispy golden finish.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Eel",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "George (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Fried Egg",
+    "slug": "fried-egg",
+    "category": "Cooked Food",
+    "subcategory": "Breakfast",
+    "sellPrice": 35,
+    "obtainMethod": "Cook using 1 Egg (recipe known from the start)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "An egg fried in a pan. A simple breakfast staple.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Egg",
+          "quantity": 1
+        }
+      ],
+      "source": "Starter recipe"
+    }
+  },
+  {
+    "name": "Fried Mushroom",
+    "slug": "fried-mushroom",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Common Mushroom + Morel + Oil (recipe from Demetrius at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Earthy and aromatic.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Common Mushroom",
+          "quantity": 1
+        },
+        {
+          "item": "Morel",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "Demetrius (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Fruit Salad",
+    "slug": "fruit-salad",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 450,
+    "obtainMethod": "Cook using Blueberry + Melon + Apricot (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A delicious combination of summer fruits.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Blueberry",
+          "quantity": 1
+        },
+        {
+          "item": "Melon",
+          "quantity": 1
+        },
+        {
+          "item": "Apricot",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 7, Year 2)"
+    }
+  },
+  {
+    "name": "Ginger Ale",
+    "slug": "ginger-ale",
+    "category": "Cooked Food",
+    "subcategory": "Drink",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Ginger × 3 + Sugar (recipe from Dwarf Shop in Volcano Dungeon for 1,000g)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A zesty soda known for its soothing effect on the stomach.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Ginger",
+          "quantity": 3
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "Dwarf Shop in Volcano Dungeon for 1,000g"
+    }
+  },
+  {
+    "name": "Glazed Yams",
+    "slug": "glazed-yams",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Yam + Sugar (recipe from Robin at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Sweet yams glazed with sugar. A holiday favorite.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Yam",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 21, Year 1)"
+    }
+  },
+  {
+    "name": "Hashbrowns",
+    "slug": "hashbrowns",
+    "category": "Cooked Food",
+    "subcategory": "Breakfast",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Potato + Oil (recipe from Emily and Haley at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Crispy fried potatoes. A comforting breakfast.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Potato",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 14, Year 2)"
+    }
+  },
+  {
+    "name": "Ice Cream",
+    "slug": "ice-cream",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Milk + Sugar (recipe from Jodi at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's hard to find someone who doesn't like this.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Milk",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "Jodi (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Lobster Bisque",
+    "slug": "lobster-bisque",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 205,
+    "obtainMethod": "Cook using Lobster + Milk (recipe from Willy at 9 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A smooth, rich bisque made from fresh lobster.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Lobster",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 14, Year 2) / Willy (Mail - 9+ hearts)"
+    }
+  },
+  {
+    "name": "Lucky Lunch",
+    "slug": "lucky-lunch",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 250,
+    "obtainMethod": "Cook using Sea Cucumber + Tortilla + Blue Jazz (recipe from Sandy at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A lucky meal said to greatly improve fortune.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Sea Cucumber",
+          "quantity": 1
+        },
+        {
+          "item": "Tortilla",
+          "quantity": 1
+        },
+        {
+          "item": "Blue Jazz",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 28, Year 2)"
+    }
+  },
+  {
+    "name": "Maki Roll",
+    "slug": "maki-roll",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 220,
+    "obtainMethod": "Cook using any Fish + Seaweed + Rice (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A delicate fish and rice roll wrapped in seaweed.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Any Fish",
+          "quantity": 1
+        },
+        {
+          "item": "Seaweed",
+          "quantity": 1
+        },
+        {
+          "item": "Rice",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 21, Year 1)"
+    }
+  },
+  {
+    "name": "Mango Sticky Rice",
+    "slug": "mango-sticky-rice",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 250,
+    "obtainMethod": "Cook using Mango + Coconut + Rice (recipe from Leo at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Sweet mango and coconut transforms this rice into something very special.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Mango",
+          "quantity": 1
+        },
+        {
+          "item": "Coconut",
+          "quantity": 1
+        },
+        {
+          "item": "Rice",
+          "quantity": 1
+        }
+      ],
+      "source": "Leo (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Maple Bar",
+    "slug": "maple-bar",
+    "category": "Cooked Food",
+    "subcategory": "Baked Good",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Maple Syrup + Sugar + Wheat Flour (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A soft, maple-glazed doughnut bar.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Maple Syrup",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 14, Year 2)"
+    }
+  },
+  {
+    "name": "Miner's Treat",
+    "slug": "miners-treat",
+    "category": "Cooked Food",
+    "subcategory": "Snack",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Cave Carrot × 2 + Sugar + Milk (recipe from Mining Level 3)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "This should keep your energy up.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Cave Carrot",
+          "quantity": 2
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        }
+      ],
+      "source": "Mining Level 3"
+    }
+  },
+  {
+    "name": "Moss Soup",
+    "slug": "moss-soup",
+    "category": "Cooked Food",
+    "subcategory": "Soup",
+    "sellPrice": 80,
+    "obtainMethod": "Cook using Moss × 20 (recipe from Foraging Level 3)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's thick and slimy, but edible.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Moss",
+          "quantity": 20
+        }
+      ],
+      "source": "Foraging Level 3"
+    }
+  },
+  {
+    "name": "Omelet",
+    "slug": "omelet",
+    "category": "Cooked Food",
+    "subcategory": "Breakfast",
+    "sellPrice": 125,
+    "obtainMethod": "Cook using Egg + Milk (recipe from Robin at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It smells delicious.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Egg",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 28, Year 1)"
+    }
+  },
+  {
+    "name": "Pale Broth",
+    "slug": "pale-broth",
+    "category": "Cooked Food",
+    "subcategory": "Soup",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using White Algae × 2 (recipe from Marnie at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A milky white broth made from white algae. Restores energy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "White Algae",
+          "quantity": 2
+        }
+      ],
+      "source": "Marnie (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Pancakes",
+    "slug": "pancakes",
+    "category": "Cooked Food",
+    "subcategory": "Breakfast",
+    "sellPrice": 80,
+    "obtainMethod": "Cook using Wheat Flour + Egg (recipe from TV's 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Fluffy pancakes perfect for a morning meal.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Egg",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 14, Year 1)"
+    }
+  },
+  {
+    "name": "Parsnip Soup",
+    "slug": "parsnip-soup",
+    "category": "Cooked Food",
+    "subcategory": "Soup",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Parsnip + Milk + Vinegar (recipe from Caroline at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A warming soup with a mild, sweet flavor.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Parsnip",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        },
+        {
+          "item": "Vinegar",
+          "quantity": 1
+        }
+      ],
+      "source": "Caroline (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Pepper Poppers",
+    "slug": "pepper-poppers",
+    "category": "Cooked Food",
+    "subcategory": "Snack",
+    "sellPrice": 200,
+    "obtainMethod": "Cook using Hot Pepper + Cheese (recipe from Shane at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Breaded and fried hot peppers stuffed with cheese.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Hot Pepper",
+          "quantity": 1
+        },
+        {
+          "item": "Cheese",
+          "quantity": 1
+        }
+      ],
+      "source": "Shane (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Pink Cake",
+    "slug": "pink-cake",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 480,
+    "obtainMethod": "Cook using Melon + Wheat Flour + Sugar + Egg (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "There's little heart candies on top.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Melon",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Egg",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 21, Year 2)"
+    }
+  },
+  {
+    "name": "Pizza",
+    "slug": "pizza",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Wheat Flour + Tomato + Cheese (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A classic pizza with tomato sauce and cheese.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Tomato",
+          "quantity": 1
+        },
+        {
+          "item": "Cheese",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 7, Year 2)"
+    }
+  },
+  {
+    "name": "Plum Pudding",
+    "slug": "plum-pudding",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 260,
+    "obtainMethod": "Cook using Wild Plum × 2 + Wheat Flour + Sugar (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A traditional steamed pudding studded with plums.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wild Plum",
+          "quantity": 2
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 7, Year 1)"
+    }
+  },
+  {
+    "name": "Poi",
+    "slug": "poi",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 400,
+    "obtainMethod": "Cook using Taro Root × 4 (recipe from Leo at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A traditional food with a delicate, sweet flavor when eaten fresh.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Taro Root",
+          "quantity": 4
+        }
+      ],
+      "source": "Leo (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Poppyseed Muffin",
+    "slug": "poppyseed-muffin",
+    "category": "Cooked Food",
+    "subcategory": "Baked Good",
+    "sellPrice": 250,
+    "obtainMethod": "Cook using Poppy + Wheat Flour + Sugar (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It has a soothing effect.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Poppy",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 7, Year 2)"
+    }
+  },
+  {
+    "name": "Pumpkin Pie",
+    "slug": "pumpkin-pie",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 385,
+    "obtainMethod": "Cook using Pumpkin + Wheat Flour + Milk + Sugar (recipe from Pam at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A spiced pumpkin pie with a flaky crust.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Pumpkin",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 21, Year 1)"
+    }
+  },
+  {
+    "name": "Pumpkin Soup",
+    "slug": "pumpkin-soup",
+    "category": "Cooked Food",
+    "subcategory": "Soup",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Pumpkin + Milk (recipe from Robin at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A hearty autumn soup with a sweet, savory taste.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Pumpkin",
+          "quantity": 1
+        },
+        {
+          "item": "Milk",
+          "quantity": 1
+        }
+      ],
+      "source": "Robin (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Radish Salad",
+    "slug": "radish-salad",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Oil + Vinegar + Radish (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A tangy salad featuring thinly sliced radishes.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Oil",
+          "quantity": 1
+        },
+        {
+          "item": "Vinegar",
+          "quantity": 1
+        },
+        {
+          "item": "Radish",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 21, Year 1)"
+    }
+  },
+  {
+    "name": "Red Plate",
+    "slug": "red-plate",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 400,
+    "obtainMethod": "Cook using Red Cabbage + Radish (recipe from Emily at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A vibrant dish with a deep red color.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Red Cabbage",
+          "quantity": 1
+        },
+        {
+          "item": "Radish",
+          "quantity": 1
+        }
+      ],
+      "source": "Emily (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Rhubarb Pie",
+    "slug": "rhubarb-pie",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 400,
+    "obtainMethod": "Cook using Rhubarb + Wheat Flour + Sugar (recipe from Marnie at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Mmm, tangy and sweet!",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Rhubarb",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        }
+      ],
+      "source": "Marnie (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Rice Pudding",
+    "slug": "rice-pudding",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 260,
+    "obtainMethod": "Cook using Milk + Sugar + Rice (recipe from Evelyn at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "It's creamy, sweet, and fun to eat.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Milk",
+          "quantity": 1
+        },
+        {
+          "item": "Sugar",
+          "quantity": 1
+        },
+        {
+          "item": "Rice",
+          "quantity": 1
+        }
+      ],
+      "source": "Evelyn (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Roasted Hazelnuts",
+    "slug": "roasted-hazelnuts",
+    "category": "Cooked Food",
+    "subcategory": "Snack",
+    "sellPrice": 270,
+    "obtainMethod": "Cook using Hazelnut × 3 (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Warm, roasted hazelnuts. A simple autumn treat.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Hazelnut",
+          "quantity": 3
+        }
+      ],
+      "source": "The Queen of Sauce (Summer 28, Year 2)"
+    }
+  },
+  {
+    "name": "Roots Platter",
+    "slug": "roots-platter",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 100,
+    "obtainMethod": "Cook using Cave Carrot + Winter Root (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A rustic platter of roasted root vegetables.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Cave Carrot",
+          "quantity": 1
+        },
+        {
+          "item": "Winter Root",
+          "quantity": 1
+        }
+      ],
+      "source": "Combat Level 3"
+    }
+  },
+  {
+    "name": "Salad",
+    "slug": "salad",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 110,
+    "obtainMethod": "Cook using Leek + Dandelion + Vinegar (recipe from Emily at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A fresh foraged salad. Restores energy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Leek",
+          "quantity": 1
+        },
+        {
+          "item": "Dandelion",
+          "quantity": 1
+        },
+        {
+          "item": "Vinegar",
+          "quantity": 1
+        }
+      ],
+      "source": "Emily (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Salmon Dinner",
+    "slug": "salmon-dinner",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Salmon + Amaranth + Kale (recipe from Gus at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "An elegant salmon dinner served with greens.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Salmon",
+          "quantity": 1
+        },
+        {
+          "item": "Amaranth",
+          "quantity": 1
+        },
+        {
+          "item": "Kale",
+          "quantity": 1
+        }
+      ],
+      "source": "Gus (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Sashimi",
+    "slug": "sashimi",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 75,
+    "obtainMethod": "Cook using any Fish (recipe from Linus at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Raw fish expertly sliced. Simple but elegant.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Any Fish",
+          "quantity": 1
+        }
+      ],
+      "source": "Linus (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Seafoam Pudding",
+    "slug": "seafoam-pudding",
+    "category": "Cooked Food",
+    "subcategory": "Dessert",
+    "sellPrice": 300,
+    "obtainMethod": "Cook using Flounder + Midnight Carp + Squid Ink (recipe from Fishing Level 9)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A mysterious dark pudding with a briny flavor.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Flounder",
+          "quantity": 1
+        },
+        {
+          "item": "Midnight Carp",
+          "quantity": 1
+        },
+        {
+          "item": "Squid Ink",
+          "quantity": 1
+        }
+      ],
+      "source": "Fishing Level 9"
+    }
+  },
+  {
+    "name": "Shrimp Cocktail",
+    "slug": "shrimp-cocktail",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 160,
+    "obtainMethod": "Cook using Tomato + Shrimp + Wild Horseradish (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Chilled shrimp served with a tangy cocktail sauce.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Tomato",
+          "quantity": 1
+        },
+        {
+          "item": "Shrimp",
+          "quantity": 1
+        },
+        {
+          "item": "Wild Horseradish",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Winter 28, Year 2)"
+    }
+  },
+  {
+    "name": "Spaghetti",
+    "slug": "spaghetti",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Wheat Flour + Tomato (recipe from Lewis at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "An old favorite.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Tomato",
+          "quantity": 1
+        }
+      ],
+      "source": "Lewis (Mail - 3+ hearts)"
+    }
+  },
+  {
+    "name": "Spicy Eel",
+    "slug": "spicy-eel",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 175,
+    "obtainMethod": "Cook using Eel + Hot Pepper (recipe from George at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A fiery eel dish that increases luck and speed.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Eel",
+          "quantity": 1
+        },
+        {
+          "item": "Hot Pepper",
+          "quantity": 1
+        }
+      ],
+      "source": "George (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Squid Ink Ravioli",
+    "slug": "squid-ink-ravioli",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 150,
+    "obtainMethod": "Cook using Squid Ink + Wheat Flour + Tomato (recipe from Combat Level 9)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Temporarily protects from debuffs.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Squid Ink",
+          "quantity": 1
+        },
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Tomato",
+          "quantity": 1
+        }
+      ],
+      "source": "Combat Level 9"
+    }
+  },
+  {
+    "name": "Stir Fry",
+    "slug": "stir-fry",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 335,
+    "obtainMethod": "Cook using Cave Carrot + Common Mushroom + Kale + Oil (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A quick and flavorful vegetable stir fry.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Cave Carrot",
+          "quantity": 1
+        },
+        {
+          "item": "Common Mushroom",
+          "quantity": 1
+        },
+        {
+          "item": "Kale",
+          "quantity": 1
+        },
+        {
+          "item": "Oil",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Spring 7, Year 1)"
+    }
+  },
+  {
+    "name": "Strange Bun",
+    "slug": "strange-bun",
+    "category": "Cooked Food",
+    "subcategory": "Baked Good",
+    "sellPrice": 225,
+    "obtainMethod": "Cook using Wheat Flour + Periwinkle + Void Mayonnaise (recipe from Shane at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A bun with a mysterious filling. Strangely delicious.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Wheat Flour",
+          "quantity": 1
+        },
+        {
+          "item": "Periwinkle",
+          "quantity": 1
+        },
+        {
+          "item": "Void Mayonnaise",
+          "quantity": 1
+        }
+      ],
+      "source": "Shane (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Stuffing",
+    "slug": "stuffing",
+    "category": "Cooked Food",
+    "subcategory": "Side Dish",
+    "sellPrice": 165,
+    "obtainMethod": "Cook using Bread + Cranberry + Hazelnut (recipe from Pam at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A savory bread stuffing filled with seasonal ingredients.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Bread",
+          "quantity": 1
+        },
+        {
+          "item": "Cranberries",
+          "quantity": 1
+        },
+        {
+          "item": "Hazelnut",
+          "quantity": 1
+        }
+      ],
+      "source": "Pam (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Super Meal",
+    "slug": "super-meal",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 220,
+    "obtainMethod": "Cook using Bok Choy + Cranberries + Artichoke (recipe from Kent at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A nutritious, well-balanced meal. Increases max energy.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Bok Choy",
+          "quantity": 1
+        },
+        {
+          "item": "Cranberries",
+          "quantity": 1
+        },
+        {
+          "item": "Artichoke",
+          "quantity": 1
+        }
+      ],
+      "source": "Kent (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Survival Burger",
+    "slug": "survival-burger",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 180,
+    "obtainMethod": "Cook using Bread + Cave Carrot + Eggplant (recipe from Foraging Level 8)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A convenient snack for the explorer.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Bread",
+          "quantity": 1
+        },
+        {
+          "item": "Cave Carrot",
+          "quantity": 1
+        },
+        {
+          "item": "Eggplant",
+          "quantity": 1
+        }
+      ],
+      "source": "Foraging Level 8"
+    }
+  },
+  {
+    "name": "Tom Kha Soup",
+    "slug": "tom-kha-soup",
+    "category": "Cooked Food",
+    "subcategory": "Soup",
+    "sellPrice": 250,
+    "obtainMethod": "Cook using Coconut + Shrimp + Common Mushroom (recipe from Sandy at 3 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A classic coconut soup with a spicy, aromatic kick.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Coconut",
+          "quantity": 1
+        },
+        {
+          "item": "Shrimp",
+          "quantity": 1
+        },
+        {
+          "item": "Common Mushroom",
+          "quantity": 1
+        }
+      ],
+      "source": "Sandy (Mail - 7+ hearts)"
+    }
+  },
+  {
+    "name": "Tortilla",
+    "slug": "tortilla",
+    "category": "Cooked Food",
+    "subcategory": "Baked Good",
+    "sellPrice": 50,
+    "obtainMethod": "Cook using Corn (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A thin flatbread used as a base for many dishes.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Corn",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 7, Year 1)"
+    }
+  },
+  {
+    "name": "Triple Shot Espresso",
+    "slug": "triple-shot-espresso",
+    "category": "Cooked Food",
+    "subcategory": "Drink",
+    "sellPrice": 450,
+    "obtainMethod": "Cook using Coffee × 3 (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "An intensely strong espresso. Dramatically increases movement speed.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Coffee",
+          "quantity": 3
+        }
+      ],
+      "source": "Stardrop Saloon for 5,000g"
+    }
+  },
+  {
+    "name": "Tropical Curry",
+    "slug": "tropical-curry",
+    "category": "Cooked Food",
+    "subcategory": "Meal",
+    "sellPrice": 500,
+    "obtainMethod": "Cook using Coconut + Pineapple + Hot Pepper (recipe from Ginger Island Resort for 2,000g)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "An exotic, fragrant curry served in a pineapple bowl.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Coconut",
+          "quantity": 1
+        },
+        {
+          "item": "Pineapple",
+          "quantity": 1
+        },
+        {
+          "item": "Hot Pepper",
+          "quantity": 1
+        }
+      ],
+      "source": "Ginger Island Resort for 2,000g"
+    }
+  },
+  {
+    "name": "Trout Soup",
+    "slug": "trout-soup",
+    "category": "Cooked Food",
+    "subcategory": "Fish Dish",
+    "sellPrice": 100,
+    "obtainMethod": "Cook using Rainbow Trout + Green Algae (recipe from TV 'Queen of Sauce')",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "Pretty salty.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Rainbow Trout",
+          "quantity": 1
+        },
+        {
+          "item": "Green Algae",
+          "quantity": 1
+        }
+      ],
+      "source": "The Queen of Sauce (Fall 14, Year 1)"
+    }
+  },
+  {
+    "name": "Vegetable Medley",
+    "slug": "vegetable-medley",
+    "category": "Cooked Food",
+    "subcategory": "Vegetable Dish",
+    "sellPrice": 120,
+    "obtainMethod": "Cook using Tomato + Beet (recipe from Caroline at 7 hearts)",
+    "season": "All",
+    "location": "Kitchen",
+    "description": "A healthy mix of colorful vegetables.",
+    "recipe": {
+      "ingredients": [
+        {
+          "item": "Tomato",
+          "quantity": 1
+        },
+        {
+          "item": "Beet",
+          "quantity": 1
+        }
+      ],
+      "source": "Caroline (Mail - 7+ hearts)"
+    }
+  }
+]

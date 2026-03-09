@@ -11,6 +11,7 @@ import {
   CalendarDays,
   Heart,
   Sprout,
+  Package,
   Menu,
   X,
   LogIn,
@@ -21,7 +22,8 @@ import { useState } from 'react'
 
 const navItems = [
   { href: '/', label: 'Dashboard', icon: Home, emoji: '🏠' },
-  { href: '/shipping', label: 'Shipping', icon: ShoppingBasket, emoji: '📦' },
+  { href: '/items', label: 'Items', icon: Package, emoji: '📦' },
+  { href: '/shipping', label: 'Shipping', icon: ShoppingBasket, emoji: '🚚' },
   { href: '/community-centre', label: 'Community Centre', icon: Building2, emoji: '🏛️' },
   { href: '/checklists', label: 'Checklists', icon: ListChecks, emoji: '📋' },
   { href: '/calendar', label: 'Calendar', icon: CalendarDays, emoji: '📅' },
@@ -71,7 +73,7 @@ export function Sidebar() {
           <NavLink
             key={item.href}
             {...item}
-            active={pathname === item.href}
+            active={item.href === '/' ? pathname === '/' : pathname.startsWith(item.href)}
           />
         ))}
       </nav>

@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client'
-import { readFileSync } from 'fs'
+import { readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
 
 const prisma = new PrismaClient()
@@ -7,6 +7,18 @@ const prisma = new PrismaClient()
 function loadJson<T>(filename: string): T {
   const filePath = join(__dirname, '..', 'seed-data', filename)
   return JSON.parse(readFileSync(filePath, 'utf-8')) as T
+}
+
+function loadJsonDirectory<T>(directory: string): T[] {
+  const dirPath = join(__dirname, '..', 'seed-data', directory)
+
+  return readdirSync(dirPath)
+    .filter((filename) => filename.endsWith('.json'))
+    .sort((a, b) => a.localeCompare(b))
+    .flatMap((filename) => {
+      const filePath = join(dirPath, filename)
+      return JSON.parse(readFileSync(filePath, 'utf-8')) as T[]
+    })
 }
 
 type CropData = {
@@ -66,6 +78,20 @@ type ShippingData = {
   imageSlug?: string
 }
 
+type GameItemData = {
+  name: string
+  slug: string
+  category: string
+  subcategory?: string | null
+  sellPrice?: number | null
+  description?: string | null
+  obtainMethod: string
+  season?: string | null
+  location?: string | null
+  imageSlug?: string | null
+  cropName?: string | null
+}
+
 async function main() {
   console.log('🌱 Starting seed...')
 
@@ -82,6 +108,7 @@ async function main() {
   await prisma.crop.deleteMany()
   await prisma.calendarEvent.deleteMany()
   await prisma.shippingItem.deleteMany()
+  await prisma.gameItem.deleteMany()
 
   // Seed crops
   const crops = loadJson<CropData[]>('crops.json')
@@ -185,6 +212,27 @@ async function main() {
     })
   }
   console.log(`  ✅ Seeded ${shipping.length} shipping items`)
+
+  // Seed game items
+  const gameItems = loadJsonDirectory<GameItemData>('items')
+  for (const item of gameItems) {
+    await prisma.gameItem.create({
+      data: {
+        name: item.name,
+        slug: item.slug,
+        category: item.category,
+        subcategory: item.subcategory ?? null,
+        sellPrice: item.sellPrice ?? null,
+        description: item.description ?? null,
+        obtainMethod: item.obtainMethod,
+        season: item.season ?? null,
+        location: item.location ?? null,
+        imageSlug: item.imageSlug ?? null,
+        cropName: item.cropName ?? null,
+      },
+    })
+  }
+  console.log(`  ✅ Seeded ${gameItems.length} game items`)
 
   console.log('🌾 Seed complete!')
 }

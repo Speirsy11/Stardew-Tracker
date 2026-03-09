@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Dinosaur Egg",
+    "slug": "dinosaur-egg",
+    "category": "Animal Product",
+    "subcategory": "Special Product",
+    "sellPrice": 350,
+    "obtainMethod": "Found in artifact spots, mine treasure rooms, or from Dinosaur Chickens",
+    "season": "All",
+    "location": "Artifact Spots, The Mines",
+    "description": "An ancient, petrified egg. Can be incubated in a Big Coop."
+  },
+  {
+    "name": "Duck Egg",
+    "slug": "duck-egg",
+    "category": "Animal Product",
+    "subcategory": "Duck Product",
+    "sellPrice": 95,
+    "obtainMethod": "Produced by Ducks in a Big Coop",
+    "season": "All",
+    "location": "Farm (Big Coop)",
+    "description": "A cream-colored egg from a duck."
+  },
+  {
+    "name": "Duck Feather",
+    "slug": "duck-feather",
+    "category": "Animal Product",
+    "subcategory": "Duck Product",
+    "sellPrice": 125,
+    "obtainMethod": "Produced occasionally by very happy Ducks in a Big Coop",
+    "season": "All",
+    "location": "Farm (Big Coop)",
+    "description": "A lucky feather dropped by a happy duck."
+  },
+  {
+    "name": "Egg",
+    "slug": "egg",
+    "category": "Animal Product",
+    "subcategory": "Chicken Product",
+    "sellPrice": 50,
+    "obtainMethod": "Produced by Chickens in a Coop",
+    "season": "All",
+    "location": "Farm (Coop)",
+    "description": "A regular egg from a happy chicken."
+  },
+  {
+    "name": "Goat Milk",
+    "slug": "goat-milk",
+    "category": "Animal Product",
+    "subcategory": "Goat Product",
+    "sellPrice": 225,
+    "obtainMethod": "Produced by Goats in a Big Barn (use Milk Pail)",
+    "season": "All",
+    "location": "Farm (Big Barn)",
+    "description": "A pitcher of rich goat's milk."
+  },
+  {
+    "name": "Large Egg",
+    "slug": "large-egg",
+    "category": "Animal Product",
+    "subcategory": "Chicken Product",
+    "sellPrice": 95,
+    "obtainMethod": "Produced by very happy Chickens (high hearts) in a Coop",
+    "season": "All",
+    "location": "Farm (Coop)",
+    "description": "An exceptionally large egg from a very happy chicken."
+  },
+  {
+    "name": "Large Goat Milk",
+    "slug": "large-goat-milk",
+    "category": "Animal Product",
+    "subcategory": "Goat Product",
+    "sellPrice": 345,
+    "obtainMethod": "Produced by very happy Goats (high hearts) in a Big Barn",
+    "season": "All",
+    "location": "Farm (Big Barn)",
+    "description": "A large pitcher of rich goat's milk."
+  },
+  {
+    "name": "Large Milk",
+    "slug": "large-milk",
+    "category": "Animal Product",
+    "subcategory": "Cow Product",
+    "sellPrice": 190,
+    "obtainMethod": "Produced by very happy Cows (high hearts) in a Barn",
+    "season": "All",
+    "location": "Farm (Barn)",
+    "description": "A large jug of fresh cow's milk from a very happy cow."
+  },
+  {
+    "name": "Milk",
+    "slug": "milk",
+    "category": "Animal Product",
+    "subcategory": "Cow Product",
+    "sellPrice": 125,
+    "obtainMethod": "Produced by Cows in a Barn (use Milk Pail)",
+    "season": "All",
+    "location": "Farm (Barn)",
+    "description": "A jug of fresh cow's milk."
+  },
+  {
+    "name": "Rabbit's Foot",
+    "slug": "rabbits-foot",
+    "category": "Animal Product",
+    "subcategory": "Rabbit Product",
+    "sellPrice": 565,
+    "obtainMethod": "Produced occasionally by happy Rabbits in a Deluxe Coop",
+    "season": "All",
+    "location": "Farm (Deluxe Coop)",
+    "description": "It's said to bring good luck. Clearly not for the rabbit, though."
+  },
+  {
+    "name": "Truffle",
+    "slug": "truffle",
+    "category": "Animal Product",
+    "subcategory": "Pig Product",
+    "sellPrice": 625,
+    "obtainMethod": "Foraged outdoors by Pigs in a Deluxe Barn",
+    "season": "Spring, Summer, Fall",
+    "location": "Farm (Deluxe Barn)",
+    "description": "A rare mushroom-like fungus prized by gourmet chefs. Found by pigs."
+  },
+  {
+    "name": "Void Egg",
+    "slug": "void-egg",
+    "category": "Animal Product",
+    "subcategory": "Special Product",
+    "sellPrice": 65,
+    "obtainMethod": "Produced by Void Chickens (hatched from Void Egg purchased from Witch/Krobus)",
+    "season": "All",
+    "location": "Farm (Coop)",
+    "description": "An egg with a very dark shell and deep purple interior."
+  },
+  {
+    "name": "Wool",
+    "slug": "wool",
+    "category": "Animal Product",
+    "subcategory": "Sheep Product",
+    "sellPrice": 340,
+    "obtainMethod": "Produced by Sheep in a Deluxe Barn (use Shears)",
+    "season": "All",
+    "location": "Farm (Deluxe Barn)",
+    "description": "Soft, fluffy wool sheared from a happy sheep."
+  }
+]

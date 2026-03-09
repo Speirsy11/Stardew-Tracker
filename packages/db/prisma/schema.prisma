@@ -102,6 +102,21 @@ model ShippingItem {
   userProgress UserShipping[]
 }
 
+model GameItem {
+  id           Int     @id @default(autoincrement())
+  name         String  @unique
+  slug         String  @unique
+  category     String
+  subcategory  String?
+  sellPrice    Int?
+  description  String?
+  obtainMethod String
+  season       String?
+  location     String?
+  imageSlug    String?
+  cropName     String?
+}
+
 // ─── User / Progress Data ─────────────────────────────────────────────────────
 
 model User {

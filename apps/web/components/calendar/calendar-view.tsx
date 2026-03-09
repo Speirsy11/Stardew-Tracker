@@ -214,7 +214,7 @@ export function CalendarView({ events }: CalendarViewProps) {
                   </span>
                   <div className="flex-1 min-w-0">
                     <p className="font-semibold text-sm text-stardew-brown-dark truncate">{event.name}</p>
-                    <Badge variant={event.season as Season}>
+                    <Badge variant={event.season.toLowerCase() as 'spring' | 'summer' | 'fall' | 'winter'}>
                       {SEASON_ICONS[event.season as Season]} {event.season} {event.day}
                     </Badge>
                   </div>
@@ -236,7 +236,7 @@ export function CalendarView({ events }: CalendarViewProps) {
                     <Badge variant={selectedEvent.type === 'festival' ? 'gold' : 'default'}>
                       {selectedEvent.type === 'festival' ? '🎉 Festival' : '🎂 Birthday'}
                     </Badge>
-                    <Badge variant={selectedEvent.season as Season}>
+                    <Badge variant={selectedEvent.season.toLowerCase() as 'spring' | 'summer' | 'fall' | 'winter'}>
                       {SEASON_ICONS[selectedEvent.season as Season]} {selectedEvent.season} {selectedEvent.day}
                     </Badge>
                   </div>
