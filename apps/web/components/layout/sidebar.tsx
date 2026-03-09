@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useSession, signOut } from 'next-auth/react'
 import {
   ShoppingBasket,
   Home,
@@ -12,6 +13,8 @@ import {
   Sprout,
   Menu,
   X,
+  LogIn,
+  LogOut,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useState } from 'react'
@@ -46,6 +49,7 @@ function NavLink({ href, label, icon: Icon, emoji, active }: { href: string; lab
 
 export function Sidebar() {
   const pathname = usePathname()
+  const { data: session, status } = useSession()
   const [mobileOpen, setMobileOpen] = useState(false)
 
   const sidebarContent = (
@@ -72,8 +76,33 @@ export function Sidebar() {
         ))}
       </nav>
 
+      {/* Auth */}
+      <div className="px-3 py-3 border-t-2 border-stardew-brown/10">
+        {status === 'loading' ? (
+          <div className="text-xs text-stardew-brown/50 text-center font-semibold py-2">...</div>
+        ) : session?.user ? (
+          <div className="space-y-2">
+            <div className="text-xs text-stardew-brown-dark font-semibold truncate px-1">
+              🧑‍🌾 {session.user.name || session.user.email}
+            </div>
+            <button
+              onClick={() => signOut()}
+              className="nav-link group w-full text-left"
+            >
+              <LogOut size={14} />
+              <span className="font-semibold">Sign Out</span>
+            </button>
+          </div>
+        ) : (
+          <Link href="/auth/signin" className={cn('nav-link group', pathname === '/auth/signin' && 'active')}>
+            <LogIn size={14} />
+            <span className="font-semibold">Sign In</span>
+          </Link>
+        )}
+      </div>
+
       {/* Footer */}
-      <div className="px-4 py-4 border-t-2 border-stardew-brown/10">
+      <div className="px-4 py-3 border-t-2 border-stardew-brown/10">
         <p className="text-xs text-stardew-brown/60 text-center font-semibold">
           Stardew Valley v1.6
         </p>

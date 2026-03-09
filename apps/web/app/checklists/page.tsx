@@ -1,10 +1,9 @@
-import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
+import { getServerAuth } from '@stardew/auth'
 import { prisma } from '@stardew/db'
 import { ChecklistManager } from '@/components/checklists/checklist-manager'
 
 export default async function ChecklistsPage() {
-  const session = await getServerSession(authOptions)
+  const session = await getServerAuth()
   const userId = (session?.user as any)?.id as string | undefined
 
   const checklists = userId

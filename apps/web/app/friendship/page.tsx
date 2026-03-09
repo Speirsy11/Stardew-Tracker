@@ -1,4 +1,5 @@
 import { prisma } from '@stardew/db'
+import { getAuthUserId } from '@stardew/auth'
 import { NpcCard } from '@/components/friendship/npc-card'
 import { FriendshipFilters } from '@/components/friendship/friendship-filters'
 
@@ -7,6 +8,16 @@ export default async function FriendshipPage() {
     include: { friendshipRewards: { orderBy: { hearts: 'asc' } } },
     orderBy: { name: 'asc' },
   })
+
+  const userId = await getAuthUserId()
+  const heartsMap: Record<number, number> = {}
+
+  if (userId) {
+    const friendships = await prisma.userFriendship.findMany({ where: { userId } })
+    for (const f of friendships) {
+      heartsMap[f.npcId] = f.hearts
+    }
+  }
 
   return (
     <div className="max-w-5xl mx-auto animate-fade-up">
@@ -17,7 +28,8 @@ export default async function FriendshipPage() {
           you unlock at each friendship milestone. Click the hearts to set your level.
         </p>
       </div>
-      <FriendshipFilters npcs={npcs} />
+      <FriendshipFilters npcs={npcs} initialHearts={heartsMap} />
     </div>
   )
 }
+

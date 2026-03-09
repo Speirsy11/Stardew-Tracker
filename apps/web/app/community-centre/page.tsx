@@ -1,4 +1,5 @@
 import { prisma } from '@stardew/db'
+import { getAuthUserId } from '@stardew/auth'
 import { BundleTracker } from '@/components/bundles/bundle-tracker'
 
 export default async function CommunityCentrePage() {
@@ -9,6 +10,16 @@ export default async function CommunityCentrePage() {
     orderBy: { id: 'asc' },
   })
 
+  const userId = await getAuthUserId()
+  const initialChecked: Record<number, boolean> = {}
+
+  if (userId) {
+    const progress = await prisma.userBundle.findMany({ where: { userId } })
+    for (const p of progress) {
+      if (p.completed) initialChecked[p.bundleItemId] = true
+    }
+  }
+
   return (
     <div className="max-w-5xl mx-auto animate-fade-up">
       <div className="mb-6">
@@ -18,7 +29,8 @@ export default async function CommunityCentrePage() {
           Click any item to check it off, and click a room header to expand it.
         </p>
       </div>
-      <BundleTracker bundles={bundles} initialChecked={{}} />
+      <BundleTracker bundles={bundles} initialChecked={initialChecked} />
     </div>
   )
 }
+

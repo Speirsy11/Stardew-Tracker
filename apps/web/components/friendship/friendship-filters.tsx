@@ -11,9 +11,10 @@ type NpcWithRewards = Npc & { friendshipRewards: FriendshipReward[] }
 
 interface FriendshipFiltersProps {
   npcs: NpcWithRewards[]
+  initialHearts: Record<number, number>
 }
 
-export function FriendshipFilters({ npcs }: FriendshipFiltersProps) {
+export function FriendshipFilters({ npcs, initialHearts }: FriendshipFiltersProps) {
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState<'all' | 'romanceable'>('all')
 
@@ -58,7 +59,7 @@ export function FriendshipFilters({ npcs }: FriendshipFiltersProps) {
 
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
         {filtered.map((npc) => (
-          <NpcCard key={npc.id} npc={npc} initialHearts={0} />
+          <NpcCard key={npc.id} npc={npc} initialHearts={initialHearts[npc.id] ?? 0} />
         ))}
       </div>
 

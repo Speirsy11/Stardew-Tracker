@@ -1,11 +1,10 @@
 import { NextResponse } from 'next/server'
-import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
+import { getServerAuth } from '@stardew/auth'
 import { prisma } from '@stardew/db'
 import { parseMarkdownChecklist } from '@/lib/markdown-parser'
 
 export async function GET() {
-  const session = await getServerSession(authOptions)
+  const session = await getServerAuth()
   if (!session?.user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const userId = (session.user as any).id as string
@@ -19,7 +18,7 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-  const session = await getServerSession(authOptions)
+  const session = await getServerAuth()
   if (!session?.user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const userId = (session.user as any).id as string
@@ -48,7 +47,7 @@ export async function POST(req: Request) {
 }
 
 export async function DELETE(req: Request) {
-  const session = await getServerSession(authOptions)
+  const session = await getServerAuth()
   if (!session?.user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const userId = (session.user as any).id as string

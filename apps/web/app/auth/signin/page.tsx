@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import Link from 'next/link'
-import { Loader2, Github } from 'lucide-react'
+import { Loader2, Github, Eye, EyeOff } from 'lucide-react'
 
 export default function SignInPage() {
   const router = useRouter()
@@ -14,6 +14,7 @@ export default function SignInPage() {
   const [email, setEmail] = useState('')
   const [name, setName] = useState('')
   const [password, setPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -22,32 +23,48 @@ export default function SignInPage() {
     setError('')
     setLoading(true)
 
-    if (tab === 'register') {
-      const res = await fetch('/api/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, name, password }),
-      })
-      if (!res.ok) {
-        const data = await res.json()
-        setError(data.error ?? 'Registration failed')
-        setLoading(false)
-        return
+    try {
+      if (tab === 'register') {
+        const res = await fetch('/api/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, name, password }),
+        })
+        if (!res.ok) {
+          const data = await res.json()
+          setError(data.error ?? 'Registration failed')
+          setLoading(false)
+          return
+        }
       }
-    }
 
-    const result = await signIn('credentials', {
-      email,
-      password,
-      redirect: false,
-    })
+      // Sign in with credentials
+      const result = await signIn('credentials', {
+        email,
+        password,
+        redirect: false,
+        callbackUrl: '/',
+      })
 
-    setLoading(false)
-    if (result?.error) {
-      setError('Invalid email or password')
-    } else {
-      router.push('/')
-      router.refresh()
+      if (result?.error) {
+        console.error('signIn error:', result.error)
+        setError(
+          tab === 'register'
+            ? 'Account created but sign-in failed. Try signing in manually.'
+            : 'Invalid email or password'
+        )
+        if (tab === 'register') {
+          setTab('signin')
+        }
+      } else {
+        router.push('/')
+        router.refresh()
+      }
+    } catch (err) {
+      console.error('Auth error:', err)
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -111,13 +128,23 @@ export default function SignInPage() {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <Input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <div className="relative">
+            <Input
+              type={showPassword ? 'text' : 'password'}
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              className="pr-10"
+            />
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-stardew-brown/50 hover:text-stardew-brown transition-colors"
+            >
+              {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
+            </button>
+          </div>
           {error && <p className="text-red-500 text-xs font-semibold">{error}</p>}
           <Button type="submit" className="w-full" disabled={loading}>
             {loading && <Loader2 size={14} className="animate-spin" />}
