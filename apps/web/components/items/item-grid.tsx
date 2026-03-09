@@ -7,6 +7,7 @@ import { cn, formatGold } from '@/lib/utils'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Search } from 'lucide-react'
+import { StardewItemIcon } from '@/components/items/stardew-item-icon'
 
 interface ItemGridProps {
   items: GameItem[]
@@ -132,9 +133,9 @@ export function ItemGrid({ items }: ItemGridProps) {
             )}
           >
             <div className="flex items-start gap-2">
-              <span className="text-2xl leading-none mt-0.5 flex-shrink-0">
-                {CATEGORY_EMOJI_MAP[item.category] ?? '📦'}
-              </span>
+              <div className="flex-shrink-0 mt-0.5">
+                <StardewItemIcon name={item.name} category={item.category} size={32} />
+              </div>
               <div className="min-w-0 flex-1">
                 <p className="font-bold text-stardew-brown-dark text-sm leading-tight truncate">{item.name}</p>
                 {item.subcategory && (

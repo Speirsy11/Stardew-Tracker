@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { formatGold } from '@/lib/utils'
 import { ArrowLeft, MapPin, Calendar, Tag, ShoppingBag } from 'lucide-react'
+import { StardewItemIcon } from '@/components/items/stardew-item-icon'
 
 const CATEGORY_EMOJI_MAP: Record<string, string> = {
   Fish: '🐟',
@@ -73,7 +74,7 @@ export default async function ItemDetailPage({ params }: { params: Promise<{ slu
       {/* Header card */}
       <div className="card-stardew p-6">
         <div className="flex items-start gap-4">
-          <span className="text-5xl leading-none">{emoji}</span>
+          <StardewItemIcon name={item.name} category={item.category} size={64} />
           <div className="flex-1 min-w-0">
             <h1 className="font-pixel text-base text-stardew-brown-dark leading-snug">{item.name}</h1>
             <div className="flex flex-wrap items-center gap-2 mt-2">

@@ -8,6 +8,7 @@ import { Progress } from '@/components/ui/progress'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { Check, Search, ExternalLink } from 'lucide-react'
+import { StardewItemIcon } from '@/components/items/stardew-item-icon'
 
 function toItemSlug(name: string): string {
   return name
@@ -225,6 +226,9 @@ function ShippingItemCard({
           {isChecked && <Check size={12} className="text-white" strokeWidth={3} />}
         </div>
       </button>
+
+      {/* Icon */}
+      <StardewItemIcon name={item.name} category={item.category} size={24} className="flex-shrink-0 mt-0.5 opacity-80" />
 
       {/* Info */}
       <div className="flex-1 min-w-0">

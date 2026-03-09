@@ -12,7 +12,9 @@
     "db:studio": "prisma studio",
     "db:generate": "prisma generate",
     "db:sync-wiki-items": "node scripts/sync-wiki-supplemental-items.mjs && node scripts/generate-game-item-seed-files.mjs",
-    "db:validate-items": "node scripts/validate-game-items-against-wiki.mjs"
+    "db:validate-items": "node scripts/validate-game-items-against-wiki.mjs",
+    "icons:download": "node scripts/download-item-icons.mjs",
+    "icons:download:force": "node scripts/download-item-icons.mjs --force"
   },
   "dependencies": {
     "@prisma/client": "^6.2.1"

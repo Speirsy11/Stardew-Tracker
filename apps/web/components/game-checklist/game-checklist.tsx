@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils'
 import { Progress } from '@/components/ui/progress'
 import { Input } from '@/components/ui/input'
 import { Check, ChevronDown, ChevronUp, Search, Trophy, ExternalLink } from 'lucide-react'
+import { StardewItemIcon } from '@/components/items/stardew-item-icon'
 
 interface GameChecklistProps {
   items: GameItem[]
@@ -216,6 +217,9 @@ function ChecklistItemRow({
           {isChecked && <Check size={10} className="text-white" strokeWidth={3} />}
         </div>
       </button>
+
+      {/* Icon */}
+      <StardewItemIcon name={item.name} category={item.category} size={20} className="flex-shrink-0 opacity-80" />
 
       {/* Item name as link */}
       <Link
