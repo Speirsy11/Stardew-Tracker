@@ -1,0 +1,370 @@
+[
+  {
+    "room": "Pantry",
+    "name": "Spring Crops Bundle",
+    "reward": "Speed-Gro x20",
+    "color": "#7ec850",
+    "items": [
+      { "itemName": "Parsnip", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Green Bean", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cauliflower", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Potato", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Pantry",
+    "name": "Summer Crops Bundle",
+    "reward": "Quality Sprinkler x1",
+    "color": "#f5c542",
+    "items": [
+      { "itemName": "Tomato", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Hot Pepper", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Blueberry", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Melon", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Pantry",
+    "name": "Fall Crops Bundle",
+    "reward": "Bee House x3",
+    "color": "#e07030",
+    "items": [
+      { "itemName": "Corn", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Eggplant", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Pumpkin", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Yam", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Pantry",
+    "name": "Quality Crops Bundle",
+    "reward": "Preserves Jar x3",
+    "color": "#c8a0e0",
+    "items": [
+      { "itemName": "Parsnip", "quantity": 5, "quality": "Gold" },
+      { "itemName": "Melon", "quantity": 5, "quality": "Gold" },
+      { "itemName": "Pumpkin", "quantity": 5, "quality": "Gold" },
+      { "itemName": "Corn", "quantity": 5, "quality": "Gold" }
+    ]
+  },
+  {
+    "room": "Pantry",
+    "name": "Animal Bundle",
+    "reward": "Milk Pail",
+    "color": "#f0d060",
+    "items": [
+      { "itemName": "Large Milk", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Egg", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Large Egg", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Large Goat Milk", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Wool", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Duck Egg", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Pantry",
+    "name": "Artisan Bundle",
+    "reward": "Keg x1",
+    "color": "#90c860",
+    "items": [
+      { "itemName": "Truffle Oil", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cloth", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Goat Cheese", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cheese", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Honey", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Jelly", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Apple", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Apricot", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Orange", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Peach", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Pomegranate", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cherry", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Crafts Room",
+    "name": "Spring Foraging Bundle",
+    "reward": "Spring Seeds x30",
+    "color": "#7ec850",
+    "items": [
+      { "itemName": "Daffodil", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Dandelion", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Leek", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Wild Horseradish", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Crafts Room",
+    "name": "Summer Foraging Bundle",
+    "reward": "Summer Seeds x30",
+    "color": "#f5c542",
+    "items": [
+      { "itemName": "Grape", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Spice Berry", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Sweet Pea", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Crafts Room",
+    "name": "Fall Foraging Bundle",
+    "reward": "Fall Seeds x30",
+    "color": "#e07030",
+    "items": [
+      { "itemName": "Common Mushroom", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Wild Plum", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Hazelnut", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Blackberry", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Crafts Room",
+    "name": "Winter Foraging Bundle",
+    "reward": "Winter Seeds x30",
+    "color": "#80b0e0",
+    "items": [
+      { "itemName": "Crystal Fruit", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Crocus", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Holly", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Nautilus Shell", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Crafts Room",
+    "name": "Construction Bundle",
+    "reward": "Charcoal Kiln",
+    "color": "#a07050",
+    "items": [
+      { "itemName": "Wood", "quantity": 99, "quality": "Normal" },
+      { "itemName": "Stone", "quantity": 99, "quality": "Normal" },
+      { "itemName": "Hardwood", "quantity": 10, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Crafts Room",
+    "name": "Exotic Foraging Bundle",
+    "reward": "Autumn's Bounty",
+    "color": "#c880a0",
+    "items": [
+      { "itemName": "Coconut", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cactus Fruit", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cave Carrot", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Red Mushroom", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Purple Mushroom", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Maple Syrup", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Oak Resin", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Pine Tar", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Morel", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Fish Tank",
+    "name": "River Fish Bundle",
+    "reward": "Bait x30",
+    "color": "#60a0d0",
+    "items": [
+      { "itemName": "Sunfish", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Catfish", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Shad", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Tiger Trout", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Fish Tank",
+    "name": "Lake Fish Bundle",
+    "reward": "Dressed Spinner",
+    "color": "#4070c0",
+    "items": [
+      { "itemName": "Largemouth Bass", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Carp", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Bullhead", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Sturgeon", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Fish Tank",
+    "name": "Ocean Fish Bundle",
+    "reward": "Warp Totem: Beach x5",
+    "color": "#2060a0",
+    "items": [
+      { "itemName": "Sardine", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Tuna", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Red Snapper", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Tilapia", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Fish Tank",
+    "name": "Night Fishing Bundle",
+    "reward": "Small Glow Ring",
+    "color": "#203060",
+    "items": [
+      { "itemName": "Walleye", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Bream", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Eel", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Fish Tank",
+    "name": "Specialty Fish Bundle",
+    "reward": "Dish O' The Sea x5",
+    "color": "#a0d0f0",
+    "items": [
+      { "itemName": "Pufferfish", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Ghostfish", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Sandfish", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Woodskip", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Fish Tank",
+    "name": "Crab Pot Bundle",
+    "reward": "Crab Pot x3",
+    "color": "#8060a0",
+    "items": [
+      { "itemName": "Lobster", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Crayfish", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Crab", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Cockle", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Mussel", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Shrimp", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Snail", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Periwinkle", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Oyster", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Clam", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Boiler Room",
+    "name": "Blacksmith's Bundle",
+    "reward": "Furnace",
+    "color": "#808080",
+    "items": [
+      { "itemName": "Copper Bar", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Iron Bar", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Gold Bar", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Boiler Room",
+    "name": "Geologist's Bundle",
+    "reward": "Omni Geode x5",
+    "color": "#a08060",
+    "items": [
+      { "itemName": "Quartz", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Earth Crystal", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Frozen Tear", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Fire Quartz", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Boiler Room",
+    "name": "Adventurer's Bundle",
+    "reward": "Small Magnet Ring",
+    "color": "#c04040",
+    "items": [
+      { "itemName": "Slime", "quantity": 99, "quality": "Normal" },
+      { "itemName": "Bat Wing", "quantity": 10, "quality": "Normal" },
+      { "itemName": "Solar Essence", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Void Essence", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Bulletin Board",
+    "name": "Chef's Bundle",
+    "reward": "Pie",
+    "color": "#f08030",
+    "items": [
+      { "itemName": "Maple Syrup", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Fiddlehead Fern", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Truffle", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Poppy", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Maki Roll", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Fried Egg", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Bulletin Board",
+    "name": "Dye Bundle",
+    "reward": "Seed Maker",
+    "color": "#f060d0",
+    "items": [
+      { "itemName": "Red Mushroom", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Sea Urchin", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Sunflower", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Duck Feather", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Aquamarine", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Red Cabbage", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Bulletin Board",
+    "name": "Field Research Bundle",
+    "reward": "Nautilus Fossil",
+    "color": "#60c880",
+    "items": [
+      { "itemName": "Purple Mushroom", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Nautilus Shell", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Chub", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Frozen Geode", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Bulletin Board",
+    "name": "Fodder Bundle",
+    "reward": "Heater",
+    "color": "#a06030",
+    "items": [
+      { "itemName": "Wheat", "quantity": 10, "quality": "Normal" },
+      { "itemName": "Hay", "quantity": 10, "quality": "Normal" },
+      { "itemName": "Apple", "quantity": 3, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Bulletin Board",
+    "name": "Enchanter's Bundle",
+    "reward": "Apple x5",
+    "color": "#9060d0",
+    "items": [
+      { "itemName": "Oak Resin", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Wine", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Rabbit's Foot", "quantity": 1, "quality": "Normal" },
+      { "itemName": "Pomegranate", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Vault",
+    "name": "2,500g Bundle",
+    "reward": "Chocolate Cake",
+    "color": "#f0d040",
+    "items": [
+      { "itemName": "2,500g", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Vault",
+    "name": "5,000g Bundle",
+    "reward": "Quality Sprinkler x5",
+    "color": "#e0a030",
+    "items": [
+      { "itemName": "5,000g", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Vault",
+    "name": "10,000g Bundle",
+    "reward": "Lightning Rod x3",
+    "color": "#c08020",
+    "items": [
+      { "itemName": "10,000g", "quantity": 1, "quality": "Normal" }
+    ]
+  },
+  {
+    "room": "Vault",
+    "name": "25,000g Bundle",
+    "reward": "Crystalarium",
+    "color": "#a06010",
+    "items": [
+      { "itemName": "25,000g", "quantity": 1, "quality": "Normal" }
+    ]
+  }
+]

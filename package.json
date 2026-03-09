@@ -1,0 +1,24 @@
+{
+  "name": "stardew-tracker",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:migrate": "turbo run db:migrate --filter=@stardew/db",
+    "db:seed": "turbo run db:seed --filter=@stardew/db",
+    "db:reset": "turbo run db:reset --filter=@stardew/db",
+    "db:studio": "turbo run db:studio --filter=@stardew/db"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.15.1",
+  "engines": {
+    "node": ">=20"
+  }
+}
