@@ -1,5 +1,16 @@
 [
   {
+    "slug": "hat",
+    "name": "??? (hat)",
+    "category": "Hat",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for ??? (hat).",
+    "obtainMethod": "Hat listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "slug": "abigails-bow",
     "name": "Abigail's Bow",
     "category": "Hat",
@@ -614,6 +625,17 @@
     "obtainMethod": "Monster Eradication Goal: defeat 30 Duggies",
     "season": "All",
     "location": "Hat Mouse shop, festivals, tailoring, Skull Cavern, Ginger Island, Desert Festival, or special rewards"
+  },
+  {
+    "slug": "hats",
+    "name": "Hats",
+    "category": "Hat",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Hats.",
+    "obtainMethod": "Hat listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "slug": "hunters-cap",

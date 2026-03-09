@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "basic-fertilizer",
+    "name": "Basic Fertilizer",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "basic-retaining-soil",
+    "name": "Basic Retaining Soil",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "deluxe-fertilizer",
+    "name": "Deluxe Fertilizer",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "deluxe-retaining-soil",
+    "name": "Deluxe Retaining Soil",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "deluxe-speed-gro",
+    "name": "Deluxe Speed-Gro",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "fertilizer",
+    "name": "Fertilizer",
+    "category": "Fertilizer",
+    "subcategory": "Fertilizer",
+    "description": "Wiki-derived supplemental item entry for Fertilizer.",
+    "obtainMethod": "Fertilizer item listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Crafting or shops",
+    "cropName": null
+  },
+  {
+    "slug": "hyper-speed-gro",
+    "name": "Hyper Speed-Gro",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "quality-fertilizer",
+    "name": "Quality Fertilizer",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "quality-retaining-soil",
+    "name": "Quality Retaining Soil",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "speed-gro",
+    "name": "Speed-Gro",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  },
+  {
+    "slug": "tree-fertilizer",
+    "name": "Tree Fertilizer",
+    "category": "Fertilizer",
+    "subcategory": "Soil Additive",
+    "sellPrice": null,
+    "description": "A fertilizer or soil additive used to improve crop growth, quality, or water retention.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the fertilizer.",
+    "season": "All",
+    "location": "Pierre's General Store, Oasis, crafting, and rewards"
+  }
+]

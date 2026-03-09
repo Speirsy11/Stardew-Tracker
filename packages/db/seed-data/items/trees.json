@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "apple-tree",
+    "name": "Apple Tree",
+    "category": "Tree",
+    "subcategory": "Fall Tree",
+    "description": "Wiki-derived supplemental item entry for Apple Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Fall",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "apricot-tree",
+    "name": "Apricot Tree",
+    "category": "Tree",
+    "subcategory": "Spring Tree",
+    "description": "Wiki-derived supplemental item entry for Apricot Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Spring",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "banana-tree",
+    "name": "Banana Tree",
+    "category": "Tree",
+    "subcategory": "Summer Tree",
+    "description": "Wiki-derived supplemental item entry for Banana Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Summer",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "cherry-tree",
+    "name": "Cherry Tree",
+    "category": "Tree",
+    "subcategory": "Spring Tree",
+    "description": "Wiki-derived supplemental item entry for Cherry Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Spring",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "fruit-trees",
+    "name": "Fruit Trees",
+    "category": "Tree",
+    "subcategory": "Fruit trees",
+    "description": "Wiki-derived supplemental item entry for Fruit Trees.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "green-rain-trees",
+    "name": "Green Rain Trees",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Green Rain Trees.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "large-log",
+    "name": "Large Log",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Large Log.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "large-stump",
+    "name": "Large Stump",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Large Stump.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "mahogany-tree",
+    "name": "Mahogany Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Mahogany Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "mango-tree",
+    "name": "Mango Tree",
+    "category": "Tree",
+    "subcategory": "Summer Tree",
+    "description": "Wiki-derived supplemental item entry for Mango Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Summer",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "maple-tree",
+    "name": "Maple Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Maple Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "mushroom-tree",
+    "name": "Mushroom Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Mushroom Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "mystic-tree",
+    "name": "Mystic Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Mystic Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "oak-tree",
+    "name": "Oak Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Oak Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "orange-tree",
+    "name": "Orange Tree",
+    "category": "Tree",
+    "subcategory": "Summer Tree",
+    "description": "Wiki-derived supplemental item entry for Orange Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Summer",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "palm-tree",
+    "name": "Palm Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Palm Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "peach-tree",
+    "name": "Peach Tree",
+    "category": "Tree",
+    "subcategory": "Summer Tree",
+    "description": "Wiki-derived supplemental item entry for Peach Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Summer",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "pine-tree",
+    "name": "Pine Tree",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Pine Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "pomegranate-tree",
+    "name": "Pomegranate Tree",
+    "category": "Tree",
+    "subcategory": "Fall Tree",
+    "description": "Wiki-derived supplemental item entry for Pomegranate Tree.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": "Fall",
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "tea-bush",
+    "name": "Tea Bush",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Tea Bush.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  },
+  {
+    "slug": "trees",
+    "name": "Trees",
+    "category": "Tree",
+    "subcategory": "Tree",
+    "description": "Wiki-derived supplemental item entry for Trees.",
+    "obtainMethod": "Tree entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Farm or planted locations",
+    "cropName": null
+  }
+]

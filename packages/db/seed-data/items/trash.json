@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "broken-cd",
+    "name": "Broken CD",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  },
+  {
+    "slug": "broken-glasses",
+    "name": "Broken Glasses",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  },
+  {
+    "slug": "driftwood",
+    "name": "Driftwood",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  },
+  {
+    "slug": "joja-cola",
+    "name": "Joja Cola",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  },
+  {
+    "slug": "rotten-plant",
+    "name": "Rotten Plant",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  },
+  {
+    "slug": "soggy-newspaper",
+    "name": "Soggy Newspaper",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  },
+  {
+    "slug": "trash-item",
+    "name": "Trash (item)",
+    "category": "Trash",
+    "subcategory": "Trash",
+    "sellPrice": null,
+    "description": "A junk item commonly fished up or otherwise recovered as trash.",
+    "obtainMethod": "Caught while fishing, found in recycling sources, or obtained as junk.",
+    "season": "All",
+    "location": "Fishing spots, trash sources, and recycling-related gameplay"
+  }
+]

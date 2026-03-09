@@ -121,6 +121,17 @@
     "location": "Mines, Skull Cavern, Volcano Dungeon, Adventurer's Guild, crafting, or special reward"
   },
   {
+    "slug": "jukebox-ring",
+    "name": "Jukebox Ring",
+    "category": "Ring",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Jukebox Ring.",
+    "obtainMethod": "Ring listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "slug": "lucky-ring",
     "name": "Lucky Ring",
     "category": "Ring",
@@ -185,6 +196,17 @@
     "obtainMethod": "Craft at Combat Level 7 with 5 Iron Bars, 5 Gold Bars, and 1 Diamond",
     "season": "All",
     "location": "Mines, Skull Cavern, Volcano Dungeon, Adventurer's Guild, crafting, or special reward"
+  },
+  {
+    "slug": "rings",
+    "name": "Rings",
+    "category": "Ring",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Rings.",
+    "obtainMethod": "Ring listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "slug": "ruby-ring",

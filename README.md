@@ -65,6 +65,8 @@ pnpm db:migrate  # Run Prisma migrations
 pnpm db:seed     # Seed all game data from JSON files
 pnpm db:reset    # Drop DB, re-migrate, re-seed
 pnpm db:studio   # Open Prisma Studio (DB GUI)
+pnpm db:sync-wiki-items # Pull missing wiki items into the seed dataset
+pnpm db:validate-items # Compare local item data against the Stardew Valley Wiki
 ```
 
 ## Environment Variables

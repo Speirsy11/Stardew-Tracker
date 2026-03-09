@@ -22,6 +22,17 @@
     "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
   },
   {
+    "slug": "cowboy-boots",
+    "name": "Cowboy Boots",
+    "category": "Footwear",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Cowboy Boots.",
+    "obtainMethod": "Footwear listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "slug": "crystal-shoes",
     "name": "Crystal Shoes",
     "category": "Footwear",
@@ -75,6 +86,17 @@
     "obtainMethod": "Floor 80 Mines chest reward, Adventurer's Guild after floor 80, or fishing treasure chests",
     "season": "All",
     "location": "Mines, Skull Cavern, Quarry Mine, Volcano Dungeon, or special event"
+  },
+  {
+    "slug": "footwear",
+    "name": "Footwear",
+    "category": "Footwear",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Footwear.",
+    "obtainMethod": "Footwear listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "slug": "genie-shoes",

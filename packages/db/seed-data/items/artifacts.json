@@ -209,6 +209,61 @@
     "location": "Artifact spots, geodes, fishing treasure, monster drops, Bone Nodes, or troves"
   },
   {
+    "slug": "fossilized-leg",
+    "name": "Fossilized Leg",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Fossilized Leg.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "fossilized-ribs",
+    "name": "Fossilized Ribs",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Fossilized Ribs.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "fossilized-skull",
+    "name": "Fossilized Skull",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Fossilized Skull.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "fossilized-spine",
+    "name": "Fossilized Spine",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Fossilized Spine.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "fossilized-tail",
+    "name": "Fossilized Tail",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Fossilized Tail.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "slug": "glass-shards",
     "name": "Glass Shards",
     "category": "Artifact",
@@ -240,6 +295,28 @@
     "obtainMethod": "Desert artifact spots or Artifact Troves",
     "season": "All",
     "location": "Artifact spots, geodes, fishing treasure, monster drops, Bone Nodes, or troves"
+  },
+  {
+    "slug": "mummified-bat",
+    "name": "Mummified Bat",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Mummified Bat.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "mummified-frog",
+    "name": "Mummified Frog",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Mummified Frog.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "slug": "nautilus-fossil",
@@ -416,6 +493,28 @@
     "obtainMethod": "Tilling in the Mines or Skull Cavern, fishing treasure chests, or Bone Nodes",
     "season": "All",
     "location": "Artifact spots, geodes, fishing treasure, monster drops, Bone Nodes, or troves"
+  },
+  {
+    "slug": "snake-skull",
+    "name": "Snake Skull",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Snake Skull.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "snake-vertebrae",
+    "name": "Snake Vertebrae",
+    "category": "Artifact",
+    "subcategory": "Field Office Donation",
+    "description": "Wiki-derived supplemental item entry for Snake Vertebrae.",
+    "obtainMethod": "Artifact listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "slug": "strange-doll-green",

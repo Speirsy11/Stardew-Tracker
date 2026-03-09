@@ -242,6 +242,17 @@
     "location": "Farm, shops, Blacksmith, mines, mastery rewards, or special locations"
   },
   {
+    "slug": "hay-hopper",
+    "name": "Hay Hopper",
+    "category": "Tool",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Hay Hopper.",
+    "obtainMethod": "Tool entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "slug": "heater",
     "name": "Heater",
     "category": "Tool",
@@ -262,6 +273,17 @@
     "obtainMethod": "Starter tool",
     "season": "All",
     "location": "Farm, shops, Blacksmith, mines, mastery rewards, or special locations"
+  },
+  {
+    "slug": "incubator",
+    "name": "Incubator",
+    "category": "Tool",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Incubator.",
+    "obtainMethod": "Tool entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "slug": "iridium-axe",

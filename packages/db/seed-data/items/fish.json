@@ -198,6 +198,17 @@
     "description": "A long, slippery little fish."
   },
   {
+    "slug": "fish",
+    "name": "Fish",
+    "category": "Fish",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Fish.",
+    "obtainMethod": "Fish entry listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Flounder",
     "slug": "flounder",
     "category": "Fish",

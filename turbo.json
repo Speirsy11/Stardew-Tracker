@@ -27,6 +27,12 @@
     "db:studio": {
       "cache": false,
       "persistent": true
+    },
+    "db:sync-wiki-items": {
+      "cache": false
+    },
+    "db:validate-items": {
+      "cache": false
     }
   }
 }

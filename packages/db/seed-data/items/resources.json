@@ -11,6 +11,17 @@
     "description": "A leathery wing dropped by cave bats."
   },
   {
+    "slug": "battery-pack",
+    "name": "Battery Pack",
+    "category": "Resource",
+    "subcategory": "Resource",
+    "description": "Wiki-derived supplemental item entry for Battery Pack.",
+    "obtainMethod": "Resource item listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Bone Fragment",
     "slug": "bone-fragment",
     "category": "Resource",
@@ -22,6 +33,17 @@
     "description": "A jagged piece of bone from a skeleton."
   },
   {
+    "slug": "bug-meat",
+    "name": "Bug Meat",
+    "category": "Resource",
+    "subcategory": "Monster Loot",
+    "description": "Wiki-derived supplemental item entry for Bug Meat.",
+    "obtainMethod": "Resource item listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Cave Carrot",
     "slug": "cave-carrot",
     "category": "Resource",
@@ -31,6 +53,28 @@
     "season": "All",
     "location": "The Mines",
     "description": "A starchy snack found in the mines."
+  },
+  {
+    "slug": "cinder-shard",
+    "name": "Cinder Shard",
+    "category": "Resource",
+    "subcategory": "Resource",
+    "description": "Wiki-derived supplemental item entry for Cinder Shard.",
+    "obtainMethod": "Resource item listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "clay",
+    "name": "Clay",
+    "category": "Resource",
+    "subcategory": "Resource",
+    "description": "Wiki-derived supplemental item entry for Clay.",
+    "obtainMethod": "Resource item listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "name": "Fiber",

@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "bait",
+    "name": "Bait",
+    "category": "Bait",
+    "subcategory": "Bait",
+    "description": "Wiki-derived supplemental item entry for Bait.",
+    "obtainMethod": "Bait item listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Fishing-related sources",
+    "cropName": null
+  },
+  {
+    "slug": "bait-item",
+    "name": "Bait (item)",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "challenge-bait",
+    "name": "Challenge Bait",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "deluxe-bait",
+    "name": "Deluxe Bait",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "magic-bait",
+    "name": "Magic Bait",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "magnet",
+    "name": "Magnet",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "targeted-bait",
+    "name": "Targeted Bait",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "wild-bait",
+    "name": "Wild Bait",
+    "category": "Bait",
+    "subcategory": "Fishing Bait",
+    "sellPrice": null,
+    "description": "A bait item used to improve fishing or target specific catches.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the bait type.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  }
+]

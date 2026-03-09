@@ -11,7 +11,9 @@
     "db:migrate": "turbo run db:migrate --filter=@stardew/db",
     "db:seed": "turbo run db:seed --filter=@stardew/db",
     "db:reset": "turbo run db:reset --filter=@stardew/db",
-    "db:studio": "turbo run db:studio --filter=@stardew/db"
+    "db:studio": "turbo run db:studio --filter=@stardew/db",
+    "db:sync-wiki-items": "turbo run db:sync-wiki-items --filter=@stardew/db",
+    "db:validate-items": "turbo run db:validate-items --filter=@stardew/db"
   },
   "devDependencies": {
     "turbo": "^2.3.3",

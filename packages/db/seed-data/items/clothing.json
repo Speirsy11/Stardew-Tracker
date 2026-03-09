@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "emilys-magic-shirt",
+    "name": "Emily's Magic Shirt",
+    "category": "Clothing",
+    "subcategory": "Wearable Clothing",
+    "sellPrice": null,
+    "description": "A wearable clothing item from Stardew Valley.",
+    "obtainMethod": "Obtained through tailoring, festivals, rewards, or other special sources depending on the item.",
+    "season": "All",
+    "location": "Tailoring, festivals, rewards, and special sources"
+  },
+  {
+    "slug": "luau-skirt",
+    "name": "Luau Skirt",
+    "category": "Clothing",
+    "subcategory": "Wearable Clothing",
+    "sellPrice": null,
+    "description": "A wearable clothing item from Stardew Valley.",
+    "obtainMethod": "Obtained through tailoring, festivals, rewards, or other special sources depending on the item.",
+    "season": "All",
+    "location": "Tailoring, festivals, rewards, and special sources"
+  },
+  {
+    "slug": "mystery-shirt",
+    "name": "Mystery Shirt",
+    "category": "Clothing",
+    "subcategory": "Wearable Clothing",
+    "sellPrice": null,
+    "description": "A wearable clothing item from Stardew Valley.",
+    "obtainMethod": "Obtained through tailoring, festivals, rewards, or other special sources depending on the item.",
+    "season": "All",
+    "location": "Tailoring, festivals, rewards, and special sources"
+  },
+  {
+    "slug": "tight-pants",
+    "name": "Tight Pants",
+    "category": "Clothing",
+    "subcategory": "Wearable Clothing",
+    "sellPrice": null,
+    "description": "A wearable clothing item from Stardew Valley.",
+    "obtainMethod": "Obtained through tailoring, festivals, rewards, or other special sources depending on the item.",
+    "season": "All",
+    "location": "Tailoring, festivals, rewards, and special sources"
+  }
+]

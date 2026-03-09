@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "apple-sapling",
+    "name": "Apple Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Apple Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "apricot-sapling",
+    "name": "Apricot Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Apricot Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "banana-sapling",
+    "name": "Banana Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Banana Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "cherry-sapling",
+    "name": "Cherry Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Cherry Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "mango-sapling",
+    "name": "Mango Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Mango Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "orange-sapling",
+    "name": "Orange Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Orange Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "peach-sapling",
+    "name": "Peach Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Peach Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  },
+  {
+    "slug": "pomegranate-sapling",
+    "name": "Pomegranate Sapling",
+    "category": "Sapling",
+    "subcategory": "Sapling",
+    "description": "Wiki-derived supplemental item entry for Pomegranate Sapling.",
+    "obtainMethod": "Sapling item listed on the Stardew Valley Wiki; usually purchased and planted to grow a fruit tree.",
+    "season": null,
+    "location": "Pierre's General Store or other special sources",
+    "cropName": null
+  }
+]

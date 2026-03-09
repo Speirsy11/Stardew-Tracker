@@ -11,6 +11,17 @@
     "description": "Aged fish eggs with a complex, savory flavor."
   },
   {
+    "slug": "artisan-goods",
+    "name": "Artisan Goods",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Artisan Goods.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Beer",
     "slug": "beer",
     "category": "Artisan Good",
@@ -20,6 +31,17 @@
     "season": "All",
     "location": "Farm (Keg)",
     "description": "A classic brew made from wheat. Served at the Stardrop Saloon."
+  },
+  {
+    "slug": "cask-productivity",
+    "name": "Cask Productivity",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Cask Productivity.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "name": "Caviar",
@@ -77,6 +99,28 @@
     "description": "An ancient mayonnaise made from a dinosaur egg. Extraordinary!"
   },
   {
+    "slug": "dried-fruit",
+    "name": "Dried Fruit",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Dried Fruit.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "dried-mushrooms",
+    "name": "Dried Mushrooms",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Dried Mushrooms.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Duck Mayonnaise",
     "slug": "duck-mayonnaise",
     "category": "Artisan Good",
@@ -121,6 +165,17 @@
     "description": "Sweet honey from a bee house. More valuable if placed near flowers."
   },
   {
+    "slug": "jellies-and-pickles",
+    "name": "Jellies and Pickles",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Jellies and Pickles.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Jelly",
     "slug": "jelly",
     "category": "Artisan Good",
@@ -143,6 +198,39 @@
     "description": "Freshly pressed vegetable juice."
   },
   {
+    "slug": "keg-productivity",
+    "name": "Keg Productivity",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Keg Productivity.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "keg-productivity-artisan",
+    "name": "Keg Productivity - Artisan",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Keg Productivity - Artisan.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "keg-productivity-tiller",
+    "name": "Keg Productivity - Tiller",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Keg Productivity - Tiller.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Mayonnaise",
     "slug": "mayonnaise",
     "category": "Artisan Good",
@@ -163,6 +251,17 @@
     "season": "All",
     "location": "Farm (Keg)",
     "description": "A sweet alcoholic drink made from fermented honey."
+  },
+  {
+    "slug": "mystic-syrup",
+    "name": "Mystic Syrup",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Mystic Syrup.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "name": "Oil",
@@ -198,6 +297,50 @@
     "description": "Crunchy pickled vegetables sealed in a jar."
   },
   {
+    "slug": "preserves-jar-productivity",
+    "name": "Preserves Jar Productivity",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Preserves Jar Productivity.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "preserves-jar-productivity-artisan",
+    "name": "Preserves Jar Productivity - Artisan",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Preserves Jar Productivity - Artisan.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "preserves-jar-productivity-tiller",
+    "name": "Preserves Jar Productivity - Tiller",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Preserves Jar Productivity - Tiller.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
+    "slug": "raisins",
+    "name": "Raisins",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Raisins.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
+  },
+  {
     "name": "Rice",
     "slug": "rice",
     "category": "Artisan Good",
@@ -207,6 +350,17 @@
     "season": "All",
     "location": "Farm (Mill), Pierre's Store",
     "description": "A staple grain used in many recipes."
+  },
+  {
+    "slug": "smoked-fish",
+    "name": "Smoked Fish",
+    "category": "Artisan Good",
+    "subcategory": "Wiki Supplemental",
+    "description": "Wiki-derived supplemental item entry for Smoked Fish.",
+    "obtainMethod": "Artisan good listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Varies",
+    "cropName": null
   },
   {
     "name": "Sugar",

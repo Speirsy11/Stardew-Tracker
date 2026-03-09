@@ -120,6 +120,28 @@
     "description": "A leafy Asian vegetable with a crisp stem."
   },
   {
+    "slug": "broccoli",
+    "name": "Broccoli",
+    "category": "Crop",
+    "subcategory": "Fall crops",
+    "description": "Wiki-derived supplemental item entry for Broccoli.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": "Fall",
+    "location": "Farm and shops",
+    "cropName": "Broccoli"
+  },
+  {
+    "slug": "carrot",
+    "name": "Carrot",
+    "category": "Crop",
+    "subcategory": "Spring crops",
+    "description": "Wiki-derived supplemental item entry for Carrot.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": "Spring",
+    "location": "Farm and shops",
+    "cropName": "Carrot"
+  },
+  {
     "name": "Cauliflower",
     "slug": "cauliflower",
     "category": "Crop",
@@ -180,6 +202,28 @@
     "description": "A tart fall berry. Typically yields 2 per harvest."
   },
   {
+    "slug": "crop-growth-calendars",
+    "name": "Crop Growth Calendars",
+    "category": "Crop",
+    "subcategory": "Crops",
+    "description": "Wiki-derived supplemental item entry for Crop Growth Calendars.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": null,
+    "location": "Farm and shops",
+    "cropName": "Crop Growth Calendars"
+  },
+  {
+    "slug": "crops",
+    "name": "Crops",
+    "category": "Crop",
+    "subcategory": "Crops",
+    "description": "Wiki-derived supplemental item entry for Crops.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": null,
+    "location": "Farm and shops",
+    "cropName": "Crops"
+  },
+  {
     "name": "Eggplant",
     "slug": "eggplant",
     "category": "Crop",
@@ -190,6 +234,39 @@
     "location": "Farm",
     "cropName": "Eggplant",
     "description": "A purple vegetable. Good for making pickles."
+  },
+  {
+    "slug": "fairy-rose",
+    "name": "Fairy Rose",
+    "category": "Crop",
+    "subcategory": "Fall crops",
+    "description": "Wiki-derived supplemental item entry for Fairy Rose.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": "Fall",
+    "location": "Farm and shops",
+    "cropName": "Fairy Rose"
+  },
+  {
+    "slug": "flowers",
+    "name": "Flowers",
+    "category": "Crop",
+    "subcategory": "Crops",
+    "description": "Wiki-derived supplemental item entry for Flowers.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": null,
+    "location": "Farm and shops",
+    "cropName": "Flowers"
+  },
+  {
+    "slug": "fruits",
+    "name": "Fruits",
+    "category": "Crop",
+    "subcategory": "Crops",
+    "description": "Wiki-derived supplemental item entry for Fruits.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": null,
+    "location": "Farm and shops",
+    "cropName": "Fruits"
   },
   {
     "name": "Garlic",
@@ -372,6 +449,17 @@
     "description": "A starchy vegetable. Has a chance to yield extra potatoes at harvest."
   },
   {
+    "slug": "powdermelon",
+    "name": "Powdermelon",
+    "category": "Crop",
+    "subcategory": "Giant Crops",
+    "description": "Wiki-derived supplemental item entry for Powdermelon.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": "Winter",
+    "location": "Farm and shops",
+    "cropName": "Powdermelon"
+  },
+  {
     "name": "Pumpkin",
     "slug": "pumpkin",
     "category": "Crop",
@@ -382,6 +470,17 @@
     "location": "Farm",
     "cropName": "Pumpkin",
     "description": "A large, round squash. Counts as a Giant Crop."
+  },
+  {
+    "slug": "qi-fruit",
+    "name": "Qi Fruit",
+    "category": "Crop",
+    "subcategory": "Fruit",
+    "description": "Wiki-derived supplemental item entry for Qi Fruit.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": null,
+    "location": "Farm and shops",
+    "cropName": "Qi Fruit"
   },
   {
     "name": "Radish",
@@ -442,6 +541,28 @@
     "location": "Farm",
     "cropName": "Strawberry",
     "description": "A sweet red berry. Seeds only available at the Egg Festival."
+  },
+  {
+    "slug": "summer-spangle",
+    "name": "Summer Spangle",
+    "category": "Crop",
+    "subcategory": "Summer crops",
+    "description": "Wiki-derived supplemental item entry for Summer Spangle.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": "Summer",
+    "location": "Farm and shops",
+    "cropName": "Summer Spangle"
+  },
+  {
+    "slug": "summer-squash",
+    "name": "Summer Squash",
+    "category": "Crop",
+    "subcategory": "Multiple harvest crops",
+    "description": "Wiki-derived supplemental item entry for Summer Squash.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": "Summer",
+    "location": "Farm and shops",
+    "cropName": "Summer Squash"
   },
   {
     "name": "Sunflower",
@@ -526,6 +647,17 @@
     "location": "Farm",
     "cropName": "Unmilled Rice",
     "description": "A grain crop that can be processed into Rice in a Mill."
+  },
+  {
+    "slug": "vegetables",
+    "name": "Vegetables",
+    "category": "Crop",
+    "subcategory": "Crops",
+    "description": "Wiki-derived supplemental item entry for Vegetables.",
+    "obtainMethod": "Crop-related wiki item.",
+    "season": null,
+    "location": "Farm and shops",
+    "cropName": "Vegetables"
   },
   {
     "name": "Wheat",

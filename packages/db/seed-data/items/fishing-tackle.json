@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "barbed-hook",
+    "name": "Barbed Hook",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "cork-bobber",
+    "name": "Cork Bobber",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "curiosity-lure",
+    "name": "Curiosity Lure",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "dressed-spinner",
+    "name": "Dressed Spinner",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "lead-bobber",
+    "name": "Lead Bobber",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "quality-bobber",
+    "name": "Quality Bobber",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "sonar-bobber",
+    "name": "Sonar Bobber",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "spinner",
+    "name": "Spinner",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "tackle",
+    "name": "Tackle",
+    "category": "Fishing Tackle",
+    "subcategory": "Fishing Tackle",
+    "description": "Wiki-derived supplemental item entry for Tackle.",
+    "obtainMethod": "Fishing tackle listed on the Stardew Valley Wiki.",
+    "season": null,
+    "location": "Fishing-related sources",
+    "cropName": null
+  },
+  {
+    "slug": "trap-bobber",
+    "name": "Trap Bobber",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  },
+  {
+    "slug": "treasure-hunter",
+    "name": "Treasure Hunter",
+    "category": "Fishing Tackle",
+    "subcategory": "Tackle",
+    "sellPrice": null,
+    "description": "A tackle attachment used on advanced fishing rods to modify fishing behavior.",
+    "obtainMethod": "Crafted, purchased, or rewarded depending on the tackle item.",
+    "season": "All",
+    "location": "Fish Shop, crafting, and fishing-related rewards"
+  }
+]

@@ -55,6 +55,17 @@
     "description": "A pitcher of rich goat's milk."
   },
   {
+    "slug": "golden-egg",
+    "name": "Golden Egg",
+    "category": "Animal Product",
+    "subcategory": "Special Product",
+    "sellPrice": 500,
+    "description": "A very rare and special egg with a solid gold shell.",
+    "obtainMethod": "Produced by Golden Chickens after Perfection, bought from Marnie's Ranch or Qi's Walnut Room, witch event, or rare fishing treasure chest",
+    "season": "All",
+    "location": "Farm (Coop), Marnie's Ranch, Qi's Walnut Room"
+  },
+  {
     "name": "Large Egg",
     "slug": "large-egg",
     "category": "Animal Product",
@@ -99,6 +110,17 @@
     "description": "A jug of fresh cow's milk."
   },
   {
+    "slug": "ostrich-egg",
+    "name": "Ostrich Egg",
+    "category": "Animal Product",
+    "subcategory": "Barn Product",
+    "sellPrice": 600,
+    "description": "It may be the world's largest egg.",
+    "obtainMethod": "Produced by Ostriches, obtained from Journal Scrap #10 on Ginger Island, or found in Volcano Dungeon rare chests",
+    "season": "All",
+    "location": "Farm (Barn), Ginger Island, Volcano Dungeon"
+  },
+  {
     "name": "Rabbit's Foot",
     "slug": "rabbits-foot",
     "category": "Animal Product",
@@ -108,6 +130,28 @@
     "season": "All",
     "location": "Farm (Deluxe Coop)",
     "description": "It's said to bring good luck. Clearly not for the rabbit, though."
+  },
+  {
+    "slug": "roe",
+    "name": "Roe",
+    "category": "Animal Product",
+    "subcategory": "Fish Pond Product",
+    "sellPrice": 30,
+    "description": "Fresh fish eggs. These can be aged in a preserves jar to bring out more flavor.",
+    "obtainMethod": "Produced by fish in Fish Ponds, or found in Fishing Treasure Chests after obtaining the Jewels Of The Sea book power",
+    "season": "All",
+    "location": "Fish Pond, Fishing Treasure Chests"
+  },
+  {
+    "slug": "slime-ball",
+    "name": "Slime Ball",
+    "category": "Animal Product",
+    "subcategory": "Slime Hutch Product",
+    "sellPrice": null,
+    "description": "A large ball of compressed slime collected from a Slime Hutch.",
+    "obtainMethod": "Produced inside a Slime Hutch when enough slimes are living there",
+    "season": "All",
+    "location": "Slime Hutch"
   },
   {
     "name": "Truffle",

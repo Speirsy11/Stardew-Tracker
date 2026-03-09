@@ -5,11 +5,15 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const seedDataDir = join(__dirname, '..', 'seed-data')
 const splitItemsDir = join(seedDataDir, 'items')
+const supplementalItemsPath = join(seedDataDir, 'wiki-supplemental-items.json')
 const sourceItemsPath = existsSync(join(seedDataDir, 'items.json'))
   ? join(seedDataDir, 'items.json')
   : join(seedDataDir, 'game-items.json')
 
 const existingItems = JSON.parse(readFileSync(sourceItemsPath, 'utf8'))
+const supplementalItems = existsSync(supplementalItemsPath)
+  ? JSON.parse(readFileSync(supplementalItemsPath, 'utf8'))
+  : []
 
 function slugify(value) {
   return value
@@ -25,6 +29,10 @@ function item(data) {
     slug: slug ?? slugify(rest.name),
     ...rest,
   }
+}
+
+function namedItems(names, create) {
+  return names.map((name) => item(create(name)))
 }
 
 function writeJson(filename, data) {
@@ -68,6 +76,18 @@ const allCategoryFiles = {
   Artifact: 'artifacts.json',
   Trinket: 'trinkets.json',
   Hat: 'hats.json',
+  'Special Item': 'special-items.json',
+  Book: 'books.json',
+  Bait: 'bait.json',
+  'Fishing Tackle': 'fishing-tackle.json',
+  Fertilizer: 'fertilizers.json',
+  Trash: 'trash.json',
+  'Craftable Item': 'craftables.json',
+  Furniture: 'furniture.json',
+  Clothing: 'clothing.json',
+  Seed: 'seeds.json',
+  Sapling: 'saplings.json',
+  Tree: 'trees.json',
 }
 
 const isExpandedSource = existingItems.some((entry) => allCategoryFiles[entry.category] && !existingCategoryFiles[entry.category])
@@ -288,6 +308,357 @@ const tools = [
     }),
   ),
 ]
+
+const animalProductAdditions = [
+  item({
+    name: 'Golden Egg',
+    category: 'Animal Product',
+    subcategory: 'Special Product',
+    sellPrice: 500,
+    description: 'A very rare and special egg with a solid gold shell.',
+    obtainMethod:
+      "Produced by Golden Chickens after Perfection, bought from Marnie's Ranch or Qi's Walnut Room, witch event, or rare fishing treasure chest",
+    season: 'All',
+    location: 'Farm (Coop), Marnie\'s Ranch, Qi\'s Walnut Room',
+  }),
+  item({
+    name: 'Ostrich Egg',
+    category: 'Animal Product',
+    subcategory: 'Barn Product',
+    sellPrice: 600,
+    description: 'It may be the world\'s largest egg.',
+    obtainMethod:
+      'Produced by Ostriches, obtained from Journal Scrap #10 on Ginger Island, or found in Volcano Dungeon rare chests',
+    season: 'All',
+    location: 'Farm (Barn), Ginger Island, Volcano Dungeon',
+  }),
+  item({
+    name: 'Roe',
+    category: 'Animal Product',
+    subcategory: 'Fish Pond Product',
+    sellPrice: 30,
+    description: 'Fresh fish eggs. These can be aged in a preserves jar to bring out more flavor.',
+    obtainMethod:
+      'Produced by fish in Fish Ponds, or found in Fishing Treasure Chests after obtaining the Jewels Of The Sea book power',
+    season: 'All',
+    location: 'Fish Pond, Fishing Treasure Chests',
+  }),
+  item({
+    name: 'Slime Ball',
+    category: 'Animal Product',
+    subcategory: 'Slime Hutch Product',
+    sellPrice: null,
+    description: 'A large ball of compressed slime collected from a Slime Hutch.',
+    obtainMethod: 'Produced inside a Slime Hutch when enough slimes are living there',
+    season: 'All',
+    location: 'Slime Hutch',
+  }),
+]
+
+const specialItems = [
+  item({
+    name: 'Galaxy Soul',
+    category: 'Special Item',
+    subcategory: 'Forge Material',
+    sellPrice: 5000,
+    description: 'Forge 3 of these into a Galaxy weapon to unleash its final form.',
+    obtainMethod:
+      "Buy from Qi's Walnut Room for 40 Qi Gems, trade at the Island Trader for 10 Radioactive Bars, or loot from dangerous monsters after defeating at least 50",
+    season: 'All',
+    location: "Qi's Walnut Room, Island Trader, Dangerous Mines, Skull Cavern",
+  }),
+  ...namedItems(
+    [
+      'Artifact Trove',
+      'Bear\'s Knowledge',
+      'Bouquet',
+      'Butterfly Powder',
+      'Calico Egg',
+      'Club Card',
+      'Coffee Maker',
+      'Dark Talisman',
+      'Deconstructor',
+      'Dwarvish Translation Guide',
+      'Ectoplasm',
+      'Enricher',
+      'Far Away Stone',
+      'Fireworks (Green)',
+      'Fireworks (Purple)',
+      'Fireworks (Red)',
+      'Forest Magic',
+      'Golden Animal Cracker',
+      'Golden Bobber',
+      'Golden Coconut',
+      'Golden Mystery Box',
+      'Golden Pumpkin',
+      'Golden Tag',
+      'Golden Walnut',
+      'Hay',
+      'Horse Flute',
+      'Junimo Chest',
+      'Key To The Town',
+      'Magic Ink',
+      'Magic Rock Candy',
+      'Magnifying Glass',
+      'Mermaid\'s Pendant',
+      'Mini-Fridge',
+      'Mini-Shipping Bin',
+      'Movie Ticket',
+      'Mystery Box',
+      'Ornate Necklace',
+      'Pearl',
+      'Pierre\'s Missing Stocklist',
+      'Piña Colada',
+      'Pressure Nozzle',
+      'Prismatic Jelly',
+      'Prize Ticket',
+      'Qi Gem',
+      'Qi Seasoning',
+      'Rusty Key',
+      'Sewing Machine',
+      'Skull Key',
+      'Slime Egg',
+      'Special Charm',
+      'Spring Onion Mastery',
+      'Stardrop',
+      'Stardrop Tea',
+      'Supply Crate',
+      'Telephone',
+      'Treasure Chest',
+      'Void Ghost Pendant',
+      'Wilted Bouquet',
+      'Wood Chipper',
+      'Workbench',
+    ],
+    (name) => ({
+      name,
+      category: 'Special Item',
+      subcategory: 'Special Item',
+      sellPrice: null,
+      description: 'A special-purpose item, reward, wallet item, or rare collectible from the Stardew Valley Wiki.',
+      obtainMethod: 'Obtained from quests, rewards, shops, traders, special orders, or rare drops depending on the item.',
+      season: 'All',
+      location: 'Special shops, quests, traders, events, and rare loot sources',
+    }),
+  ),
+]
+
+const books = namedItems(
+  [
+    'Animal Catalogue',
+    'Bait And Bobber',
+    'Book of Mysteries',
+    'Book Of Stars',
+    'Combat Quarterly',
+    'Dwarvish Safety Manual',
+    'Friendship 101',
+    'Horse: The Book',
+    'Jack Be Nimble, Jack Be Thick',
+    'Jewels Of The Sea',
+    'Mapping Cave Systems',
+    'Mining Monthly',
+    'Monster Compendium',
+    'Ol\' Slitherlegs',
+    'Price Catalogue',
+    'Queen Of Sauce Cookbook',
+    'Raccoon Journal',
+    'Stardew Valley Almanac',
+    'The Alleyway Buffet',
+    'The Art O\' Crabbing',
+    'The Diamond Hunter',
+    'Treasure Appraisal Guide',
+    'Way Of The Wind pt. 1',
+    'Way Of The Wind pt. 2',
+    'Woodcutter\'s Weekly',
+    'Woody\'s Secret',
+  ],
+  (name) => ({
+    name,
+    category: 'Book',
+    subcategory: 'Readable Book',
+    sellPrice: null,
+    description: 'A readable book item that grants knowledge, mastery, or a permanent benefit.',
+    obtainMethod: 'Found, purchased, rewarded, or looted depending on the book.',
+    season: 'All',
+    location: 'Bookseller, rewards, loot, and special sources',
+  }),
+)
+
+const baitItems = namedItems(
+  ['Bait (item)', 'Challenge Bait', 'Deluxe Bait', 'Magic Bait', 'Magnet', 'Targeted Bait', 'Wild Bait'],
+  (name) => ({
+    name,
+    category: 'Bait',
+    subcategory: 'Fishing Bait',
+    sellPrice: null,
+    description: 'A bait item used to improve fishing or target specific catches.',
+    obtainMethod: 'Crafted, purchased, or rewarded depending on the bait type.',
+    season: 'All',
+    location: 'Fish Shop, crafting, and fishing-related rewards',
+  }),
+)
+
+const fishingTackle = namedItems(
+  ['Barbed Hook', 'Cork Bobber', 'Curiosity Lure', 'Dressed Spinner', 'Lead Bobber', 'Quality Bobber', 'Sonar Bobber', 'Spinner', 'Trap Bobber', 'Treasure Hunter'],
+  (name) => ({
+    name,
+    category: 'Fishing Tackle',
+    subcategory: 'Tackle',
+    sellPrice: null,
+    description: 'A tackle attachment used on advanced fishing rods to modify fishing behavior.',
+    obtainMethod: 'Crafted, purchased, or rewarded depending on the tackle item.',
+    season: 'All',
+    location: 'Fish Shop, crafting, and fishing-related rewards',
+  }),
+)
+
+const fertilizers = namedItems(
+  ['Basic Fertilizer', 'Basic Retaining Soil', 'Deluxe Fertilizer', 'Deluxe Retaining Soil', 'Deluxe Speed-Gro', 'Hyper Speed-Gro', 'Quality Fertilizer', 'Quality Retaining Soil', 'Speed-Gro', 'Tree Fertilizer'],
+  (name) => ({
+    name,
+    category: 'Fertilizer',
+    subcategory: 'Soil Additive',
+    sellPrice: null,
+    description: 'A fertilizer or soil additive used to improve crop growth, quality, or water retention.',
+    obtainMethod: 'Crafted, purchased, or rewarded depending on the fertilizer.',
+    season: 'All',
+    location: 'Pierre\'s General Store, Oasis, crafting, and rewards',
+  }),
+)
+
+const trashItems = namedItems(
+  ['Broken CD', 'Broken Glasses', 'Driftwood', 'Joja Cola', 'Rotten Plant', 'Soggy Newspaper', 'Trash (item)'],
+  (name) => ({
+    name,
+    category: 'Trash',
+    subcategory: 'Trash',
+    sellPrice: null,
+    description: 'A junk item commonly fished up or otherwise recovered as trash.',
+    obtainMethod: 'Caught while fishing, found in recycling sources, or obtained as junk.',
+    season: 'All',
+    location: 'Fishing spots, trash sources, and recycling-related gameplay',
+  }),
+)
+
+const clothingItems = namedItems(
+  ['Emily\'s Magic Shirt', 'Luau Skirt', 'Mystery Shirt', 'Tight Pants'],
+  (name) => ({
+    name,
+    category: 'Clothing',
+    subcategory: 'Wearable Clothing',
+    sellPrice: null,
+    description: 'A wearable clothing item from Stardew Valley.',
+    obtainMethod: 'Obtained through tailoring, festivals, rewards, or other special sources depending on the item.',
+    season: 'All',
+    location: 'Tailoring, festivals, rewards, and special sources',
+  }),
+)
+
+const craftables = namedItems(
+  [
+    'Ancient Seeds',
+    'Anvil',
+    'Bait Maker',
+    'Bee House',
+    'Big Chest',
+    'Big Stone Chest',
+    'Blue Grass Starter',
+    'Bomb',
+    'Bone Mill',
+    'Bug Steak',
+    'Cask',
+    'Charcoal Kiln',
+    'Cheese Press',
+    'Cherry Bomb',
+    'Chest',
+    'Cookout Kit',
+    'Crystalarium',
+    'Dark Sign',
+    'Dehydrator',
+    'Deluxe Scarecrow',
+    'Deluxe Worm Bin',
+    'Explosive Ammo',
+    'Fairy Dust',
+    'Fall Seeds',
+    'Farm Computer',
+    'Fiber Seeds',
+    'Field Snack',
+    'Fish Smoker',
+    'Furnace',
+    'Garden Pot',
+    'Geode Crusher',
+    'Grass Starter',
+    'Heavy Furnace',
+    'Heavy Tapper',
+    'Hopper',
+    'Iridium Sprinkler',
+    'Keg',
+    'Life Elixir',
+    'Lightning Rod',
+    'Loom',
+    'Mayonnaise Machine',
+    'Mega Bomb',
+    'Mini-Forge',
+    'Mini-Jukebox',
+    'Mini-Obelisk',
+    'Monster Musk',
+    'Mushroom Log',
+    'Mystic Tree Seed',
+    'Oil Maker',
+    'Oil of Garlic',
+    'Ostrich Incubator',
+    'Preserves Jar',
+    'Quality Sprinkler',
+    'Rain Totem',
+    'Recycling Machine',
+    'Scarecrow',
+    'Seed Maker',
+    'Slime Egg-Press',
+    'Slime Incubator',
+    'Solar Panel',
+    'Spring Seeds',
+    'Sprinkler',
+    'Staircase',
+    'Statue Of Blessings',
+    'Statue Of The Dwarf King',
+    'Stone Chest',
+    'Stone Sign',
+    'Summer Seeds',
+    'Tapper',
+    'Tent Kit',
+    'Text Sign',
+    'Treasure Totem',
+    'Winter Seeds',
+    'Wood Sign',
+    'Worm Bin',
+  ],
+  (name) => ({
+    name,
+    category: 'Craftable Item',
+    subcategory: 'Craftable',
+    sellPrice: null,
+    description: 'A crafted or placeable item from Stardew Valley.',
+    obtainMethod: 'Crafted, purchased, rewarded, or otherwise obtained depending on the item and recipe.',
+    season: 'All',
+    location: 'Crafting, shops, rewards, and special sources',
+  }),
+)
+
+const furniture = namedItems(
+  [
+    'Aluminum Can', 'Amethyst Crystal Ball', 'Aquamarine Crystal Ball', 'Art Photo', 'Art Photo 2', 'Basic Log', 'Bear Statue', 'Big Green Cane', 'Big Red Cane', 'Bird House', 'Black Cushion', 'Blue Book', 'Blue Bottle', 'Blue Cushion', 'Blue Sleeping Junimo', 'Bobo Statue', 'Book Pile', 'Book Stack', 'Brochure Cabinet', 'Brown Book', 'Brown Cushion', 'Buried Tire', 'Butterfly Hutch', 'Calico Statue', 'Cash Register', 'Cat Tree', 'Catalogue', 'Cauldron', 'Ceiling Leaves', 'Ceramic Pillar', 'Chicken Statue (furniture)', 'China Cabinet', 'Clothesline', 'Clouds Banner', 'Coat Stand', 'Crystal Ball', 'Cursed Mannequins', 'Dark Cat Tree', 'Dark Doghouse', 'Dark Junimo Cushion', 'Dark Piano', 'Dark Retro Cushion', 'Dark Wizard Cushion', 'Decorative Barrel', 'Decorative Bowl', 'Decorative Door', 'Decorative Hatch', 'Decorative Joja Door', 'Decorative Junimo Door', 'Decorative Lantern', 'Decorative Retro Door', 'Decorative Sword', 'Decorative Trash Can', 'Decorative Wizard Door', 'Doghouse', 'Drum Block', 'Elegant Vase', 'Elixir Bundle', 'Emerald Crystal Ball', 'Fallen Blue Book', 'Fallen Brown Book', 'Fallen Green Book', 'Fallen Purple Book', 'Fallen Red Book', 'Fallen Yellow Book', 'Floor Divider', 'Flute Block', 'Furniture Catalogue', 'Futan Bear', 'Futan Rabbit', 'Globe', 'Gold Pillar', 'Gourmand Statue', 'Grave Stone', 'Gray Joja Coffee Table', 'Gray Joja Cushion', 'Gray Sleeping Junimo', 'Green Book', 'Green Bottle', 'Green Canes', 'Green Cushion', 'Green Serpent Statue', 'Green Sleeping Junimo', 'Industrial Pipe', 'Iridium Krobus', 'Joja Cola Cans', 'Joja Cola Fridge', 'Joja Crate', 'Joja Cushion', 'Joja Furniture Catalogue', 'Joja Shopping Cart', 'Joja Vault', 'Jungle Torch', 'Junimo Bag', 'Junimo Bundle', 'Junimo Catalogue', 'Junimo Cushion', 'Junimo Hut (furniture)', 'Junimo Kart Arcade System', 'Junimo Plaque', 'Junimo Plush', 'Junimo Pot', 'Large Book Pile', 'Large Book Stack', 'Large Joja Crate', 'Large Junimo Hut', 'Lawn Flamingo', 'Leah\'s Sculpture', 'Lg. Futan Bear', 'Log Panel', 'Log Section', 'Mannequins', 'Messy Shirt', 'Messy Shorts', 'Mixed Cane', 'Model Ship', 'Obsidian Vase', 'Orange Sleeping Junimo', 'Ornamental Hay Bale', 'Periodic Table', 'Plain Torch', 'Plastic Bag', 'Plush Bunny', 'Prairie King Arcade System', 'Purple Book', 'Purple Serpent Statue', 'Purple Sleeping Junimo', 'Radio Desk', 'Red Book', 'Red Canes', 'Red Cushion', 'Red Sleeping Junimo', 'Retro Cabinet', 'Retro Catalogue', 'Retro Cushion', 'Retro Radio', 'Ruby Crystal Ball', 'Sam\'s Boombox', 'Sam\'s Skateboard', 'Seasonal Decor', 'Sign Of The Vessel', 'Singing Stone', 'Six-Pack Rings', 'Skeleton Statue', 'Sloth Skeleton', 'Small Book Pile', 'Small Book Stack', 'Small Crystal', 'Small Junimo Hut', 'Small Junimo Plush', 'Small Junimo Pot', 'Soda Machine', 'Solid Gold Lewis', 'Spilled Beverage', 'Squirrel Figurine', 'Stacked Joja Boxes', 'Standing Geode', 'Stardew Hero Trophy', 'Statue Of Endless Fortune', 'Statue Of Perfection', 'Statue Of True Perfection', 'Stone Cairn', 'Stone Flooring', 'Stone Frog', 'Stone Junimo', 'Stone Owl', 'Stone Parrot', 'Stump Torch', 'Suit Of Armor', 'Tea Set', 'Tire', 'Topaz Crystal Ball', 'Totem Pole', 'Trash Catalogue', 'Tub o\' Flowers', 'Two Elixirs', 'Upright Piano', 'Wicked Statue', 'Wizard Catalogue', 'Wizard Cushion', 'Wizard Study', 'Wood Panel', 'Wrapper', 'Wumbus Statue', 'Yellow Book', 'Yellow Cushion', 'Yellow Sleeping Junimo',
+  ],
+  (name) => ({
+    name,
+    category: 'Furniture',
+    subcategory: 'Furniture',
+    sellPrice: null,
+    description: 'A placeable furniture item from Stardew Valley.',
+    obtainMethod: 'Purchased, won, crafted, found, traded, or rewarded depending on the furniture item.',
+    season: 'All',
+    location: 'Shops, catalogues, festivals, rewards, trades, and special sources',
+  }),
+)
 
 const artifacts = [
   ...[
@@ -541,12 +912,61 @@ function buildExistingCategoryFiles() {
   return grouped
 }
 
+function groupItemsByFile(items) {
+  const grouped = new Map()
+
+  for (const entry of items) {
+    const filename = allCategoryFiles[entry.category]
+
+    if (!filename) {
+      throw new Error(`No category file mapping for ${entry.category} (${entry.name})`)
+    }
+
+    const current = grouped.get(filename)
+    if (current) {
+      current.push(entry)
+    } else {
+      grouped.set(filename, [entry])
+    }
+  }
+
+  return grouped
+}
+
 function sortByName(items) {
   return [...items].sort((a, b) => a.name.localeCompare(b.name))
 }
 
+function mergeByName(existingItems, additions) {
+  const merged = new Map(existingItems.map((entry) => [entry.name, entry]))
+
+  for (const entry of additions) {
+    if (!merged.has(entry.name)) {
+      merged.set(entry.name, entry)
+    }
+  }
+
+  return sortByName([...merged.values()])
+}
+
 function buildAllCategoryFiles() {
   const grouped = buildExistingCategoryFiles()
+  const supplementalByFile = groupItemsByFile(supplementalItems)
+
+  grouped.set('animal-products.json', mergeByName(grouped.get('animal-products.json') ?? [], animalProductAdditions))
+  grouped.set('special-items.json', mergeByName(grouped.get('special-items.json') ?? [], specialItems))
+  grouped.set('books.json', mergeByName(grouped.get('books.json') ?? [], books))
+  grouped.set('bait.json', mergeByName(grouped.get('bait.json') ?? [], baitItems))
+  grouped.set('fishing-tackle.json', mergeByName(grouped.get('fishing-tackle.json') ?? [], fishingTackle))
+  grouped.set('fertilizers.json', mergeByName(grouped.get('fertilizers.json') ?? [], fertilizers))
+  grouped.set('trash.json', mergeByName(grouped.get('trash.json') ?? [], trashItems))
+  grouped.set('craftables.json', mergeByName(grouped.get('craftables.json') ?? [], craftables))
+  grouped.set('furniture.json', mergeByName(grouped.get('furniture.json') ?? [], furniture))
+  grouped.set('clothing.json', mergeByName(grouped.get('clothing.json') ?? [], clothingItems))
+
+  for (const [filename, items] of supplementalByFile.entries()) {
+    grouped.set(filename, mergeByName(grouped.get(filename) ?? [], items))
+  }
 
   if (isExpandedSource) {
     for (const [filename, items] of grouped.entries()) {
@@ -573,16 +993,30 @@ function verifyCounts(grouped) {
     'minerals.json': 66,
     'forage.json': 30,
     'crops.json': 46,
-    'animal-products.json': 13,
+    'animal-products.json': 17,
     'artisan-goods.json': 24,
     'cooked-food.json': 81,
     'resources.json': 25,
     'weapons.json': 62,
+    'hats.json': 122,
     'boots.json': 17,
     'rings.json': 29,
     'tools.json': 46,
     'artifacts.json': 41,
     'trinkets.json': 8,
+    'special-items.json': specialItems.length,
+    'books.json': books.length,
+    'bait.json': baitItems.length,
+    'fishing-tackle.json': fishingTackle.length,
+    'fertilizers.json': fertilizers.length,
+    'trash.json': trashItems.length,
+    'craftables.json': craftables.length,
+    'furniture.json': furniture.length,
+    'clothing.json': clothingItems.length,
+  }
+
+  for (const [filename, items] of groupItemsByFile(supplementalItems).entries()) {
+    expected[filename] = (expected[filename] ?? 0) + items.length
   }
 
   for (const [filename, expectedCount] of Object.entries(expected)) {
