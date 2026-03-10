@@ -1,0 +1,3246 @@
+{
+  "version": 1,
+  "itemCount": 162,
+  "palette": [
+    {
+      "name": "Brick Floor",
+      "id": "brick-floor",
+      "color": {
+        "r": 185,
+        "g": 106,
+        "b": 72
+      },
+      "lab": {
+        "l": 53.05,
+        "a": 28.32,
+        "b": 32.54
+      },
+      "hex": "#b96a48",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 2 Clay, 5 Stone",
+      "seasonal": false,
+      "iconFile": "Brick_Floor.png"
+    },
+    {
+      "name": "Cobblestone Path",
+      "id": "cobblestone-path",
+      "color": {
+        "r": 187,
+        "g": 149,
+        "b": 92
+      },
+      "lab": {
+        "l": 64.03,
+        "a": 7.1,
+        "b": 35.35
+      },
+      "hex": "#bb955c",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Stone",
+      "seasonal": false,
+      "iconFile": "Cobblestone_Path.png"
+    },
+    {
+      "name": "Crystal Floor",
+      "id": "crystal-floor",
+      "color": {
+        "r": 128,
+        "g": 141,
+        "b": 188
+      },
+      "lab": {
+        "l": 59.22,
+        "a": 6.47,
+        "b": -26.01
+      },
+      "hex": "#808dbc",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Refined Quartz",
+      "seasonal": false,
+      "iconFile": "Crystal_Floor.png"
+    },
+    {
+      "name": "Crystal Path",
+      "id": "crystal-path",
+      "color": {
+        "r": 142,
+        "g": 128,
+        "b": 18
+      },
+      "lab": {
+        "l": 53.2,
+        "a": -6.02,
+        "b": 54.71
+      },
+      "hex": "#8e8012",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Refined Quartz",
+      "seasonal": false,
+      "iconFile": "Crystal_Path.png"
+    },
+    {
+      "name": "Gravel Path",
+      "id": "gravel-path",
+      "color": {
+        "r": 124,
+        "g": 90,
+        "b": 30
+      },
+      "lab": {
+        "l": 40.72,
+        "a": 7.75,
+        "b": 38.47
+      },
+      "hex": "#7c5a1e",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Stone",
+      "seasonal": false,
+      "iconFile": "Gravel_Path.png"
+    },
+    {
+      "name": "Rustic Plank Floor",
+      "id": "rustic-plank-floor",
+      "color": {
+        "r": 193,
+        "g": 107,
+        "b": 27
+      },
+      "lab": {
+        "l": 53.96,
+        "a": 28.96,
+        "b": 55.12
+      },
+      "hex": "#c16b1b",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Wood",
+      "seasonal": false,
+      "iconFile": "Rustic_Plank_Floor.png"
+    },
+    {
+      "name": "Stepping Stone Path",
+      "id": "stepping-stone-path",
+      "color": {
+        "r": 175,
+        "g": 142,
+        "b": 90
+      },
+      "lab": {
+        "l": 60.96,
+        "a": 5.66,
+        "b": 32.3
+      },
+      "hex": "#af8e5a",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Stone",
+      "seasonal": false,
+      "iconFile": "Stepping_Stone_Path.png"
+    },
+    {
+      "name": "Stone Floor",
+      "id": "stone-floor",
+      "color": {
+        "r": 119,
+        "g": 108,
+        "b": 100
+      },
+      "lab": {
+        "l": 46.4,
+        "a": 2.84,
+        "b": 6.04
+      },
+      "hex": "#776c64",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Stone",
+      "seasonal": false,
+      "iconFile": "Stone_Floor.png"
+    },
+    {
+      "name": "Stone Walkway Floor",
+      "id": "stone-walkway-floor",
+      "color": {
+        "r": 95,
+        "g": 80,
+        "b": 61
+      },
+      "lab": {
+        "l": 35.02,
+        "a": 3.08,
+        "b": 13.53
+      },
+      "hex": "#5f503d",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Stone",
+      "seasonal": false,
+      "iconFile": "Stone_Walkway_Floor.png"
+    },
+    {
+      "name": "Straw Floor",
+      "id": "straw-floor",
+      "color": {
+        "r": 81,
+        "g": 38,
+        "b": 36
+      },
+      "lab": {
+        "l": 21.07,
+        "a": 19.82,
+        "b": 10.56
+      },
+      "hex": "#512624",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Wood, 1 Fiber",
+      "seasonal": false,
+      "iconFile": "Straw_Floor.png"
+    },
+    {
+      "name": "Weathered Floor",
+      "id": "weathered-floor",
+      "color": {
+        "r": 115,
+        "g": 67,
+        "b": 31
+      },
+      "lab": {
+        "l": 33.48,
+        "a": 17.35,
+        "b": 30.0
+      },
+      "hex": "#73431f",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Wood",
+      "seasonal": false,
+      "iconFile": "Weathered_Floor.png"
+    },
+    {
+      "name": "Wood Floor",
+      "id": "wood-floor",
+      "color": {
+        "r": 212,
+        "g": 141,
+        "b": 60
+      },
+      "lab": {
+        "l": 64.46,
+        "a": 19.87,
+        "b": 52.45
+      },
+      "hex": "#d48d3c",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Wood",
+      "seasonal": false,
+      "iconFile": "Wood_Floor.png"
+    },
+    {
+      "name": "Wood Path",
+      "id": "wood-path",
+      "color": {
+        "r": 119,
+        "g": 55,
+        "b": 39
+      },
+      "lab": {
+        "l": 31.35,
+        "a": 26.64,
+        "b": 23.03
+      },
+      "hex": "#773727",
+      "category": "flooring",
+      "difficulty": "easy",
+      "source": "Craft: 1 Wood",
+      "seasonal": false,
+      "iconFile": "Wood_Path.png"
+    },
+    {
+      "name": "Amaranth",
+      "id": "amaranth",
+      "color": {
+        "r": 51,
+        "g": 5,
+        "b": 31
+      },
+      "lab": {
+        "l": 8.23,
+        "a": 25.46,
+        "b": -4.9
+      },
+      "hex": "#33051f",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 7 days",
+      "seasonal": true,
+      "iconFile": "Amaranth.png"
+    },
+    {
+      "name": "Ancient Fruit",
+      "id": "ancient-fruit",
+      "color": {
+        "r": 3,
+        "g": 50,
+        "b": 43
+      },
+      "lab": {
+        "l": 17.8,
+        "a": -17.19,
+        "b": 0.12
+      },
+      "hex": "#03322b",
+      "category": "crop",
+      "difficulty": "hard",
+      "source": "Grow: Spring, 28 days + regrow",
+      "seasonal": true,
+      "iconFile": "Ancient_Fruit.png"
+    },
+    {
+      "name": "Blue Jazz",
+      "id": "blue-jazz",
+      "color": {
+        "r": 37,
+        "g": 37,
+        "b": 158
+      },
+      "lab": {
+        "l": 24.27,
+        "a": 41.77,
+        "b": -64.57
+      },
+      "hex": "#25259e",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 7 days",
+      "seasonal": true,
+      "iconFile": "Blue_Jazz.png"
+    },
+    {
+      "name": "Blueberry",
+      "id": "blueberry",
+      "color": {
+        "r": 0,
+        "g": 113,
+        "b": 255
+      },
+      "lab": {
+        "l": 50.72,
+        "a": 28.22,
+        "b": -77.41
+      },
+      "hex": "#0071ff",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer, 13 days",
+      "seasonal": true,
+      "iconFile": "Blueberry.png"
+    },
+    {
+      "name": "Bok Choy",
+      "id": "bok-choy",
+      "color": {
+        "r": 14,
+        "g": 56,
+        "b": 8
+      },
+      "lab": {
+        "l": 19.8,
+        "a": -25.13,
+        "b": 23.97
+      },
+      "hex": "#0e3808",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 4 days",
+      "seasonal": true,
+      "iconFile": "Bok_Choy.png"
+    },
+    {
+      "name": "Cactus Fruit",
+      "id": "cactus-fruit",
+      "color": {
+        "r": 30,
+        "g": 138,
+        "b": 72
+      },
+      "lab": {
+        "l": 50.59,
+        "a": -44.92,
+        "b": 27.01
+      },
+      "hex": "#1e8a48",
+      "category": "crop",
+      "difficulty": "medium",
+      "source": "Greenhouse cactus",
+      "seasonal": true,
+      "iconFile": "Cactus_Fruit.png"
+    },
+    {
+      "name": "Cauliflower",
+      "id": "cauliflower",
+      "color": {
+        "r": 30,
+        "g": 77,
+        "b": 0
+      },
+      "lab": {
+        "l": 28.34,
+        "a": -29.84,
+        "b": 35.84
+      },
+      "hex": "#1e4d00",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 12 days",
+      "seasonal": true,
+      "iconFile": "Cauliflower.png"
+    },
+    {
+      "name": "Coffee Bean",
+      "id": "coffee-bean",
+      "color": {
+        "r": 211,
+        "g": 167,
+        "b": 59
+      },
+      "lab": {
+        "l": 70.74,
+        "a": 5.38,
+        "b": 59.25
+      },
+      "hex": "#d3a73b",
+      "category": "crop",
+      "difficulty": "medium",
+      "source": "Grow: Spring/Summer, 10 days",
+      "seasonal": true,
+      "iconFile": "Coffee_Bean.png"
+    },
+    {
+      "name": "Corn",
+      "id": "corn",
+      "color": {
+        "r": 22,
+        "g": 88,
+        "b": 0
+      },
+      "lab": {
+        "l": 32.15,
+        "a": -36.25,
+        "b": 38.77
+      },
+      "hex": "#165800",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer/Fall, 14 days",
+      "seasonal": true,
+      "iconFile": "Corn.png"
+    },
+    {
+      "name": "Cranberries",
+      "id": "cranberries",
+      "color": {
+        "r": 61,
+        "g": 0,
+        "b": 44
+      },
+      "lab": {
+        "l": 10.37,
+        "a": 32.62,
+        "b": -11.26
+      },
+      "hex": "#3d002c",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 7 days",
+      "seasonal": true,
+      "iconFile": "Cranberries.png"
+    },
+    {
+      "name": "Eggplant",
+      "id": "eggplant",
+      "color": {
+        "r": 95,
+        "g": 38,
+        "b": 193
+      },
+      "lab": {
+        "l": 33.28,
+        "a": 57.99,
+        "b": -70.48
+      },
+      "hex": "#5f26c1",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 5 days",
+      "seasonal": true,
+      "iconFile": "Eggplant.png"
+    },
+    {
+      "name": "Fairy Rose",
+      "id": "fairy-rose",
+      "color": {
+        "r": 101,
+        "g": 36,
+        "b": 158
+      },
+      "lab": {
+        "l": 30.63,
+        "a": 50.99,
+        "b": -53.88
+      },
+      "hex": "#65249e",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 12 days",
+      "seasonal": true,
+      "iconFile": "Fairy_Rose.png"
+    },
+    {
+      "name": "Garlic",
+      "id": "garlic",
+      "color": {
+        "r": 91,
+        "g": 70,
+        "b": 0
+      },
+      "lab": {
+        "l": 30.89,
+        "a": 2.41,
+        "b": 39.92
+      },
+      "hex": "#5b4600",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 4 days",
+      "seasonal": true,
+      "iconFile": "Garlic.png"
+    },
+    {
+      "name": "Grape",
+      "id": "grape",
+      "color": {
+        "r": 12,
+        "g": 0,
+        "b": 81
+      },
+      "lab": {
+        "l": 6.07,
+        "a": 33.97,
+        "b": -45.1
+      },
+      "hex": "#0c0051",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 10 days",
+      "seasonal": true,
+      "iconFile": "Grape.png"
+    },
+    {
+      "name": "Green Bean",
+      "id": "green-bean",
+      "color": {
+        "r": 0,
+        "g": 109,
+        "b": 74
+      },
+      "lab": {
+        "l": 40.3,
+        "a": -36.07,
+        "b": 12.16
+      },
+      "hex": "#006d4a",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 10 days",
+      "seasonal": true,
+      "iconFile": "Green_Bean.png"
+    },
+    {
+      "name": "Hops",
+      "id": "hops",
+      "color": {
+        "r": 7,
+        "g": 56,
+        "b": 19
+      },
+      "lab": {
+        "l": 19.72,
+        "a": -25.32,
+        "b": 18.43
+      },
+      "hex": "#073813",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer, 11 days",
+      "seasonal": true,
+      "iconFile": "Hops.png"
+    },
+    {
+      "name": "Hot Pepper",
+      "id": "hot-pepper",
+      "color": {
+        "r": 105,
+        "g": 0,
+        "b": 0
+      },
+      "lab": {
+        "l": 20.06,
+        "a": 41.71,
+        "b": 30.68
+      },
+      "hex": "#690000",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer, 5 days",
+      "seasonal": true,
+      "iconFile": "Hot_Pepper.png"
+    },
+    {
+      "name": "Kale",
+      "id": "kale",
+      "color": {
+        "r": 6,
+        "g": 73,
+        "b": 64
+      },
+      "lab": {
+        "l": 27.22,
+        "a": -21.84,
+        "b": -0.16
+      },
+      "hex": "#064940",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 6 days",
+      "seasonal": true,
+      "iconFile": "Kale.png"
+    },
+    {
+      "name": "Parsnip",
+      "id": "parsnip",
+      "color": {
+        "r": 0,
+        "g": 33,
+        "b": 0
+      },
+      "lab": {
+        "l": 9.7,
+        "a": -19.54,
+        "b": 14.13
+      },
+      "hex": "#002100",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 4 days",
+      "seasonal": true,
+      "iconFile": "Parsnip.png"
+    },
+    {
+      "name": "Pineapple",
+      "id": "pineapple",
+      "color": {
+        "r": 14,
+        "g": 93,
+        "b": 58
+      },
+      "lab": {
+        "l": 34.45,
+        "a": -31.9,
+        "b": 13.8
+      },
+      "hex": "#0e5d3a",
+      "category": "crop",
+      "difficulty": "hard",
+      "source": "Grow: Ginger Island, 14 days",
+      "seasonal": true,
+      "iconFile": "Pineapple.png"
+    },
+    {
+      "name": "Poppy",
+      "id": "poppy",
+      "color": {
+        "r": 126,
+        "g": 0,
+        "b": 6
+      },
+      "lab": {
+        "l": 25.11,
+        "a": 47.61,
+        "b": 35.04
+      },
+      "hex": "#7e0006",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer, 7 days",
+      "seasonal": true,
+      "iconFile": "Poppy.png"
+    },
+    {
+      "name": "Potato",
+      "id": "potato",
+      "color": {
+        "r": 139,
+        "g": 76,
+        "b": 35
+      },
+      "lab": {
+        "l": 39.21,
+        "a": 23.14,
+        "b": 35.07
+      },
+      "hex": "#8b4c23",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 6 days",
+      "seasonal": true,
+      "iconFile": "Potato.png"
+    },
+    {
+      "name": "Pumpkin",
+      "id": "pumpkin",
+      "color": {
+        "r": 255,
+        "g": 123,
+        "b": 0
+      },
+      "lab": {
+        "l": 66.08,
+        "a": 45.27,
+        "b": 73.45
+      },
+      "hex": "#ff7b00",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Fall, 13 days",
+      "seasonal": true,
+      "iconFile": "Pumpkin.png"
+    },
+    {
+      "name": "Qi Fruit",
+      "id": "qi-fruit",
+      "color": {
+        "r": 13,
+        "g": 13,
+        "b": 112
+      },
+      "lab": {
+        "l": 12.88,
+        "a": 37.54,
+        "b": -54.53
+      },
+      "hex": "#0d0d70",
+      "category": "crop",
+      "difficulty": "hard",
+      "source": "Grow: Qi's crop challenge",
+      "seasonal": true,
+      "iconFile": "Qi_Fruit.png"
+    },
+    {
+      "name": "Radish",
+      "id": "radish",
+      "color": {
+        "r": 0,
+        "g": 88,
+        "b": 0
+      },
+      "lab": {
+        "l": 31.76,
+        "a": -39.68,
+        "b": 38.3
+      },
+      "hex": "#005800",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer, 6 days",
+      "seasonal": true,
+      "iconFile": "Radish.png"
+    },
+    {
+      "name": "Red Cabbage",
+      "id": "red-cabbage",
+      "color": {
+        "r": 168,
+        "g": 0,
+        "b": 132
+      },
+      "lab": {
+        "l": 37.83,
+        "a": 66.92,
+        "b": -25.75
+      },
+      "hex": "#a80084",
+      "category": "crop",
+      "difficulty": "medium",
+      "source": "Grow: Summer, 9 days",
+      "seasonal": true,
+      "iconFile": "Red_Cabbage.png"
+    },
+    {
+      "name": "Rhubarb",
+      "id": "rhubarb",
+      "color": {
+        "r": 0,
+        "g": 52,
+        "b": 0
+      },
+      "lab": {
+        "l": 17.72,
+        "a": -28.01,
+        "b": 24.69
+      },
+      "hex": "#003400",
+      "category": "crop",
+      "difficulty": "medium",
+      "source": "Grow: Spring, 13 days",
+      "seasonal": true,
+      "iconFile": "Rhubarb.png"
+    },
+    {
+      "name": "Rice",
+      "id": "rice",
+      "color": {
+        "r": 213,
+        "g": 143,
+        "b": 133
+      },
+      "lab": {
+        "l": 66.13,
+        "a": 25.32,
+        "b": 16.18
+      },
+      "hex": "#d58f85",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 8 days",
+      "seasonal": true,
+      "iconFile": "Rice.png"
+    },
+    {
+      "name": "Starfruit",
+      "id": "starfruit",
+      "color": {
+        "r": 255,
+        "g": 163,
+        "b": 28
+      },
+      "lab": {
+        "l": 74.54,
+        "a": 25.28,
+        "b": 74.47
+      },
+      "hex": "#ffa31c",
+      "category": "crop",
+      "difficulty": "hard",
+      "source": "Grow: Summer, 13 days",
+      "seasonal": true,
+      "iconFile": "Starfruit.png"
+    },
+    {
+      "name": "Strawberry",
+      "id": "strawberry",
+      "color": {
+        "r": 194,
+        "g": 45,
+        "b": 0
+      },
+      "lab": {
+        "l": 43.29,
+        "a": 56.89,
+        "b": 55.86
+      },
+      "hex": "#c22d00",
+      "category": "crop",
+      "difficulty": "medium",
+      "source": "Grow: Spring, 8 days",
+      "seasonal": true,
+      "iconFile": "Strawberry.png"
+    },
+    {
+      "name": "Summer Spangle",
+      "id": "summer-spangle",
+      "color": {
+        "r": 163,
+        "g": 67,
+        "b": 25
+      },
+      "lab": {
+        "l": 41.01,
+        "a": 37.55,
+        "b": 43.01
+      },
+      "hex": "#a34319",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer, 8 days",
+      "seasonal": true,
+      "iconFile": "Summer_Spangle.png"
+    },
+    {
+      "name": "Sunflower",
+      "id": "sunflower",
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "lab": {
+        "l": 97.14,
+        "a": -21.55,
+        "b": 94.48
+      },
+      "hex": "#ffff00",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Summer/Fall, 8 days",
+      "seasonal": true,
+      "iconFile": "Sunflower.png"
+    },
+    {
+      "name": "Sweet Gem Berry",
+      "id": "sweet-gem-berry",
+      "color": {
+        "r": 39,
+        "g": 80,
+        "b": 44
+      },
+      "lab": {
+        "l": 30.28,
+        "a": -23.28,
+        "b": 16.88
+      },
+      "hex": "#27502c",
+      "category": "crop",
+      "difficulty": "hard",
+      "source": "Grow: Fall, 24 days",
+      "seasonal": true,
+      "iconFile": "Sweet_Gem_Berry.png"
+    },
+    {
+      "name": "Taro Root",
+      "id": "taro-root",
+      "color": {
+        "r": 122,
+        "g": 62,
+        "b": 22
+      },
+      "lab": {
+        "l": 33.23,
+        "a": 23.03,
+        "b": 34.76
+      },
+      "hex": "#7a3e16",
+      "category": "crop",
+      "difficulty": "hard",
+      "source": "Grow: Ginger Island, 10 days",
+      "seasonal": true,
+      "iconFile": "Taro_Root.png"
+    },
+    {
+      "name": "Tea Leaves",
+      "id": "tea-leaves",
+      "color": {
+        "r": 25,
+        "g": 99,
+        "b": 35
+      },
+      "lab": {
+        "l": 36.46,
+        "a": -36.74,
+        "b": 29.36
+      },
+      "hex": "#196323",
+      "category": "crop",
+      "difficulty": "medium",
+      "source": "Tea Sapling harvest",
+      "seasonal": true,
+      "iconFile": "Tea_Leaves.png"
+    },
+    {
+      "name": "Tulip",
+      "id": "tulip",
+      "color": {
+        "r": 27,
+        "g": 99,
+        "b": 43
+      },
+      "lab": {
+        "l": 36.61,
+        "a": -35.17,
+        "b": 25.33
+      },
+      "hex": "#1b632b",
+      "category": "crop",
+      "difficulty": "easy",
+      "source": "Grow: Spring, 6 days",
+      "seasonal": true,
+      "iconFile": "Tulip.png"
+    },
+    {
+      "name": "Aerinite",
+      "id": "aerinite",
+      "color": {
+        "r": 59,
+        "g": 94,
+        "b": 135
+      },
+      "lab": {
+        "l": 39.04,
+        "a": 0.18,
+        "b": -26.65
+      },
+      "hex": "#3b5e87",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Aerinite.png"
+    },
+    {
+      "name": "Alamite",
+      "id": "alamite",
+      "color": {
+        "r": 114,
+        "g": 145,
+        "b": 113
+      },
+      "lab": {
+        "l": 57.09,
+        "a": -17.45,
+        "b": 13.5
+      },
+      "hex": "#729171",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Alamite.png"
+    },
+    {
+      "name": "Amethyst",
+      "id": "amethyst",
+      "color": {
+        "r": 35,
+        "g": 13,
+        "b": 82
+      },
+      "lab": {
+        "l": 10.95,
+        "a": 29.69,
+        "b": -37.64
+      },
+      "hex": "#230d52",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 1-40, Geodes",
+      "seasonal": false,
+      "iconFile": "Amethyst.png"
+    },
+    {
+      "name": "Aquamarine",
+      "id": "aquamarine",
+      "color": {
+        "r": 40,
+        "g": 156,
+        "b": 182
+      },
+      "lab": {
+        "l": 59.53,
+        "a": -22.31,
+        "b": -22.48
+      },
+      "hex": "#289cb6",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Mine floors 41-80",
+      "seasonal": false,
+      "iconFile": "Aquamarine.png"
+    },
+    {
+      "name": "Baryte",
+      "id": "baryte",
+      "color": {
+        "r": 146,
+        "g": 42,
+        "b": 0
+      },
+      "lab": {
+        "l": 33.5,
+        "a": 42.16,
+        "b": 45.86
+      },
+      "hex": "#922a00",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Baryte.png"
+    },
+    {
+      "name": "Bixite",
+      "id": "bixite",
+      "color": {
+        "r": 66,
+        "g": 66,
+        "b": 66
+      },
+      "lab": {
+        "l": 27.97,
+        "a": -0.0,
+        "b": 0.0
+      },
+      "hex": "#424242",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Bixite.png"
+    },
+    {
+      "name": "Calcite",
+      "id": "calcite",
+      "color": {
+        "r": 221,
+        "g": 196,
+        "b": 4
+      },
+      "lab": {
+        "l": 78.96,
+        "a": -6.82,
+        "b": 79.64
+      },
+      "hex": "#ddc404",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Calcite.png"
+    },
+    {
+      "name": "Celestine",
+      "id": "celestine",
+      "color": {
+        "r": 93,
+        "g": 123,
+        "b": 183
+      },
+      "lab": {
+        "l": 51.74,
+        "a": 6.13,
+        "b": -34.98
+      },
+      "hex": "#5d7bb7",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Celestine.png"
+    },
+    {
+      "name": "Copper Bar",
+      "id": "copper-bar",
+      "color": {
+        "r": 179,
+        "g": 85,
+        "b": 0
+      },
+      "lab": {
+        "l": 47.08,
+        "a": 34.34,
+        "b": 56.4
+      },
+      "hex": "#b35500",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Smelt: 5 Copper Ore",
+      "seasonal": false,
+      "iconFile": "Copper_Bar.png"
+    },
+    {
+      "name": "Copper Ore",
+      "id": "copper-ore",
+      "color": {
+        "r": 159,
+        "g": 57,
+        "b": 58
+      },
+      "lab": {
+        "l": 38.91,
+        "a": 42.41,
+        "b": 22.2
+      },
+      "hex": "#9f393a",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 1-40",
+      "seasonal": false,
+      "iconFile": "Copper_Ore.png"
+    },
+    {
+      "name": "Diamond",
+      "id": "diamond",
+      "color": {
+        "r": 34,
+        "g": 93,
+        "b": 145
+      },
+      "lab": {
+        "l": 38.22,
+        "a": -0.19,
+        "b": -34.07
+      },
+      "hex": "#225d91",
+      "category": "mineral",
+      "difficulty": "hard",
+      "source": "Mine floors 50+",
+      "seasonal": false,
+      "iconFile": "Diamond.png"
+    },
+    {
+      "name": "Dolomite",
+      "id": "dolomite",
+      "color": {
+        "r": 198,
+        "g": 61,
+        "b": 104
+      },
+      "lab": {
+        "l": 47.43,
+        "a": 57.15,
+        "b": 6.51
+      },
+      "hex": "#c63d68",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Dolomite.png"
+    },
+    {
+      "name": "Earth Crystal",
+      "id": "earth-crystal",
+      "color": {
+        "r": 205,
+        "g": 136,
+        "b": 71
+      },
+      "lab": {
+        "l": 62.55,
+        "a": 20.23,
+        "b": 44.88
+      },
+      "hex": "#cd8847",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 1-39, Geodes",
+      "seasonal": false,
+      "iconFile": "Earth_Crystal.png"
+    },
+    {
+      "name": "Emerald",
+      "id": "emerald",
+      "color": {
+        "r": 0,
+        "g": 124,
+        "b": 57
+      },
+      "lab": {
+        "l": 45.23,
+        "a": -45.32,
+        "b": 28.26
+      },
+      "hex": "#007c39",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Mine floors 81-120",
+      "seasonal": false,
+      "iconFile": "Emerald.png"
+    },
+    {
+      "name": "Fairy Stone",
+      "id": "fairy-stone",
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 93
+      },
+      "lab": {
+        "l": 7.14,
+        "a": 37.74,
+        "b": -51.54
+      },
+      "hex": "#00005d",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Fairy_Stone.png"
+    },
+    {
+      "name": "Fire Quartz",
+      "id": "fire-quartz",
+      "color": {
+        "r": 183,
+        "g": 33,
+        "b": 28
+      },
+      "lab": {
+        "l": 39.99,
+        "a": 57.48,
+        "b": 42.05
+      },
+      "hex": "#b7211c",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 81-119",
+      "seasonal": false,
+      "iconFile": "Fire_Quartz.png"
+    },
+    {
+      "name": "Fluorapatite",
+      "id": "fluorapatite",
+      "color": {
+        "r": 186,
+        "g": 127,
+        "b": 226
+      },
+      "lab": {
+        "l": 62.6,
+        "a": 40.72,
+        "b": -41.7
+      },
+      "hex": "#ba7fe2",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Fluorapatite.png"
+    },
+    {
+      "name": "Geminite",
+      "id": "geminite",
+      "color": {
+        "r": 63,
+        "g": 84,
+        "b": 47
+      },
+      "lab": {
+        "l": 33.14,
+        "a": -15.72,
+        "b": 19.06
+      },
+      "hex": "#3f542f",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Geminite.png"
+    },
+    {
+      "name": "Ghost Crystal",
+      "id": "ghost-crystal",
+      "color": {
+        "r": 50,
+        "g": 52,
+        "b": 86
+      },
+      "lab": {
+        "l": 23.02,
+        "a": 8.9,
+        "b": -20.85
+      },
+      "hex": "#323456",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Ghost_Crystal.png"
+    },
+    {
+      "name": "Gold Bar",
+      "id": "gold-bar",
+      "color": {
+        "r": 255,
+        "g": 213,
+        "b": 0
+      },
+      "lab": {
+        "l": 86.43,
+        "a": -0.91,
+        "b": 86.78
+      },
+      "hex": "#ffd500",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Smelt: 5 Gold Ore",
+      "seasonal": false,
+      "iconFile": "Gold_Bar.png"
+    },
+    {
+      "name": "Gold Ore",
+      "id": "gold-ore",
+      "color": {
+        "r": 255,
+        "g": 190,
+        "b": 59
+      },
+      "lab": {
+        "l": 80.96,
+        "a": 12.03,
+        "b": 70.69
+      },
+      "hex": "#ffbe3b",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Mine floors 81-120",
+      "seasonal": false,
+      "iconFile": "Gold_Ore.png"
+    },
+    {
+      "name": "Granite",
+      "id": "granite",
+      "color": {
+        "r": 136,
+        "g": 121,
+        "b": 108
+      },
+      "lab": {
+        "l": 51.83,
+        "a": 3.52,
+        "b": 9.24
+      },
+      "hex": "#88796c",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Granite.png"
+    },
+    {
+      "name": "Helvite",
+      "id": "helvite",
+      "color": {
+        "r": 219,
+        "g": 2,
+        "b": 26
+      },
+      "lab": {
+        "l": 45.88,
+        "a": 71.5,
+        "b": 50.95
+      },
+      "hex": "#db021a",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Helvite.png"
+    },
+    {
+      "name": "Iridium Bar",
+      "id": "iridium-bar",
+      "color": {
+        "r": 221,
+        "g": 124,
+        "b": 228
+      },
+      "lab": {
+        "l": 66.05,
+        "a": 52.7,
+        "b": -37.12
+      },
+      "hex": "#dd7ce4",
+      "category": "mineral",
+      "difficulty": "hard",
+      "source": "Smelt: 5 Iridium Ore",
+      "seasonal": false,
+      "iconFile": "Iridium_Bar.png"
+    },
+    {
+      "name": "Iridium Ore",
+      "id": "iridium-ore",
+      "color": {
+        "r": 21,
+        "g": 0,
+        "b": 156
+      },
+      "lab": {
+        "l": 18.18,
+        "a": 55.09,
+        "b": -73.49
+      },
+      "hex": "#15009c",
+      "category": "mineral",
+      "difficulty": "hard",
+      "source": "Skull Cavern",
+      "seasonal": false,
+      "iconFile": "Iridium_Ore.png"
+    },
+    {
+      "name": "Iron Bar",
+      "id": "iron-bar",
+      "color": {
+        "r": 194,
+        "g": 229,
+        "b": 255
+      },
+      "lab": {
+        "l": 89.26,
+        "a": -5.85,
+        "b": -16.36
+      },
+      "hex": "#c2e5ff",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Smelt: 5 Iron Ore",
+      "seasonal": false,
+      "iconFile": "Iron_Bar.png"
+    },
+    {
+      "name": "Iron Ore",
+      "id": "iron-ore",
+      "color": {
+        "r": 108,
+        "g": 144,
+        "b": 155
+      },
+      "lab": {
+        "l": 57.56,
+        "a": -9.74,
+        "b": -9.87
+      },
+      "hex": "#6c909b",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 41-80",
+      "seasonal": false,
+      "iconFile": "Iron_Ore.png"
+    },
+    {
+      "name": "Jade",
+      "id": "jade",
+      "color": {
+        "r": 130,
+        "g": 158,
+        "b": 93
+      },
+      "lab": {
+        "l": 61.65,
+        "a": -21.27,
+        "b": 30.79
+      },
+      "hex": "#829e5d",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Mine floors 41-80",
+      "seasonal": false,
+      "iconFile": "Jade.png"
+    },
+    {
+      "name": "Jagoite",
+      "id": "jagoite",
+      "color": {
+        "r": 132,
+        "g": 43,
+        "b": 21
+      },
+      "lab": {
+        "l": 31.09,
+        "a": 37.07,
+        "b": 33.82
+      },
+      "hex": "#842b15",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Jagoite.png"
+    },
+    {
+      "name": "Jamborite",
+      "id": "jamborite",
+      "color": {
+        "r": 75,
+        "g": 135,
+        "b": 36
+      },
+      "lab": {
+        "l": 50.63,
+        "a": -37.17,
+        "b": 44.72
+      },
+      "hex": "#4b8724",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Jamborite.png"
+    },
+    {
+      "name": "Jasper",
+      "id": "jasper",
+      "color": {
+        "r": 70,
+        "g": 0,
+        "b": 6
+      },
+      "lab": {
+        "l": 11.38,
+        "a": 31.82,
+        "b": 15.46
+      },
+      "hex": "#460006",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Jasper.png"
+    },
+    {
+      "name": "Kyanite",
+      "id": "kyanite",
+      "color": {
+        "r": 25,
+        "g": 78,
+        "b": 181
+      },
+      "lab": {
+        "l": 35.97,
+        "a": 23.04,
+        "b": -59.2
+      },
+      "hex": "#194eb5",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Kyanite.png"
+    },
+    {
+      "name": "Lemon Stone",
+      "id": "lemon-stone",
+      "color": {
+        "r": 209,
+        "g": 63,
+        "b": 14
+      },
+      "lab": {
+        "l": 48.44,
+        "a": 55.53,
+        "b": 56.29
+      },
+      "hex": "#d13f0e",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Lemon_Stone.png"
+    },
+    {
+      "name": "Limestone",
+      "id": "limestone",
+      "color": {
+        "r": 150,
+        "g": 139,
+        "b": 108
+      },
+      "lab": {
+        "l": 58.07,
+        "a": -0.97,
+        "b": 18.1
+      },
+      "hex": "#968b6c",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Limestone.png"
+    },
+    {
+      "name": "Lunarite",
+      "id": "lunarite",
+      "color": {
+        "r": 158,
+        "g": 158,
+        "b": 158
+      },
+      "lab": {
+        "l": 65.11,
+        "a": -0.0,
+        "b": 0.0
+      },
+      "hex": "#9e9e9e",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Lunarite.png"
+    },
+    {
+      "name": "Malachite",
+      "id": "malachite",
+      "color": {
+        "r": 15,
+        "g": 106,
+        "b": 47
+      },
+      "lab": {
+        "l": 38.92,
+        "a": -39.17,
+        "b": 25.91
+      },
+      "hex": "#0f6a2f",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Malachite.png"
+    },
+    {
+      "name": "Marble",
+      "id": "marble",
+      "color": {
+        "r": 217,
+        "g": 208,
+        "b": 189
+      },
+      "lab": {
+        "l": 83.72,
+        "a": -0.08,
+        "b": 10.54
+      },
+      "hex": "#d9d0bd",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Marble.png"
+    },
+    {
+      "name": "Mudstone",
+      "id": "mudstone",
+      "color": {
+        "r": 95,
+        "g": 35,
+        "b": 33
+      },
+      "lab": {
+        "l": 22.81,
+        "a": 27.22,
+        "b": 15.34
+      },
+      "hex": "#5f2321",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Mudstone.png"
+    },
+    {
+      "name": "Nekoite",
+      "id": "nekoite",
+      "color": {
+        "r": 99,
+        "g": 62,
+        "b": 52
+      },
+      "lab": {
+        "l": 30.27,
+        "a": 14.91,
+        "b": 12.86
+      },
+      "hex": "#633e34",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Nekoite.png"
+    },
+    {
+      "name": "Neptunite",
+      "id": "neptunite",
+      "color": {
+        "r": 50,
+        "g": 50,
+        "b": 50
+      },
+      "lab": {
+        "l": 20.79,
+        "a": -0.0,
+        "b": 0.0
+      },
+      "hex": "#323232",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Neptunite.png"
+    },
+    {
+      "name": "Obsidian",
+      "id": "obsidian",
+      "color": {
+        "r": 89,
+        "g": 0,
+        "b": 92
+      },
+      "lab": {
+        "l": 19.63,
+        "a": 46.09,
+        "b": -29.89
+      },
+      "hex": "#59005c",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Obsidian.png"
+    },
+    {
+      "name": "Ocean Stone",
+      "id": "ocean-stone",
+      "color": {
+        "r": 61,
+        "g": 189,
+        "b": 92
+      },
+      "lab": {
+        "l": 68.14,
+        "a": -55.42,
+        "b": 38.81
+      },
+      "hex": "#3dbd5c",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Ocean_Stone.png"
+    },
+    {
+      "name": "Opal",
+      "id": "opal",
+      "color": {
+        "r": 172,
+        "g": 254,
+        "b": 254
+      },
+      "lab": {
+        "l": 94.66,
+        "a": -24.71,
+        "b": -7.93
+      },
+      "hex": "#acfefe",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Opal.png"
+    },
+    {
+      "name": "Prismatic Shard",
+      "id": "prismatic-shard",
+      "color": {
+        "r": 255,
+        "g": 232,
+        "b": 104
+      },
+      "lab": {
+        "l": 91.67,
+        "a": -7.06,
+        "b": 63.66
+      },
+      "hex": "#ffe868",
+      "category": "mineral",
+      "difficulty": "hard",
+      "source": "Rare drop, Skull Cavern",
+      "seasonal": false,
+      "iconFile": "Prismatic_Shard.png"
+    },
+    {
+      "name": "Pyrite",
+      "id": "pyrite",
+      "color": {
+        "r": 163,
+        "g": 44,
+        "b": 22
+      },
+      "lab": {
+        "l": 37.2,
+        "a": 47.62,
+        "b": 41.06
+      },
+      "hex": "#a32c16",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Frozen Geode",
+      "seasonal": false,
+      "iconFile": "Pyrite.png"
+    },
+    {
+      "name": "Quartz",
+      "id": "quartz",
+      "color": {
+        "r": 75,
+        "g": 64,
+        "b": 80
+      },
+      "lab": {
+        "l": 28.75,
+        "a": 8.19,
+        "b": -7.88
+      },
+      "hex": "#4b4050",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 1-120",
+      "seasonal": false,
+      "iconFile": "Quartz.png"
+    },
+    {
+      "name": "Radioactive Bar",
+      "id": "radioactive-bar",
+      "color": {
+        "r": 209,
+        "g": 255,
+        "b": 3
+      },
+      "lab": {
+        "l": 93.92,
+        "a": -39.99,
+        "b": 90.43
+      },
+      "hex": "#d1ff03",
+      "category": "mineral",
+      "difficulty": "hard",
+      "source": "Smelt: 5 Radioactive Ore",
+      "seasonal": false,
+      "iconFile": "Radioactive_Bar.png"
+    },
+    {
+      "name": "Ruby",
+      "id": "ruby",
+      "color": {
+        "r": 135,
+        "g": 0,
+        "b": 0
+      },
+      "lab": {
+        "l": 27.17,
+        "a": 49.93,
+        "b": 40.14
+      },
+      "hex": "#870000",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Mine floors 81-120",
+      "seasonal": false,
+      "iconFile": "Ruby.png"
+    },
+    {
+      "name": "Sandstone",
+      "id": "sandstone",
+      "color": {
+        "r": 225,
+        "g": 133,
+        "b": 71
+      },
+      "lab": {
+        "l": 64.36,
+        "a": 30.13,
+        "b": 47.6
+      },
+      "hex": "#e18547",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Sandstone.png"
+    },
+    {
+      "name": "Slate",
+      "id": "slate",
+      "color": {
+        "r": 69,
+        "g": 95,
+        "b": 105
+      },
+      "lab": {
+        "l": 38.67,
+        "a": -6.95,
+        "b": -8.81
+      },
+      "hex": "#455f69",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Geode",
+      "seasonal": false,
+      "iconFile": "Slate.png"
+    },
+    {
+      "name": "Star Shards",
+      "id": "star-shards",
+      "color": {
+        "r": 221,
+        "g": 0,
+        "b": 209
+      },
+      "lab": {
+        "l": 51.81,
+        "a": 86.49,
+        "b": -48.84
+      },
+      "hex": "#dd00d1",
+      "category": "mineral",
+      "difficulty": "medium",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Star_Shards.png"
+    },
+    {
+      "name": "Tigerseye",
+      "id": "tigerseye",
+      "color": {
+        "r": 223,
+        "g": 95,
+        "b": 1
+      },
+      "lab": {
+        "l": 55.97,
+        "a": 46.58,
+        "b": 64.91
+      },
+      "hex": "#df5f01",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Magma Geode",
+      "seasonal": false,
+      "iconFile": "Tigerseye.png"
+    },
+    {
+      "name": "Topaz",
+      "id": "topaz",
+      "color": {
+        "r": 201,
+        "g": 95,
+        "b": 20
+      },
+      "lab": {
+        "l": 52.57,
+        "a": 38.35,
+        "b": 56.78
+      },
+      "hex": "#c95f14",
+      "category": "mineral",
+      "difficulty": "easy",
+      "source": "Mine floors 1-40",
+      "seasonal": false,
+      "iconFile": "Topaz.png"
+    },
+    {
+      "name": "Bee House",
+      "id": "bee-house",
+      "color": {
+        "r": 240,
+        "g": 167,
+        "b": 64
+      },
+      "lab": {
+        "l": 73.89,
+        "a": 17.99,
+        "b": 61.38
+      },
+      "hex": "#f0a740",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 40 Wood, 8 Coal, 1 Iron Bar, 1 Maple Syrup",
+      "seasonal": false,
+      "iconFile": "Bee_House.png"
+    },
+    {
+      "name": "Campfire",
+      "id": "campfire",
+      "color": {
+        "r": 61,
+        "g": 36,
+        "b": 13
+      },
+      "lab": {
+        "l": 16.91,
+        "a": 9.35,
+        "b": 19.38
+      },
+      "hex": "#3d240d",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 10 Stone, 10 Wood, 10 Fiber",
+      "seasonal": false,
+      "iconFile": "Campfire.png"
+    },
+    {
+      "name": "Cheese Press",
+      "id": "cheese-press",
+      "color": {
+        "r": 63,
+        "g": 35,
+        "b": 19
+      },
+      "lab": {
+        "l": 17.02,
+        "a": 11.53,
+        "b": 16.25
+      },
+      "hex": "#3f2313",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 45 Wood, 45 Stone, 10 Hardwood, 1 Copper Bar",
+      "seasonal": false,
+      "iconFile": "Cheese_Press.png"
+    },
+    {
+      "name": "Chest",
+      "id": "chest",
+      "color": {
+        "r": 163,
+        "g": 91,
+        "b": 37
+      },
+      "lab": {
+        "l": 46.18,
+        "a": 25.25,
+        "b": 42.36
+      },
+      "hex": "#a35b25",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 50 Wood",
+      "seasonal": false,
+      "iconFile": "Chest.png"
+    },
+    {
+      "name": "Crab Pot",
+      "id": "crab-pot",
+      "color": {
+        "r": 164,
+        "g": 51,
+        "b": 28
+      },
+      "lab": {
+        "l": 38.46,
+        "a": 45.35,
+        "b": 39.29
+      },
+      "hex": "#a4331c",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 40 Wood, 3 Iron Bar",
+      "seasonal": false,
+      "iconFile": "Crab_Pot.png"
+    },
+    {
+      "name": "Crystalarium",
+      "id": "crystalarium",
+      "color": {
+        "r": 41,
+        "g": 43,
+        "b": 73
+      },
+      "lab": {
+        "l": 18.71,
+        "a": 8.04,
+        "b": -18.96
+      },
+      "hex": "#292b49",
+      "category": "crafting",
+      "difficulty": "hard",
+      "source": "Craft: 99 Stone, 5 Gold Bar, 2 Iridium Bar, 1 Battery Pack",
+      "seasonal": false,
+      "iconFile": "Crystalarium.png"
+    },
+    {
+      "name": "Deconstructor",
+      "id": "deconstructor",
+      "color": {
+        "r": 65,
+        "g": 17,
+        "b": 17
+      },
+      "lab": {
+        "l": 13.02,
+        "a": 23.26,
+        "b": 12.41
+      },
+      "hex": "#411111",
+      "category": "crafting",
+      "difficulty": "hard",
+      "source": "Buy from Qi's Walnut Room",
+      "seasonal": false,
+      "iconFile": "Deconstructor.png"
+    },
+    {
+      "name": "Drum Block",
+      "id": "drum-block",
+      "color": {
+        "r": 109,
+        "g": 116,
+        "b": 131
+      },
+      "lab": {
+        "l": 48.74,
+        "a": 0.72,
+        "b": -9.11
+      },
+      "hex": "#6d7483",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 10 Wood, 2 Copper Ore",
+      "seasonal": false,
+      "iconFile": "Drum_Block.png"
+    },
+    {
+      "name": "Flute Block",
+      "id": "flute-block",
+      "color": {
+        "r": 122,
+        "g": 51,
+        "b": 0
+      },
+      "lab": {
+        "l": 30.66,
+        "a": 28.56,
+        "b": 41.83
+      },
+      "hex": "#7a3300",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 10 Wood, 2 Copper Ore",
+      "seasonal": false,
+      "iconFile": "Flute_Block.png"
+    },
+    {
+      "name": "Furnace",
+      "id": "furnace",
+      "color": {
+        "r": 48,
+        "g": 52,
+        "b": 61
+      },
+      "lab": {
+        "l": 21.66,
+        "a": 0.62,
+        "b": -6.22
+      },
+      "hex": "#30343d",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 20 Copper Ore, 25 Stone",
+      "seasonal": false,
+      "iconFile": "Furnace.png"
+    },
+    {
+      "name": "Garden Pot",
+      "id": "garden-pot",
+      "color": {
+        "r": 181,
+        "g": 111,
+        "b": 40
+      },
+      "lab": {
+        "l": 53.33,
+        "a": 22.06,
+        "b": 48.86
+      },
+      "hex": "#b56f28",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Given by Evelyn after greenhouse repair",
+      "seasonal": false,
+      "iconFile": "Garden_Pot.png"
+    },
+    {
+      "name": "Heavy Tapper",
+      "id": "heavy-tapper",
+      "color": {
+        "r": 76,
+        "g": 0,
+        "b": 1
+      },
+      "lab": {
+        "l": 12.86,
+        "a": 33.4,
+        "b": 19.75
+      },
+      "hex": "#4c0001",
+      "category": "crafting",
+      "difficulty": "hard",
+      "source": "Craft: 30 Hardwood, 1 Radioactive Bar",
+      "seasonal": false,
+      "iconFile": "Heavy_Tapper.png"
+    },
+    {
+      "name": "Iridium Sprinkler",
+      "id": "iridium-sprinkler",
+      "color": {
+        "r": 126,
+        "g": 0,
+        "b": 119
+      },
+      "lab": {
+        "l": 28.82,
+        "a": 57.18,
+        "b": -32.35
+      },
+      "hex": "#7e0077",
+      "category": "crafting",
+      "difficulty": "hard",
+      "source": "Craft: 1 Gold Bar, 1 Iridium Bar, 1 Battery Pack",
+      "seasonal": false,
+      "iconFile": "Iridium_Sprinkler.png"
+    },
+    {
+      "name": "Jack-O-Lantern",
+      "id": "jack-o-lantern",
+      "color": {
+        "r": 193,
+        "g": 87,
+        "b": 31
+      },
+      "lab": {
+        "l": 49.81,
+        "a": 39.47,
+        "b": 50.05
+      },
+      "hex": "#c1571f",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Buy: Spirit's Eve festival",
+      "seasonal": false,
+      "iconFile": "Jack-O-Lantern.png"
+    },
+    {
+      "name": "Keg",
+      "id": "keg",
+      "color": {
+        "r": 206,
+        "g": 120,
+        "b": 41
+      },
+      "lab": {
+        "l": 58.71,
+        "a": 27.86,
+        "b": 54.71
+      },
+      "hex": "#ce7829",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 30 Wood, 1 Copper Bar, 1 Iron Bar, 1 Oak Resin",
+      "seasonal": false,
+      "iconFile": "Keg.png"
+    },
+    {
+      "name": "Loom",
+      "id": "loom",
+      "color": {
+        "r": 117,
+        "g": 59,
+        "b": 31
+      },
+      "lab": {
+        "l": 31.83,
+        "a": 22.98,
+        "b": 28.26
+      },
+      "hex": "#753b1f",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 60 Wood, 30 Fiber, 1 Pine Tar",
+      "seasonal": false,
+      "iconFile": "Loom.png"
+    },
+    {
+      "name": "Mayonnaise Machine",
+      "id": "mayonnaise-machine",
+      "color": {
+        "r": 100,
+        "g": 33,
+        "b": 27
+      },
+      "lab": {
+        "l": 23.26,
+        "a": 29.84,
+        "b": 20.08
+      },
+      "hex": "#64211b",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 15 Wood, 15 Stone, 1 Earth Crystal, 1 Copper Bar",
+      "seasonal": false,
+      "iconFile": "Mayonnaise_Machine.png"
+    },
+    {
+      "name": "Mini-Jukebox",
+      "id": "mini-jukebox",
+      "color": {
+        "r": 89,
+        "g": 23,
+        "b": 39
+      },
+      "lab": {
+        "l": 19.57,
+        "a": 31.39,
+        "b": 6.67
+      },
+      "hex": "#591727",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 2 Iron Bar, 1 Battery Pack",
+      "seasonal": false,
+      "iconFile": "Mini-Jukebox.png"
+    },
+    {
+      "name": "Quality Sprinkler",
+      "id": "quality-sprinkler",
+      "color": {
+        "r": 72,
+        "g": 72,
+        "b": 73
+      },
+      "lab": {
+        "l": 30.62,
+        "a": 0.22,
+        "b": -0.6
+      },
+      "hex": "#484849",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 1 Iron Bar, 1 Gold Bar, 1 Refined Quartz",
+      "seasonal": false,
+      "iconFile": "Quality_Sprinkler.png"
+    },
+    {
+      "name": "Recycling Machine",
+      "id": "recycling-machine",
+      "color": {
+        "r": 51,
+        "g": 26,
+        "b": 3
+      },
+      "lab": {
+        "l": 12.28,
+        "a": 10.15,
+        "b": 17.26
+      },
+      "hex": "#331a03",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 25 Wood, 25 Stone, 1 Iron Bar",
+      "seasonal": false,
+      "iconFile": "Recycling_Machine.png"
+    },
+    {
+      "name": "Scarecrow",
+      "id": "scarecrow",
+      "color": {
+        "r": 255,
+        "g": 176,
+        "b": 50
+      },
+      "lab": {
+        "l": 77.61,
+        "a": 19.02,
+        "b": 70.74
+      },
+      "hex": "#ffb032",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 50 Wood, 1 Coal, 20 Fiber",
+      "seasonal": false,
+      "iconFile": "Scarecrow.png"
+    },
+    {
+      "name": "Seed Maker",
+      "id": "seed-maker",
+      "color": {
+        "r": 68,
+        "g": 16,
+        "b": 12
+      },
+      "lab": {
+        "l": 13.39,
+        "a": 24.66,
+        "b": 15.61
+      },
+      "hex": "#44100c",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 25 Wood, 10 Coal, 1 Gold Bar",
+      "seasonal": false,
+      "iconFile": "Seed_Maker.png"
+    },
+    {
+      "name": "Slime Incubator",
+      "id": "slime-incubator",
+      "color": {
+        "r": 37,
+        "g": 0,
+        "b": 68
+      },
+      "lab": {
+        "l": 7.32,
+        "a": 32.9,
+        "b": -33.85
+      },
+      "hex": "#250044",
+      "category": "crafting",
+      "difficulty": "hard",
+      "source": "Craft: 2 Iridium Bar, 100 Slime",
+      "seasonal": false,
+      "iconFile": "Slime_Incubator.png"
+    },
+    {
+      "name": "Sprinkler",
+      "id": "sprinkler",
+      "color": {
+        "r": 76,
+        "g": 63,
+        "b": 58
+      },
+      "lab": {
+        "l": 27.84,
+        "a": 4.69,
+        "b": 5.16
+      },
+      "hex": "#4c3f3a",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 1 Copper Bar, 1 Iron Bar",
+      "seasonal": false,
+      "iconFile": "Sprinkler.png"
+    },
+    {
+      "name": "Statue Of Perfection",
+      "id": "statue-of-perfection",
+      "color": {
+        "r": 217,
+        "g": 44,
+        "b": 238
+      },
+      "lab": {
+        "l": 54.79,
+        "a": 84.41,
+        "b": -60.56
+      },
+      "hex": "#d92cee",
+      "category": "crafting",
+      "difficulty": "hard",
+      "source": "Grandpa's Shrine evaluation",
+      "seasonal": false,
+      "iconFile": "Statue_Of_Perfection.png"
+    },
+    {
+      "name": "Stone Chest",
+      "id": "stone-chest",
+      "color": {
+        "r": 51,
+        "g": 38,
+        "b": 32
+      },
+      "lab": {
+        "l": 16.48,
+        "a": 5.04,
+        "b": 6.33
+      },
+      "hex": "#332620",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 50 Stone",
+      "seasonal": false,
+      "iconFile": "Stone_Chest.png"
+    },
+    {
+      "name": "Tapper",
+      "id": "tapper",
+      "color": {
+        "r": 75,
+        "g": 18,
+        "b": 1
+      },
+      "lab": {
+        "l": 15.12,
+        "a": 26.01,
+        "b": 22.68
+      },
+      "hex": "#4b1201",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 40 Wood, 2 Copper Bar",
+      "seasonal": false,
+      "iconFile": "Tapper.png"
+    },
+    {
+      "name": "Torch",
+      "id": "torch",
+      "color": {
+        "r": 255,
+        "g": 143,
+        "b": 0
+      },
+      "lab": {
+        "l": 70.11,
+        "a": 35.3,
+        "b": 75.88
+      },
+      "hex": "#ff8f00",
+      "category": "crafting",
+      "difficulty": "easy",
+      "source": "Craft: 1 Wood, 1 Sap",
+      "seasonal": false,
+      "iconFile": "Torch.png"
+    },
+    {
+      "name": "Wicked Statue",
+      "id": "wicked-statue",
+      "color": {
+        "r": 28,
+        "g": 17,
+        "b": 16
+      },
+      "lab": {
+        "l": 6.19,
+        "a": 4.98,
+        "b": 2.35
+      },
+      "hex": "#1c1110",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 25 Stone, 5 Coal",
+      "seasonal": false,
+      "iconFile": "Wicked_Statue.png"
+    },
+    {
+      "name": "Worm Bin",
+      "id": "worm-bin",
+      "color": {
+        "r": 89,
+        "g": 163,
+        "b": 88
+      },
+      "lab": {
+        "l": 60.8,
+        "a": -38.8,
+        "b": 31.87
+      },
+      "hex": "#59a358",
+      "category": "crafting",
+      "difficulty": "medium",
+      "source": "Craft: 25 Hardwood, 1 Gold Bar, 50 Fiber, 1 Iron Bar",
+      "seasonal": false,
+      "iconFile": "Worm_Bin.png"
+    },
+    {
+      "name": "Beer",
+      "id": "beer",
+      "color": {
+        "r": 204,
+        "g": 178,
+        "b": 4
+      },
+      "lab": {
+        "l": 72.69,
+        "a": -4.95,
+        "b": 74.39
+      },
+      "hex": "#ccb204",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Keg: Wheat",
+      "seasonal": false,
+      "iconFile": "Beer.png"
+    },
+    {
+      "name": "Cheese",
+      "id": "cheese",
+      "color": {
+        "r": 99,
+        "g": 44,
+        "b": 25
+      },
+      "lab": {
+        "l": 25.34,
+        "a": 23.34,
+        "b": 23.7
+      },
+      "hex": "#632c19",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Cheese Press: Milk",
+      "seasonal": false,
+      "iconFile": "Cheese.png"
+    },
+    {
+      "name": "Cloth",
+      "id": "cloth",
+      "color": {
+        "r": 100,
+        "g": 76,
+        "b": 45
+      },
+      "lab": {
+        "l": 34.12,
+        "a": 5.9,
+        "b": 22.22
+      },
+      "hex": "#644c2d",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Loom: Wool",
+      "seasonal": false,
+      "iconFile": "Cloth.png"
+    },
+    {
+      "name": "Duck Mayonnaise",
+      "id": "duck-mayonnaise",
+      "color": {
+        "r": 47,
+        "g": 163,
+        "b": 174
+      },
+      "lab": {
+        "l": 61.53,
+        "a": -27.61,
+        "b": -14.91
+      },
+      "hex": "#2fa3ae",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Mayonnaise Machine: Duck Egg",
+      "seasonal": false,
+      "iconFile": "Duck_Mayonnaise.png"
+    },
+    {
+      "name": "Goat Cheese",
+      "id": "goat-cheese",
+      "color": {
+        "r": 255,
+        "g": 228,
+        "b": 150
+      },
+      "lab": {
+        "l": 91.21,
+        "a": -1.13,
+        "b": 41.41
+      },
+      "hex": "#ffe496",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Cheese Press: Goat Milk",
+      "seasonal": false,
+      "iconFile": "Goat_Cheese.png"
+    },
+    {
+      "name": "Honey",
+      "id": "honey",
+      "color": {
+        "r": 255,
+        "g": 201,
+        "b": 0
+      },
+      "lab": {
+        "l": 83.46,
+        "a": 5.22,
+        "b": 84.71
+      },
+      "hex": "#ffc900",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Bee House output",
+      "seasonal": false,
+      "iconFile": "Honey.png"
+    },
+    {
+      "name": "Juice",
+      "id": "juice",
+      "color": {
+        "r": 36,
+        "g": 74,
+        "b": 70
+      },
+      "lab": {
+        "l": 28.68,
+        "a": -14.68,
+        "b": -1.81
+      },
+      "hex": "#244a46",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Keg: any vegetable",
+      "seasonal": false,
+      "iconFile": "Juice.png"
+    },
+    {
+      "name": "Maple Syrup",
+      "id": "maple-syrup",
+      "color": {
+        "r": 56,
+        "g": 17,
+        "b": 9
+      },
+      "lab": {
+        "l": 11.0,
+        "a": 18.84,
+        "b": 13.21
+      },
+      "hex": "#381109",
+      "category": "artisan",
+      "difficulty": "easy",
+      "source": "Tapper on Maple Tree",
+      "seasonal": false,
+      "iconFile": "Maple_Syrup.png"
+    },
+    {
+      "name": "Oak Resin",
+      "id": "oak-resin",
+      "color": {
+        "r": 26,
+        "g": 47,
+        "b": 47
+      },
+      "lab": {
+        "l": 17.73,
+        "a": -8.37,
+        "b": -2.66
+      },
+      "hex": "#1a2f2f",
+      "category": "artisan",
+      "difficulty": "easy",
+      "source": "Tapper on Oak Tree",
+      "seasonal": false,
+      "iconFile": "Oak_Resin.png"
+    },
+    {
+      "name": "Oil",
+      "id": "oil",
+      "color": {
+        "r": 250,
+        "g": 255,
+        "b": 28
+      },
+      "lab": {
+        "l": 96.79,
+        "a": -23.32,
+        "b": 91.47
+      },
+      "hex": "#faff1c",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Oil Maker: Corn/Sunflower",
+      "seasonal": false,
+      "iconFile": "Oil.png"
+    },
+    {
+      "name": "Pale Ale",
+      "id": "pale-ale",
+      "color": {
+        "r": 208,
+        "g": 132,
+        "b": 0
+      },
+      "lab": {
+        "l": 61.58,
+        "a": 21.46,
+        "b": 67.44
+      },
+      "hex": "#d08400",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Keg: Hops",
+      "seasonal": false,
+      "iconFile": "Pale_Ale.png"
+    },
+    {
+      "name": "Pickles",
+      "id": "pickles",
+      "color": {
+        "r": 84,
+        "g": 43,
+        "b": 43
+      },
+      "lab": {
+        "l": 22.96,
+        "a": 18.89,
+        "b": 8.45
+      },
+      "hex": "#542b2b",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Preserves Jar: any vegetable",
+      "seasonal": false,
+      "iconFile": "Pickles.png"
+    },
+    {
+      "name": "Truffle Oil",
+      "id": "truffle-oil",
+      "color": {
+        "r": 91,
+        "g": 60,
+        "b": 42
+      },
+      "lab": {
+        "l": 28.44,
+        "a": 11.31,
+        "b": 16.62
+      },
+      "hex": "#5b3c2a",
+      "category": "artisan",
+      "difficulty": "hard",
+      "source": "Oil Maker: Truffle",
+      "seasonal": false,
+      "iconFile": "Truffle_Oil.png"
+    },
+    {
+      "name": "Wine",
+      "id": "wine",
+      "color": {
+        "r": 84,
+        "g": 42,
+        "b": 124
+      },
+      "lab": {
+        "l": 26.72,
+        "a": 36.07,
+        "b": -39.27
+      },
+      "hex": "#542a7c",
+      "category": "artisan",
+      "difficulty": "medium",
+      "source": "Keg: any fruit",
+      "seasonal": false,
+      "iconFile": "Wine.png"
+    },
+    {
+      "name": "Bat Wing",
+      "id": "bat-wing",
+      "color": {
+        "r": 0,
+        "g": 15,
+        "b": 26
+      },
+      "lab": {
+        "l": 3.76,
+        "a": -1.57,
+        "b": -8.35
+      },
+      "hex": "#000f1a",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Kill: Bats",
+      "seasonal": false,
+      "iconFile": "Bat_Wing.png"
+    },
+    {
+      "name": "Bone Fragment",
+      "id": "bone-fragment",
+      "color": {
+        "r": 81,
+        "g": 46,
+        "b": 51
+      },
+      "lab": {
+        "l": 23.48,
+        "a": 16.77,
+        "b": 3.7
+      },
+      "hex": "#512e33",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Kill: Skeletons",
+      "seasonal": false,
+      "iconFile": "Bone_Fragment.png"
+    },
+    {
+      "name": "Bug Meat",
+      "id": "bug-meat",
+      "color": {
+        "r": 161,
+        "g": 33,
+        "b": 109
+      },
+      "lab": {
+        "l": 37.43,
+        "a": 56.85,
+        "b": -12.09
+      },
+      "hex": "#a1216d",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Kill: Bugs",
+      "seasonal": false,
+      "iconFile": "Bug_Meat.png"
+    },
+    {
+      "name": "Clay",
+      "id": "clay",
+      "color": {
+        "r": 67,
+        "g": 22,
+        "b": 0
+      },
+      "lab": {
+        "l": 14.22,
+        "a": 20.45,
+        "b": 21.59
+      },
+      "hex": "#431600",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Dig: Hoe on ground",
+      "seasonal": false,
+      "iconFile": "Clay.png"
+    },
+    {
+      "name": "Coal",
+      "id": "coal",
+      "color": {
+        "r": 38,
+        "g": 29,
+        "b": 25
+      },
+      "lab": {
+        "l": 11.7,
+        "a": 3.6,
+        "b": 4.41
+      },
+      "hex": "#261d19",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Mine: all floors",
+      "seasonal": false,
+      "iconFile": "Coal.png"
+    },
+    {
+      "name": "Gate",
+      "id": "gate",
+      "color": {
+        "r": 58,
+        "g": 31,
+        "b": 9
+      },
+      "lab": {
+        "l": 14.95,
+        "a": 10.89,
+        "b": 18.56
+      },
+      "hex": "#3a1f09",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Craft: 10 Wood",
+      "seasonal": false,
+      "iconFile": "Gate.png"
+    },
+    {
+      "name": "Hardwood Fence",
+      "id": "hardwood-fence",
+      "color": {
+        "r": 80,
+        "g": 23,
+        "b": 17
+      },
+      "lab": {
+        "l": 17.27,
+        "a": 26.3,
+        "b": 18.48
+      },
+      "hex": "#501711",
+      "category": "misc",
+      "difficulty": "medium",
+      "source": "Craft: 1 Hardwood",
+      "seasonal": false,
+      "iconFile": "Hardwood_Fence.png"
+    },
+    {
+      "name": "Iron Fence",
+      "id": "iron-fence",
+      "color": {
+        "r": 22,
+        "g": 24,
+        "b": 31
+      },
+      "lab": {
+        "l": 8.33,
+        "a": 1.09,
+        "b": -5.2
+      },
+      "hex": "#16181f",
+      "category": "misc",
+      "difficulty": "medium",
+      "source": "Craft: 1 Iron Bar",
+      "seasonal": false,
+      "iconFile": "Iron_Fence.png"
+    },
+    {
+      "name": "Refined Quartz",
+      "id": "refined-quartz",
+      "color": {
+        "r": 132,
+        "g": 84,
+        "b": 255
+      },
+      "lab": {
+        "l": 50.06,
+        "a": 58.45,
+        "b": -78.24
+      },
+      "hex": "#8454ff",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Furnace: Quartz + Coal",
+      "seasonal": false,
+      "iconFile": "Refined_Quartz.png"
+    },
+    {
+      "name": "Sap",
+      "id": "sap",
+      "color": {
+        "r": 86,
+        "g": 74,
+        "b": 43
+      },
+      "lab": {
+        "l": 31.92,
+        "a": 0.22,
+        "b": 20.32
+      },
+      "hex": "#564a2b",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Chop trees",
+      "seasonal": false,
+      "iconFile": "Sap.png"
+    },
+    {
+      "name": "Slime",
+      "id": "slime",
+      "color": {
+        "r": 120,
+        "g": 162,
+        "b": 152
+      },
+      "lab": {
+        "l": 63.43,
+        "a": -16.4,
+        "b": 0.58
+      },
+      "hex": "#78a298",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Kill: Slimes",
+      "seasonal": false,
+      "iconFile": "Slime.png"
+    },
+    {
+      "name": "Solar Essence",
+      "id": "solar-essence",
+      "color": {
+        "r": 168,
+        "g": 92,
+        "b": 33
+      },
+      "lab": {
+        "l": 47.09,
+        "a": 26.68,
+        "b": 45.32
+      },
+      "hex": "#a85c21",
+      "category": "misc",
+      "difficulty": "medium",
+      "source": "Kill: Ghosts",
+      "seasonal": false,
+      "iconFile": "Solar_Essence.png"
+    },
+    {
+      "name": "Stone Fence",
+      "id": "stone-fence",
+      "color": {
+        "r": 51,
+        "g": 23,
+        "b": 15
+      },
+      "lab": {
+        "l": 11.63,
+        "a": 13.14,
+        "b": 11.18
+      },
+      "hex": "#33170f",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Craft: 2 Stone",
+      "seasonal": false,
+      "iconFile": "Stone_Fence.png"
+    },
+    {
+      "name": "Void Essence",
+      "id": "void-essence",
+      "color": {
+        "r": 85,
+        "g": 33,
+        "b": 90
+      },
+      "lab": {
+        "l": 22.85,
+        "a": 33.1,
+        "b": -23.47
+      },
+      "hex": "#55215a",
+      "category": "misc",
+      "difficulty": "medium",
+      "source": "Kill: Shadow creatures",
+      "seasonal": false,
+      "iconFile": "Void_Essence.png"
+    },
+    {
+      "name": "Wood",
+      "id": "wood",
+      "color": {
+        "r": 99,
+        "g": 58,
+        "b": 20
+      },
+      "lab": {
+        "l": 28.72,
+        "a": 14.66,
+        "b": 30.14
+      },
+      "hex": "#633a14",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Chop trees",
+      "seasonal": false,
+      "iconFile": "Wood.png"
+    },
+    {
+      "name": "Wood Fence",
+      "id": "wood-fence",
+      "color": {
+        "r": 150,
+        "g": 76,
+        "b": 27
+      },
+      "lab": {
+        "l": 40.79,
+        "a": 27.57,
+        "b": 41.13
+      },
+      "hex": "#964c1b",
+      "category": "misc",
+      "difficulty": "easy",
+      "source": "Craft: 2 Wood",
+      "seasonal": false,
+      "iconFile": "Wood_Fence.png"
+    }
+  ]
+}

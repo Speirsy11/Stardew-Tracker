@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['@stardew/db', '@stardew/auth'],
+  transpilePackages: ['@stardew/db', '@stardew/auth', '@stardew/pixel-art'],
   images: {
     remotePatterns: [
       {

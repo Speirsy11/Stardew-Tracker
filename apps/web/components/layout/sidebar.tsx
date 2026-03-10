@@ -20,6 +20,7 @@ import {
   Landmark,
   UtensilsCrossed,
   Hammer,
+  Palette,
   ChevronDown,
   ChevronRight,
 } from 'lucide-react'
@@ -48,6 +49,10 @@ const referenceItems: NavItem[] = [
   { href: '/calendar', label: 'Calendar', icon: CalendarDays, emoji: '📅' },
   { href: '/friendship', label: 'Friendship', icon: Heart, emoji: '💝' },
   { href: '/crops', label: 'Best Crops', icon: Sprout, emoji: '🌱' },
+]
+
+const toolItems: NavItem[] = [
+  { href: '/pixel-art', label: 'Pixel Art', icon: Palette, emoji: '🎨' },
 ]
 
 function NavLink({ href, label, emoji, active }: { href: string; label: string; emoji: string; active: boolean }) {
@@ -115,6 +120,7 @@ export function Sidebar() {
 
   const checklistActive = checklistItems.some((i) => pathname.startsWith(i.href))
   const referenceActive = referenceItems.some((i) => pathname.startsWith(i.href))
+  const toolsActive = toolItems.some((i) => pathname.startsWith(i.href))
 
   const sidebarContent = (
     <div className="flex flex-col h-full">
@@ -150,6 +156,15 @@ export function Sidebar() {
           items={referenceItems}
           pathname={pathname}
           defaultOpen={referenceActive}
+        />
+
+        {/* Tools group */}
+        <NavGroup
+          label="Tools"
+          emoji="🛠️"
+          items={toolItems}
+          pathname={pathname}
+          defaultOpen={toolsActive}
         />
       </nav>
 
